@@ -14,12 +14,16 @@
  },
  "docket": "III CZP 27/20",
  "description": "Series of civil actions brought by Polish citizens and bodies (Rzecznik Praw Obywatelskich – Ombudsman, Rodzice dla Klimatu – Parents for Climate, ClientEarth) against the Polish State Treasury for non-pecuniary damage arising from the “right to live in an environment with air that is not harmful to health”, in the face of massive smog pollution (in particular PM2.5, PM10, benzo(a)pyrene) in Silesia and Mazovia.",
- "outcome": "The Polish Supreme Court recognised that the right to live in an unpolluted environment forms part of the personality right (dobra osobiste, Art. 23 kc), the infringement of which may give rise to compensation for non-pecuniary damage payable by the State. An important precedent for clean air litigation in Eastern Europe.",
+ "outcome": "In its resolution of 28 May 2021 (III CZP 27/20), on a question referred by the Regional Court of Gliwice in an action brought by a resident of Rybnik against the State Treasury, the Polish Supreme Court held that the right to live in a clean environment is not in itself a personal right (dobro osobiste); however, health, freedom and privacy, which are protected as personal rights (Arts 23, 24 and 448 kc), may be infringed or threatened by breaches of air quality standards, which may give rise to compensation for non-pecuniary damage. An important precedent for clean air litigation in Eastern Europe.",
  "topics": [],
  "sources": [
   {
    "label": "clientearth.org",
    "url": "https://www.clientearth.org/latest/news/asthma-sufferers-take-legal-action-against-polish-government-over-health-impacts-of-air-pollution/"
+  },
+  {
+   "label": "Supreme Court resolution of 28 May 2021, III CZP 27/20 (Lege Artis, theses of the resolution)",
+   "url": "https://czasopismo.legeartis.org/2021/08/prawo-zycia-czystym-srodowisku-dobrem-osobistym-uchwala-sn/"
   }
  ]
 }

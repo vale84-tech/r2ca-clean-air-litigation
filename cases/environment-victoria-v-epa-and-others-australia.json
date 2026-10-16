@@ -1,8 +1,8 @@
 {
  "slug": "environment-victoria-v-epa-and-others-australia",
  "name": "Environment Victoria v EPA and others (Australia)",
- "year": 2023,
- "date": "8 May 2023 (VSC 253)",
+ "year": 2022,
+ "date": "21 December 2022 ([2022] VSC 814)",
  "status": "Decided",
  "geography": {
   "country": "Australia",
@@ -12,7 +12,7 @@
   "type": "Domestic",
   "court": "Supreme Court of Victoria"
  },
- "docket": "VSC 253",
+ "docket": "[2022] VSC 814",
  "description": "Petition by Environment Victoria against EPA Victoria and the three operators of the Latrobe Valley coal-fired power stations (AGL, EnergyAustralia, Alinta) concerning the emission licences, challenged as to the limits for SO2, NOx, PM2.5 and mercury and in relation to CO2 emissions under the Climate Change Act 2017 (Vic.).",
  "outcome": "Petition dismissed. Justice Gorton held that EPA Victoria had lawfully adopted the new licences, having adequately balanced the health and environmental impacts, the transition plans and the criteria of the Climate Change Act. Although unfavourable to the petitioners, the judgment is relevant for defining judicial review of emission licences for fossil-fuel plants.",
  "topics": [],
@@ -20,6 +20,10 @@
   {
    "label": "climatecasechart.com",
    "url": "https://climatecasechart.com/non-us-case/environment-victoria-vs-the-epa-et-al/"
+  },
+  {
+   "label": "Supreme Court of Victoria – Summary of Judgment, Environment Victoria v AGL Loy Yang & Ors [2022] VSC 814",
+   "url": "https://www.supremecourt.vic.gov.au/sites/default/files/2022-12/Summary%20of%20Judgment%20%5B2022%5D%20VSC%20814.pdf"
   }
  ]
 }

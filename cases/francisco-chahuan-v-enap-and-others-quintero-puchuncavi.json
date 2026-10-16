@@ -13,13 +13,17 @@
   "court": "Corte Suprema (Supreme Court of Chile)"
  },
  "docket": "Rol no. 5888-2019",
- "description": "Recurso de protección brought by Senator Francisco Chahuán Chahuán and others against the Empresa Nacional del Petróleo (ENAP S.A.) and other operators of the Concepción Bay industrial hub (Quintero-Puchuncaví-Concón), concerning the acute air pollution episodes that in 2018 caused the poisoning of hundreds of residents. The judgment is part of a series of rulings of the Supreme Court (Rol 5888-2019; Rol 149171-2020; Rol 170273-2022; Rol 13923-2024).",
- "outcome": "Petition granted. The Supreme Court of Chile held that the State had violated the constitutional right to live in an environment “free from pollution”, imposing 15 concrete remediation measures: real-time monitoring, a prevention and decontamination plan, a diagnosis of environmental pathologies, emergency protocols.",
+ "description": "Recurso de protección brought by Senator Francisco Chahuán Chahuán and others against the Empresa Nacional del Petróleo (ENAP S.A.) and other operators of the Quintero Bay industrial hub (Quintero-Puchuncaví-Concón, Valparaíso Region), concerning the acute air pollution episodes that in 2018 caused the poisoning of hundreds of residents. The judgment is part of a series of rulings of the Supreme Court (Rol 5888-2019; Rol 149171-2020; Rol 170273-2022; Rol 13923-2024).",
+ "outcome": "Petitions granted in part. Ruling on twelve joined recursos de protección, the Supreme Court of Chile held that the State had violated the constitutional right to live in an environment “free from pollution”, imposing on the administrative authorities 15 concrete remediation measures: real-time monitoring, a prevention and decontamination plan, a diagnosis of environmental pathologies, emergency protocols. It attributed no responsibility to any company, ENAP included, for lack of sufficient evidence, and upheld the dismissal of the actions brought by Senator Chahuán, the Municipality of Quintero and the Mayor of Puchuncaví on behalf of the residents in general, since the recurso de protección is not an actio popularis.",
  "topics": [],
  "sources": [
   {
-   "label": "google.com",
-   "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://ojs.uc.cl/index.php/RDA/article/download/3742/7144/13844&ved=2ahUKEwibhP_o-PqWAxWj_7sIHdgPODsQFnoECC8QAQ&usg=AOvVaw0PdsKl3Z5WGMvUJlDgja41"
+   "label": "ojs.uc.cl – Pontificia Universidad Católica de Chile (journal article)",
+   "url": "https://ojs.uc.cl/index.php/RDA/article/download/3742/7144/13844"
+  },
+  {
+   "label": "Corte Suprema, 28 May 2019, Rol 5888-2019 (full text, Fundación Terram)",
+   "url": "https://www.terram.cl/wp-content/uploads/2019/05/Fallo-Quintero.pdf"
   }
  ]
 }

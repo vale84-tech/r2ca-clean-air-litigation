@@ -12,14 +12,18 @@
   "type": "Domestic",
   "court": "Rechtbank Den Haag (The Hague District Court, first instance) and Gerechtshof Den Haag (The Hague Court of Appeal, appeal)"
  },
- "docket": "",
+ "docket": "ECLI:NL:GHDHA:2024:2099",
  "description": "Civil action brought by the NGO Milieudefensie (Friends of the Earth Netherlands) and other organisations against Royal Dutch Shell, with more than 17,000 co-claimants, seeking an order to reduce the group’s CO2 emissions (Scope 1, 2 and 3) by 45% by 2030 compared with 2019 levels, on the basis of the duty of care (Art. 6:162 BW), the Paris Convention and Arts 2 and 8 ECHR.",
- "outcome": "At first instance (2021) The Hague District Court upheld the claim, ordering Shell to reduce emissions by 45% by 2030: the first judgment in the world to impose a reduction obligation on a private company. On appeal (November 2024) the Court confirmed the existence of a reduction obligation based on the duty of care but held the quantitative 45% target to be unsuitable, partially reversing the judgment. A leading precedent for corporate climate litigation.",
+ "outcome": "At first instance (2021) The Hague District Court upheld the claim, ordering Shell to reduce emissions by 45% by 2030: the first judgment in the world to impose a reduction obligation on a private company. On appeal (12 November 2024) the Court recognised that Shell has an obligation to reduce its emissions based on the duty of care, but held that a specific reduction percentage could not be imposed on it; it therefore set aside the first-instance judgment and dismissed all of Milieudefensie’s claims, ordering it to pay the costs. A leading precedent for corporate climate litigation.",
  "topics": [],
  "sources": [
   {
    "label": "climatecasechart.com",
    "url": "https://climatecasechart.com/non-us-case/milieudefensie-et-al-v-royal-dutch-shell-plc/"
+  },
+  {
+   "label": "Gerechtshof Den Haag, 12 November 2024, ECLI:NL:GHDHA:2024:2099 (rechtspraak.nl)",
+   "url": "https://uitspraken.rechtspraak.nl/details?id=ECLI:NL:GHDHA:2024:2099"
   }
  ]
 }

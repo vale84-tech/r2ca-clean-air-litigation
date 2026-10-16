@@ -2,7 +2,7 @@
  "slug": "ilva-ambiente-svenduto-environment-sold-out-taranto-appeal-and-remand",
  "name": "Ilva “Ambiente Svenduto” (“Environment Sold Out”) – Taranto appeal and remand to Potenza",
  "year": 2021,
- "date": "Judgment at first instance: 31 May 2021. Annulment on appeal (Court of Assizes of Appeal of Taranto, detached section of Lecce): 2024-2025. Reopening of the preliminary hearing in Potenza: 21 March 2025. Committal for trial (GUP Francesco Valente): 7 February 2026. First trial hearing in Potenza: 21 April 2026. Declaration that the statute of limitations has expired for 15 defendants (Court of Assizes of Potenza, presiding judge Marcello Rotondi): 23 May 2026.",
+ "date": "Judgment at first instance: 31 May 2021. Annulment on appeal (Court of Assizes of Appeal of Lecce, detached section of Taranto): 13 September 2024. Reopening of the preliminary hearing in Potenza: 21 March 2025. Committal for trial (GUP Francesco Valente): 6 February 2026. First trial hearing in Potenza: 21 April 2026. Declaration that the statute of limitations has expired for 15 defendants (Court of Assizes of Potenza, presiding judge Marcello Rotondi): 22 May 2026.",
  "status": "Pending",
  "geography": {
   "country": "Italy",
@@ -10,20 +10,32 @@
  },
  "jurisdiction": {
   "type": "Domestic",
-  "court": "Court of Assizes of Appeal of Taranto (Corte d’Assise d’Appello di Taranto), detached section of Lecce (annulment); Tribunal/Court of Assizes of Potenza (Tribunale/Corte d’Assise di Potenza) (remand proceedings). Court of Appeal of Lecce, 23 September 2024, no. 6"
+  "court": "Court of Assizes of Appeal of Lecce, detached section of Taranto (Corte d’Assise d’Appello di Lecce, sezione distaccata di Taranto) (annulment); Tribunal/Court of Assizes of Potenza (Tribunale/Corte d’Assise di Potenza) (remand proceedings)"
  },
- "docket": "no. 6",
- "description": "Second-instance proceedings in the “Ambiente Svenduto” (“Environment Sold Out”) criminal trial, already concluded at first instance with the judgment of the Court of Assizes of Taranto of 31 May 2021 (26 convictions for a total of about 270 years’ imprisonment, including 22 years for Fabio Riva and 20 for Nicola Riva). The Court of Assizes of Appeal of Taranto, detached section of Lecce, annulled the first-instance judgment because of a defect in the composition of the judging panel: the presence of two honorary judges among the numerous civil parties. In execution of the annulment, the trial restarted from the preliminary hearing before the Tribunal of Potenza.",
- "outcome": "Annulment of the first-instance judgment by the Court of Assizes of Appeal of Taranto (detached section of Lecce) and remand to Potenza. Stages of the remand proceedings: (i) 21 March 2025, reopening of the preliminary hearing (GUP Francesco Valente); (ii) 7 February 2026, committal for trial of 21 defendants (including the former President of the Puglia Region Nichi Vendola, accused of concussione (extortion by a public official)); (iii) 21 April 2026, first trial hearing before the Court of Assizes of Potenza; (iv) 23 May 2026, the Court of Assizes of Potenza (presiding judge Marcello Rotondi) declares the statute of limitations to have expired for Vendola and 14 other defendants. The trial continues against the remaining defendants.",
+ "docket": "",
+ "description": "Second-instance proceedings in the “Ambiente Svenduto” (“Environment Sold Out”) criminal trial, already concluded at first instance with the judgment of the Court of Assizes of Taranto of 31 May 2021 (26 convictions for a total of about 270 years’ imprisonment, including 22 years for Fabio Riva and 20 for Nicola Riva). On 13 September 2024 the Court of Assizes of Appeal of Lecce, detached section of Taranto, annulled the first-instance judgment for lack of territorial competence of the Taranto courts: since honorary magistrates of the Taranto district were among the numerous civil parties, as persons injured by the offences, Article 11 of the Code of Criminal Procedure required the case to be tried by the courts of another district, Potenza, and the files were transmitted to the Public Prosecutor’s Office of Potenza. In execution of the annulment, the trial restarted from the preliminary hearing before the Tribunal of Potenza.",
+ "outcome": "Annulment of the first-instance judgment by the Court of Assizes of Appeal of Lecce (detached section of Taranto) on 13 September 2024 and remand to Potenza. Stages of the remand proceedings: (i) 21 March 2025, reopening of the preliminary hearing (GUP Francesco Valente); (ii) 6 February 2026, committal for trial of 21 defendants (including the former President of the Puglia Region Nichi Vendola, accused of concussione (extortion by a public official)); (iii) 21 April 2026, first trial hearing before the Court of Assizes of Potenza; (iv) 22 May 2026, the Court of Assizes of Potenza (presiding judge Marcello Rotondi) declares the statute of limitations to have expired for Vendola and 14 other defendants. The trial continues against the remaining defendants.",
  "topics": [],
  "sources": [
   {
-   "label": "In Puglia 24 – “Ambiente Svenduto”: the trial restarts (7 February 2026)",
+   "label": "In Puglia 24 – “Ambiente Svenduto”: the trial restarts (article of 7 February 2026)",
    "url": "https://inpuglia24.it/07/02/2026/taranto/ambiente-svenduto-rinvio-giudizio-potenza/"
   },
   {
-   "label": "Quotidiano del Sud – statute of limitations for Vendola (23 May 2026)",
+   "label": "Quotidiano del Sud – statute of limitations for Vendola (article of 23 May 2026)",
    "url": "https://www.quotidianodelsud.it/basilicata/potenza/cronache/giudiziaria/2026/05/23/ex-ilva-vendola-fuori-dal-processo-ambiente-svenduto"
+  },
+  {
+   "label": "Giurisprudenza Penale – extract of the reasons for the annulment (September 2024)",
+   "url": "https://giurisprudenzapenale.com/wp-content/uploads/2024/09/Ilva-estratto-motivazioni.pdf"
+  },
+  {
+   "label": "Il Fatto Quotidiano – committal for trial of 21 defendants (6 February 2026)",
+   "url": "https://www.ilfattoquotidiano.it/2026/02/06/processo-ambiente-svenduto-bis-21-a-processo-ce-anche-nichi-vendola-il-gup-dispone-sequestro-preventivo-per-675mila-euro/8283110/"
+  },
+  {
+   "label": "Sky TG24 – statute of limitations declared for Vendola and 14 other defendants (22 May 2026)",
+   "url": "https://tg24.sky.it/cronaca/2026/05/22/vendola-esce-dal-processo-ex-ilva-prescrizione"
   }
  ]
 }
