@@ -1,0 +1,25 @@
+{
+ "slug": "r-friends-of-the-earth-v-heathrow-airport-ltd",
+ "name": "R (Friends of the Earth) v Heathrow Airport Ltd",
+ "year": 2020,
+ "date": "16 December 2020",
+ "status": "Decided",
+ "geography": {
+  "country": "United Kingdom",
+  "iso_n3": "826"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "UK Supreme Court, [2020] UKSC 52"
+ },
+ "docket": "[2020] UKSC 52",
+ "description": "Claim brought by Friends of the Earth, Plan B Earth and the Borough of Hillingdon against the 2018 Airports National Policy Statement (ANPS), which designated the construction of the third runway at Heathrow Airport as a project of national interest. The compatibility of the expansion with the United Kingdom’s obligations under the Paris Agreement and the Climate Change Act 2008, and with air quality (NO2 limits), was challenged.",
+ "outcome": "The UK Supreme Court reversed the decision of the Court of Appeal (which had ruled in favour of the claimants in February 2020) and held that the Secretary of State was not obliged to treat the Paris Agreement as binding “government policy” at the time of adoption of the ANPS. The expansion of the airport is legally possible, subject to separate assessments on climate and air quality.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "supremecourt.uk",
+   "url": "https://www.supremecourt.uk/cases/uksc-2020-0042.html"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "verein-klimaseniorinnen-schweiz-v-switzerland",
+ "name": "Verein KlimaSeniorinnen Schweiz v Switzerland",
+ "year": 2024,
+ "date": "9 April 2024",
+ "status": "Decided — enforcement ongoing",
+ "geography": {
+  "country": "Switzerland",
+  "iso_n3": "756"
+ },
+ "jurisdiction": {
+  "type": "ECtHR",
+  "court": "European Court of Human Rights (ECtHR) - Grand Chamber"
+ },
+ "docket": "",
+ "description": "Application no. 53600/20. An association of over 2,000 elderly Swiss women (Elderly Women for Climate Protection), particularly vulnerable to heatwaves, complained that the Swiss government's climate inaction and inadequate emission-reduction policies violated their human rights, including exposure to harmful effects (among them air quality) arising from climate change.",
+ "outcome": "Violation of Articles 8 and 6 ECHR. Historic judgment: for the first time the ECtHR recognised that States have positive obligations under Article 8 to adopt effective climate change mitigation measures, with binding targets and carbon budgets, in order to protect private life, health and well-being. The Swiss government subsequently refused to comply fully, giving rise to controversy over execution.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "hudoc.echr.coe.int",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-233206"
+  }
+ ]
+}

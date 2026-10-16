@@ -1,0 +1,25 @@
+{
+ "slug": "juliana-v-united-states",
+ "name": "Juliana v United States",
+ "year": 2015,
+ "date": "2015-2025 (Supreme Court, cert. denied on 24 March 2025)",
+ "status": "Decided",
+ "geography": {
+  "country": "United States",
+  "iso_n3": "840"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "District of Oregon; Ninth Circuit Court of Appeals; United States Supreme Court"
+ },
+ "docket": "",
+ "description": "Petition by 21 young people (aged 8 to 19 at the time of filing) against the United States federal Government, arguing that the energy policy supporting fossil fuels violated their constitutional rights to life, liberty and property (Fifth and Ninth Amendments) and the “public trust doctrine” concerning the atmosphere and the climate system. The adoption of a federal Climate Recovery Plan was sought, with effects on climate emissions and air quality.",
+ "outcome": "Protracted procedural course: in 2020 the Ninth Circuit held the requests for relief non-justiciable for lack of redressability, while acknowledging that the facts were well founded; in March 2025 the United States Supreme Court denied certiorari, closing the federal proceedings. The case influenced numerous state actions (Held, Navahine v Hawai'i DOT, etc.) and the theory of constitutional climate rights.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "climatecasechart.com",
+   "url": "https://climatecasechart.com/case/juliana-v-united-states/"
+  }
+ ]
+}

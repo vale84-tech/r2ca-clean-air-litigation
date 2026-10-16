@@ -1,0 +1,25 @@
+{
+ "slug": "deutsche-umwelthilfe-v-germany-c-873-19-vehicle-type-approval",
+ "name": "Deutsche Umwelthilfe v Germany (C-873/19) (vehicle type-approval)",
+ "year": 2022,
+ "date": "8 November 2022",
+ "status": "Decided",
+ "geography": {
+  "country": "Germany",
+  "iso_n3": "276"
+ },
+ "jurisdiction": {
+  "type": "CJEU",
+  "court": "Court of Justice of the European Union (CJEU) – Grand Chamber"
+ },
+ "docket": "C-873/19",
+ "description": "Reference for a preliminary ruling from the Administrative Court of Schleswig-Holstein: the environmental association Deutsche Umwelthilfe had challenged the EC type-approval granted by the Kraftfahrt-Bundesamt (KBA) to Volkswagen diesel vehicles equipped with a defeat device (the so-called “thermal window”) that reduced the effectiveness of the exhaust gas recirculation system outside a certain temperature range, in breach of the NOx emission limits of Regulation (EC) No 715/2007. The German court had denied the association standing to sue under domestic law.",
+ "outcome": "The CJEU held that Article 9(3) of the Aarhus Convention, read in conjunction with Article 47 of the Charter of Fundamental Rights, precludes national rules that prevent an environmental protection association from challenging an EC type-approval decision potentially contrary to EU law. The Court further clarified that the derogation for defeat devices necessary to protect the engine from damage applies only where there are immediate risks and in the absence of alternative technical solutions.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "eur-lex.europa.eu",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A62019CJ0873"
+  }
+ ]
+}

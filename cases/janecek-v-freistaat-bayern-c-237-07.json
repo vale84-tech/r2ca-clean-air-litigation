@@ -1,0 +1,20 @@
+{
+ "slug": "janecek-v-freistaat-bayern-c-237-07",
+ "name": "Janecek v Freistaat Bayern (C-237/07)",
+ "year": 2008,
+ "date": "25 July 2008",
+ "status": "Decided",
+ "geography": {
+  "country": "Germany",
+  "iso_n3": "276"
+ },
+ "jurisdiction": {
+  "type": "CJEU",
+  "court": "Court of Justice of the European Union (CJEU) – Second Chamber"
+ },
+ "docket": "C-237/07",
+ "description": "Reference for a preliminary ruling from the German Bundesverwaltungsgericht (Federal Administrative Court): Mr Dieter Janecek, residing in Munich near a measuring station that recorded systematic exceedances of the daily PM10 limits, asked the Bavarian authorities to adopt an action plan under Directive 96/62/EC on air quality.",
+ "outcome": "The CJEU recognised that citizens directly concerned have a right, enforceable in court, to obtain from the competent national authorities the drawing up of an action plan where there is a risk of the limit values or alert thresholds being exceeded. A fundamental judgment that opened the way to private “clean air litigation” in Europe (ClientEarth, DUH, Amis de la Terre, etc.).",
+ "topics": [],
+ "sources": []
+}

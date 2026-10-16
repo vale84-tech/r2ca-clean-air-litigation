@@ -1,0 +1,25 @@
+{
+ "slug": "deutsche-umwelthilfe-duh-diesel-bans",
+ "name": "Deutsche Umwelthilfe (DUH) – Diesel Bans",
+ "year": 2018,
+ "date": "27 February 2018 (BVerwG 7 C 26.16 and 7 C 30.17)",
+ "status": "Decided",
+ "geography": {
+  "country": "Germany",
+  "iso_n3": "276"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Bundesverwaltungsgericht (Federal Administrative Court), Leipzig"
+ },
+ "docket": "BVerwG 7 C 26.16; 7 C 30.17",
+ "description": "Actions brought by the NGO Deutsche Umwelthilfe (DUH) against the Länder of Baden-Württemberg (Stuttgart) and Nordrhein-Westfalen (Düsseldorf) over the continued exceedance of the annual NO2 limit value in numerous German cities. At issue was whether the air quality plans in force complied with Directive 2008/50/EC and the Bundes-Immissionsschutzgesetz and whether it was lawful to impose traffic bans on diesel vehicles.",
+ "outcome": "The Bundesverwaltungsgericht held that traffic bans (Fahrverbote) on diesel vehicles are legally permissible, and in many situations mandatory, as a measure to comply “in the shortest possible time” with the EU NO2 limits. The judgment paved the way for low-emission zones (Umweltzonen) and numerous diesel bans in more than 60 German cities, including Stuttgart, Hamburg, Berlin and Frankfurt.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "bverwg.de",
+   "url": "https://www.bverwg.de/pm/2018/9"
+  }
+ ]
+}

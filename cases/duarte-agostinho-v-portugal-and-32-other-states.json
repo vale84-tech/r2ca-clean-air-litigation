@@ -1,0 +1,25 @@
+{
+ "slug": "duarte-agostinho-v-portugal-and-32-other-states",
+ "name": "Duarte Agostinho v Portugal and 32 Other States",
+ "year": 2024,
+ "date": "9 April 2024 (inadmissibility decision)",
+ "status": "Inadmissible",
+ "geography": {
+  "country": "Portugal",
+  "iso_n3": "620"
+ },
+ "jurisdiction": {
+  "type": "ECtHR",
+  "court": "European Court of Human Rights (ECtHR) - Grand Chamber"
+ },
+ "docket": "",
+ "description": "Application no. 39371/20 by six young Portuguese people against Portugal and 32 other member States of the Council of Europe, following the devastating fires of 2017. Alleged deficiencies in the climate policies of the respondent States as violations of Articles 2, 3, 8 and 14 ECHR, with effects also on air quality (smoke from fires, tropospheric ozone, heatwaves).",
+ "outcome": "Application declared inadmissible by the Grand Chamber. With regard to Portugal: failure to exhaust domestic remedies; with regard to the other 32 States: there is no extraterritorial jurisdiction under Article 1 ECHR for the transnational effects of climate change. Despite the outcome, the decision confirms the substantive relevance of the climate issue for the Convention (read in conjunction with the contemporaneous KlimaSeniorinnen).",
+ "topics": [],
+ "sources": [
+  {
+   "label": "hudoc.echr.coe.int",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-233261"
+  }
+ ]
+}

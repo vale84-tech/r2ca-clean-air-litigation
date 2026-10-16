@@ -1,0 +1,25 @@
+{
+ "slug": "commission-v-united-kingdom-c-664-18-no2",
+ "name": "Commission v United Kingdom (C-664/18) (NO2)",
+ "year": 2021,
+ "date": "4 March 2021",
+ "status": "Decided",
+ "geography": {
+  "country": "United Kingdom",
+  "iso_n3": "826"
+ },
+ "jurisdiction": {
+  "type": "CJEU",
+  "court": "Court of Justice of the European Union (CJEU) – Seventh Chamber"
+ },
+ "docket": "C-664/18",
+ "description": "Action brought by the European Commission against the United Kingdom for the systematic and persistent exceedance, since 1 January 2010, of the annual limit value for NO2 in sixteen zones (including Greater London, West Midlands, Greater Manchester, Glasgow) and of the hourly limit value in the Greater London urban area, and for the failure to adopt, since 11 June 2010, suitable measures to keep the period of exceedance “as short as possible” under Article 23(1) of Directive 2008/50/EC.",
+ "outcome": "Action upheld. The CJEU declared that the United Kingdom had failed to fulfil its obligations under Articles 13(1) and 23(1) of Directive 2008/50/EC, holding the air quality plans submitted to be inadequate (compliance projections up to 2025 for Greater London). The proceedings had been initiated before Brexit and concluded after the United Kingdom's withdrawal from the European Union.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "eur-lex.europa.eu",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62018CJ0664"
+  }
+ ]
+}

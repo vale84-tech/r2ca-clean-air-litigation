@@ -1,0 +1,25 @@
+{
+ "slug": "italian-constitutional-court-judgment-no-85-2013-decreto-salva-ilva",
+ "name": "Italian Constitutional Court, judgment no. 85/2013 – “decreto salva-Ilva” (“Save Ilva” decree)",
+ "year": 2013,
+ "date": "9 May 2013 (filed)",
+ "status": "Decided",
+ "geography": {
+  "country": "Italy",
+  "iso_n3": "380"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Italian Constitutional Court"
+ },
+ "docket": "no. 85/2013",
+ "description": "Questions of constitutional legitimacy raised by the Judge for Preliminary Investigations (GIP) and by the Court of Assizes of Taranto concerning Article 1 of Decree-Law no. 207/2012 (the so-called “salva-Ilva” decree), which allowed the plant to continue operating despite the judicial seizure of the installations, on the premise of its national strategic importance. Violation of Articles 2, 3, 9, 24, 25, 27, 32, 41, 101-104, 112 and 117 of the Constitution (in relation to the ECHR and the Nice Charter) was alleged, because of the prevalence of economic interest over health and the environment.",
+ "outcome": "Questions declared unfounded. The Court outlined the well-known doctrine of “reasonable balancing between constitutional rights”: no right (health, environment, work, economic initiative) is a tyrant over the others; the reviewed integrated environmental authorisation (AIA) was a measure suitable for balancing the production requirement with the protection of health and the environment. A controversial judgment, often read as a “giving way” to the primacy of employment.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "cortecostituzionale.it",
+   "url": "https://www.cortecostituzionale.it/actionSchedaPronuncia.do?anno=2013&numero=85"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "utah-v-epa-good-neighbor-plan-ohio-v-epa",
+ "name": "Utah v EPA (Good Neighbor Plan / Ohio v EPA)",
+ "year": 2024,
+ "date": "27 June 2024 (Ohio v EPA, United States Supreme Court); 12 September 2024 (D.C. Circuit)",
+ "status": "Decided — merits pending",
+ "geography": {
+  "country": "United States",
+  "iso_n3": "840"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "United States Supreme Court and D.C. Circuit"
+ },
+ "docket": "",
+ "description": "Petitions by Ohio, Indiana, West Virginia, Utah and other States against the EPA’s “Good Neighbor Plan”, which required 23 States to adopt measures reducing NOx emissions from industrial sources in order to comply with the 2015 ozone standards (2015 Ozone NAAQS) and the “good neighbor” provision of the Clean Air Act (§ 110(a)(2)(D)(i)(I)), to protect the air quality of downwind States.",
+ "outcome": "The Supreme Court (5-4) stayed the application of the plan on an interim basis (stay), finding it likely that the petitioners would succeed on the merits owing to the EPA’s failure to give adequate reasons. Subsequently the D.C. Circuit ordered a partial remand of the record to the EPA to respond to the States’ comments. A setback for federal regulation of transboundary ozone.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "supremecourt.gov",
+   "url": "https://www.supremecourt.gov/opinions/23pdf/23a349_0813.pdf"
+  }
+ ]
+}

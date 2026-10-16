@@ -1,0 +1,25 @@
+{
+ "slug": "leghari-v-federation-of-pakistan",
+ "name": "Leghari v Federation of Pakistan",
+ "year": 2015,
+ "date": "4 September 2015 (first order) - 14 September 2015",
+ "status": "Decided",
+ "geography": {
+  "country": "Pakistan",
+  "iso_n3": "586"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Lahore High Court, Green Bench"
+ },
+ "docket": "",
+ "description": "Public Interest Litigation (W.P. no. 25501/2015) brought by the farmer Asghar Leghari against the Federation of Pakistan for the Government’s inaction in implementing the National Climate Change Policy 2012 and the Framework for Implementation 2014-2030, with effects on floods, droughts, water availability, food security and air quality.",
+ "outcome": "Petition granted. The Court held that the failure to implement the climate policy violated the constitutional rights to life (Art. 9) and to dignity (Art. 14), also applying the principles of intergenerational equity and precaution. The establishment of a Climate Change Commission to monitor the implementation of the measures was ordered. One of the first cases in the world to recognise a State climate obligation on a constitutional basis.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "climatecasechart.com",
+   "url": "https://climatecasechart.com/non-us-case/ashgar-leghari-v-federation-of-pakistan/"
+  }
+ ]
+}

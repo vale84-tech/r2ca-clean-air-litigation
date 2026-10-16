@@ -1,0 +1,25 @@
+{
+ "slug": "notre-affaire-a-tous-v-france-affaire-du-siecle-case-of-the-century",
+ "name": "Notre Affaire à Tous v France (“Affaire du siècle”, “Case of the Century”)",
+ "year": 2021,
+ "date": "3 February 2021 (liability); 14 October 2021 (measures); 22 December 2023 (enforcement)",
+ "status": "Decided",
+ "geography": {
+  "country": "France",
+  "iso_n3": "250"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Tribunal administratif de Paris (Paris Administrative Court)"
+ },
+ "docket": "",
+ "description": "Application by four NGOs (Notre Affaire à Tous, Oxfam France, Greenpeace France, Fondation Nicolas Hulot), supported by more than 2.3 million signatories, against the French State for inadequate climate action and the resulting ecological damage. Article 1246 of the Code civil and the Charte de l'environnement were invoked, with effects also on air quality.",
+ "outcome": "By the judgment of 3 February 2021 the Paris Administrative Court recognised for the first time the liability of the French State for ecological harm caused by failure to meet emission reduction targets; by that of 14 October 2021 it ordered the State to adopt measures to remedy the surplus of emissions by 31 December 2022. In December 2023 the court declared the judgment to have been implemented, but only in part, without imposing additional penalties.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "paris.tribunal-administratif.fr",
+   "url": "https://paris.tribunal-administratif.fr/decisions-de-justice/dernieres-decisions/l-affaire-du-siecle"
+  }
+ ]
+}

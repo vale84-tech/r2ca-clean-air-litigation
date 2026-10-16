@@ -1,0 +1,29 @@
+{
+ "slug": "italian-supreme-court-of-cassation-joint-divisions-order-no-20381-2025",
+ "name": "Italian Supreme Court of Cassation, Joint Divisions, order no. 20381/2025 – Greenpeace and ReCommon v ENI, CDP and MEF (climate jurisdiction)",
+ "year": 2025,
+ "date": "Order filed on 21 July 2025, no. 20381",
+ "status": "Decided — merits pending",
+ "geography": {
+  "country": "Italy",
+  "iso_n3": "380"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Italian Supreme Court of Cassation, Joint Civil Divisions"
+ },
+ "docket": "no. 20381/2025",
+ "description": "Request for a preventive ruling on jurisdiction (regolamento preventivo di giurisdizione) raised in the civil proceedings brought in May 2023 before the Tribunal of Rome by Greenpeace Italia, ReCommon and twelve citizens against ENI s.p.a., Cassa Depositi e Prestiti s.p.a. and the Ministry of Economy and Finance (as public shareholders of ENI), for non-contractual liability under Articles 2043, 2050, 2051 and 2058 of the Civil Code linked to ENI’s climate-altering emissions and their repercussions on fundamental rights (life, health, a healthy environment, property). ENI had raised an objection of absolute lack of jurisdiction, invoking the precedent of the Tribunal of Rome in the “Giudizio Universale” case.",
+ "outcome": "The Joint Divisions declared the jurisdiction of the Italian judicial authority and the competence of the ordinary court, rejecting all the objections raised by the defendants. Principles affirmed: (i) a civil action for damages and injunctive relief is admissible for harm caused by climate-altering emissions on the basis of the ordinary rules of non-contractual liability (Article 2043 of the Civil Code) and of restorative protection (Article 2058 of the Civil Code); (ii) Italian jurisdiction also exists for damage caused abroad by foreign investee companies, applying Article 7(2) of EU Regulation 1215/2012 (“Brussels I bis”), with the damage located at the place of residence of the injured persons (Handlungsort/Erfolgsort); (iii) express reliance on the precedents “KlimaSeniorinnen” (ECtHR, Grand Chamber, 9 April 2024) and “Urgenda” (Hoge Raad (Supreme Court of the Netherlands), 2019). A turning-point decision which, in practice, opens the way in Italy to civil litigation against large private emitters and rebalances the denial of jurisdiction pronounced in “Giudizio Universale” (see “Giudizio Universale v Italy”). As to the merits, the proceedings continue before the Tribunal of Rome.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "Studio Scognamiglio – Italian Supreme Court of Cassation, Joint Divisions, 20381/2025 (analysis)",
+   "url": "https://www.studioclaudioscognamiglio.it/climate-change-litigation-le-s-u-confermano-la-giurisdizione-dellautorita-giudiziaria-italiana-nel-caso-promosso-contro-eni/"
+  },
+  {
+   "label": "Studio Padovan – Italian Supreme Court of Cassation, Joint Divisions, 20381/2025 (pill)",
+   "url": "https://studiopadovan.com/news/international-litigation-pill-luglio-2025-n-4-giudice-competente-in-materia-di-climate-change-litigation/"
+  }
+ ]
+}

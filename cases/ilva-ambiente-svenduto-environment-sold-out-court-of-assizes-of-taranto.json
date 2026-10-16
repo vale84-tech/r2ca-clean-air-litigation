@@ -1,0 +1,25 @@
+{
+ "slug": "ilva-ambiente-svenduto-environment-sold-out-court-of-assizes-of-taranto",
+ "name": "Ilva “Ambiente Svenduto” (“Environment Sold Out”) – Court of Assizes of Taranto",
+ "year": 2021,
+ "date": "31 May 2021 (judgment at first instance)",
+ "status": "Decided — appeal pending",
+ "geography": {
+  "country": "Italy",
+  "iso_n3": "380"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Court of Assizes of Taranto (Corte d’Assise di Taranto)"
+ },
+ "docket": "",
+ "description": "The so-called “Ambiente Svenduto” (“Environment Sold Out”) criminal trial against 47 defendants (natural persons and companies), including Fabio and Nicola Riva, former owners of the Ilva group of Taranto, for environmental disaster, poisoning of foodstuffs, wilful omission of precautions against accidents at work and other offences, in relation to the polluting emissions (dioxin, PCBs, benzo(a)pyrene, PM, heavy metals) produced by the hot area of the steelworks.",
+ "outcome": "First-instance convictions with severe sentences: 22 years’ imprisonment for Fabio Riva, 20 years for Nicola Riva, and convictions of the other defendants; confiscation of the hot-area plants ordered for environmental disaster. The judgment was subsequently appealed. It represents one of the most imposing criminal trials in Italy concerning industrial pollution.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "corriere.it",
+   "url": "https://www.corriere.it/economia/aziende/21_maggio_31/sentenza-ilva-taranto-fabio-riva-condannato-22-anni-nicola-riva-20-f355bba8-c1e4-11eb-97d8-c46abd749374.shtml"
+  }
+ ]
+}

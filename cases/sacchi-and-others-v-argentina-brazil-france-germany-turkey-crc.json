@@ -1,0 +1,25 @@
+{
+ "slug": "sacchi-and-others-v-argentina-brazil-france-germany-turkey-crc",
+ "name": "Sacchi and others v Argentina, Brazil, France, Germany, Turkey (CRC)",
+ "year": 2021,
+ "date": "22 September 2021",
+ "status": "Inadmissible",
+ "geography": {
+  "country": "Argentina",
+  "iso_n3": "032"
+ },
+ "jurisdiction": {
+  "type": "UN",
+  "court": "UN Committee on the Rights of the Child (CRC)"
+ },
+ "docket": "",
+ "description": "Petition by 16 children (including Greta Thunberg and Ranton Anjain) submitted to the UN Committee on the Rights of the Child against five States parties to the Third Optional Protocol to the CRC, complaining of the inadequacy of climate action in breach of Articles 6, 24 and 30 CRC (right to life, to health, to culture), with impacts also on transboundary air pollution.",
+ "outcome": "Petition declared inadmissible for failure to exhaust domestic remedies, but with an innovative reading of the principles of extraterritorial jurisdiction in climate matters (test of “effective control” and of “reasonably foreseeable causal link”). It represents the first pronouncement of a UN treaty body on a mass climate petition, with effects on subsequent human rights and climate litigation.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "climatecasechart.com",
+   "url": "https://climatecasechart.com/non-us-case/sacchi-et-al-v-argentina-et-al/"
+  }
+ ]
+}

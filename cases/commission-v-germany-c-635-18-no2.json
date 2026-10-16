@@ -1,0 +1,25 @@
+{
+ "slug": "commission-v-germany-c-635-18-no2",
+ "name": "Commission v Germany (C-635/18) (NO2)",
+ "year": 2021,
+ "date": "3 June 2021",
+ "status": "Decided",
+ "geography": {
+  "country": "Germany",
+  "iso_n3": "276"
+ },
+ "jurisdiction": {
+  "type": "CJEU",
+  "court": "Court of Justice of the European Union (CJEU) – Seventh Chamber"
+ },
+ "docket": "C-635/18",
+ "description": "Infringement proceedings brought by the Commission against Germany for the systematic and persistent exceedance of the annual limit values for nitrogen dioxide (NO2) laid down by Article 13(1) and Annex XI of Directive 2008/50/EC between 2010 and 2016 in 26 zones and agglomerations (including Berlin, Hamburg, Cologne, Munich, Stuttgart, Frankfurt). The failure to adopt suitable air quality plans under Article 23 was also alleged.",
+ "outcome": "Action upheld. The CJEU ruled against Germany for infringement of Articles 13(1) and 23(1) of Directive 2008/50/EC. The judgment adds to the triptych of rulings against Italy (C-644/18), France (C-636/18) and Germany, confirming the Court's strict approach to the obligation to reduce the period of exceedance in the shortest possible time.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "curia.europa.eu",
+   "url": "https://curia.europa.eu/juris/liste.jsf?num=C-635/18"
+  }
+ ]
+}

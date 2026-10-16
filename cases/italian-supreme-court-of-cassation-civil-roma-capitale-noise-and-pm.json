@@ -1,0 +1,25 @@
+{
+ "slug": "italian-supreme-court-of-cassation-civil-roma-capitale-noise-and-pm",
+ "name": "Italian Supreme Court of Cassation (civil) – Roma Capitale (noise and PM)",
+ "year": 2025,
+ "date": "Order no. 29798 of 12 November 2025 (Rv. 676768-01)",
+ "status": "Decided",
+ "geography": {
+  "country": "Italy",
+  "iso_n3": "380"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Italian Supreme Court of Cassation, Third Civil Division"
+ },
+ "docket": "no. 29798; Rv. 676768-01",
+ "description": "Class action brought by residents of Rome exposed for years to intolerable immissions of traffic noise and fine particulate matter (PM10, PM2.5) above the legal thresholds, seeking compensation for non-pecuniary damage and an order requiring the administration to adopt structural measures to reduce pollution. At first instance Roma Capitale was ordered to pay EUR 2,000 per capita; on appeal the award was revised upwards.",
+ "outcome": "The Court of Cassation upheld the order against Roma Capitale, dismissing the administration’s appeal. The Court reiterated that the public administration is civilly liable for intolerable immissions produced by insufficient management of the territory and that the public body is required both to pay compensation and to adopt concrete preventive measures. Express reference to Article 8 ECHR (private and family life).",
+ "topics": [],
+ "sources": [
+  {
+   "label": "Italian Supreme Court of Cassation, Third Civil Division, order no. 29798 of 12 November 2025",
+   "url": "https://www.foroeuropeo.it/rubriche-servizi-codici-2024/raccolta-di-massime-civili-della-cassazione-classificate-per-argomento-materia/865-proprieta/67480-limitazioni-legali-della-proprieta-rapporti-di-vicinato-immissioni-corte-di-cassazione-sez-3-ordinanza-n-29798-del-12-11-2025-rv-676768-01.html"
+  }
+ ]
+}

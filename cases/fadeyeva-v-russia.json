@@ -1,0 +1,25 @@
+{
+ "slug": "fadeyeva-v-russia",
+ "name": "Fadeyeva v Russia",
+ "year": 2005,
+ "date": "9 June 2005",
+ "status": "Decided",
+ "geography": {
+  "country": "Russia",
+  "iso_n3": "643"
+ },
+ "jurisdiction": {
+  "type": "ECtHR",
+  "court": "European Court of Human Rights (ECtHR) - First Section"
+ },
+ "docket": "",
+ "description": "Application no. 55723/00. The applicant, who lived in Cherepovets about 450 metres from the Severstal steel plant (the largest in Russia), within the 1,000-metre buffer zone, complained that exposure to air pollution levels far above national health limits had impaired her health and that the State had not relocated her as provided for by domestic legislation.",
+ "outcome": "Violation of Article 8 ECHR. The Court extended the López Ostra principle to industrial air pollution, recognising that the State had not struck a fair balance between economic interests and the applicant's right to respect for her home and private life, having neither relocated the applicant nor imposed an effective reduction of emissions. EUR 6,000 in compensation was awarded.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "hudoc.echr.coe.int",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-69315"
+  }
+ ]
+}

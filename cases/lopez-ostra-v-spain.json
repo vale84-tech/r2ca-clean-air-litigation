@@ -1,0 +1,25 @@
+{
+ "slug": "lopez-ostra-v-spain",
+ "name": "López Ostra v Spain",
+ "year": 1994,
+ "date": "9 December 1994",
+ "status": "Decided",
+ "geography": {
+  "country": "Spain",
+  "iso_n3": "724"
+ },
+ "jurisdiction": {
+  "type": "ECtHR",
+  "court": "European Court of Human Rights (ECtHR)"
+ },
+ "docket": "",
+ "description": "Application no. 16798/90. The applicant, who lived in Lorca (Murcia) 12 metres from a plant for the treatment of solid and liquid tannery waste, complained of serious fumes, smoke and noise that had impaired her health and that of her family. The Spanish authorities had not intervened to stop the nuisance.",
+ "outcome": "Violation of Article 8 ECHR. Historic judgment: the Court held for the first time that serious forms of environmental pollution (fumes, odours, noise) may infringe the right to respect for private and family life and the home, even without seriously endangering health. A positive obligation of protection on the part of the State was recognised. Compensation of 4,000,000 pesetas was awarded.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "hudoc.echr.coe.int",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-57905"
+  }
+ ]
+}

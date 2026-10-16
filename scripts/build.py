@@ -17,10 +17,11 @@ CASES = ROOT / "cases"
 OUT = ROOT / "_site"
 
 REQUIRED = [
-    "slug", "name", "filing_year", "status", "geography", "jurisdiction",
-    "docket", "at_issue", "abstract", "topics", "proceedings", "sources",
+    "slug", "name", "year", "date", "status", "geography", "jurisdiction",
+    "description", "outcome",
 ]
-FORUM_TYPES = ("Domestic", "CJEU", "ECtHR")
+OPTIONAL_LISTS = ("topics", "sources")
+FORUM_TYPES = ("Domestic", "CJEU", "ECtHR", "UN")
 
 
 def fail(msg: str) -> None:
@@ -52,15 +53,19 @@ def load_cases() -> list:
         if case["jurisdiction"].get("type") not in FORUM_TYPES:
             fail(f"{path.name}: jurisdiction.type must be one of {FORUM_TYPES}")
         try:
-            case["filing_year"] = int(case["filing_year"])
+            case["year"] = int(case["year"])
         except (TypeError, ValueError):
-            fail(f"{path.name}: filing_year must be a number")
-        for proc in case["proceedings"]:
-            proc["link"] = proc.get("link") or None
+            fail(f"{path.name}: year must be a number")
+        empty = [k for k in ("name", "date", "status", "description", "outcome") if not str(case[k]).strip()]
+        if empty:
+            fail(f"{path.name}: empty fields {empty}")
+        case["docket"] = case.get("docket") or ""
+        for key in OPTIONAL_LISTS:
+            case[key] = case.get(key) or []
         for src in case["sources"]:
             src["url"] = src.get("url") or None
         cases.append(case)
-    cases.sort(key=lambda c: (-c["filing_year"], c["name"]))
+    cases.sort(key=lambda c: (-c["year"], c["name"]))
     return cases
 
 

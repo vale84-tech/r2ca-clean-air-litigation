@@ -1,0 +1,25 @@
+{
+ "slug": "supreme-court-of-ireland-climate-case-ireland",
+ "name": "Supreme Court of Ireland – “Climate Case Ireland”",
+ "year": 2020,
+ "date": "31 July 2020 ([2020] IESC 49)",
+ "status": "Decided",
+ "geography": {
+  "country": "Ireland",
+  "iso_n3": "372"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Supreme Court of Ireland"
+ },
+ "docket": "[2020] IESC 49",
+ "description": "Claim by Friends of the Irish Environment (FIE) against the Irish Government concerning the inadequacy of the National Mitigation Plan 2017, adopted under the Climate Action and Low Carbon Development Act 2015. The violation of the constitutional right to an environment consistent with human dignity and well-being (“right to a healthy environment”) and of Arts 2 and 8 ECHR was alleged, with implications for air quality.",
+ "outcome": "Claim upheld. The Irish Supreme Court quashed the National Mitigation Plan for lack of specificity: the plan was too vague on emission reduction pathways. It denied, however, the autonomous constitutionalisation of the “right to a healthy environment” and the standing of individuals/NGOs in respect of ECHR rights that are not directly actionable.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "climatecasechart.com",
+   "url": "https://climatecasechart.com/non-us-case/friends-of-the-irish-environment-v-ireland/"
+  }
+ ]
+}

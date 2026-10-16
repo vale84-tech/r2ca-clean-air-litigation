@@ -1,0 +1,25 @@
+{
+ "slug": "italian-supreme-court-of-cassation-joint-divisions-order-no-5668-2023",
+ "name": "Italian Supreme Court of Cassation, Joint Divisions, order no. 5668/2023 – PM10 Milan (jurisdiction)",
+ "year": 2023,
+ "date": "23 February 2023 (order no. 5668)",
+ "status": "Decided",
+ "geography": {
+  "country": "Italy",
+  "iso_n3": "380"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Italian Supreme Court of Cassation, Joint Civil Divisions"
+ },
+ "docket": "no. 5668/2023",
+ "description": "Negative conflict of jurisdiction raised by the Regional Administrative Court for Lombardy (TAR Lombardia) (order no. 1208/2022) after the Tribunal of Milan (judgment no. 3364/2021) had declined jurisdiction over the claim for damages brought by a Milanese citizen against the Municipality of Milan and the Lombardy Region for damage to health caused by the persistent exceedances of the PM10 limits found by the CJEU in judgment C-644/18.",
+ "outcome": "The Joint Divisions affirmed the jurisdiction of the ordinary court, on the premise that the protection of the right to health has the nature of a subjective right “not degradable” to a legitimate interest, even where the omission of administrative measures is invoked. A decision of systemic significance for compensatory clean air litigation in Italy.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "primogrado.com",
+   "url": "https://primogrado.com/inquinamento-atmosferico-e-danno-alla-salute"
+  }
+ ]
+}

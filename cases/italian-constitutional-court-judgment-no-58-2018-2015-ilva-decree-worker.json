@@ -1,0 +1,25 @@
+{
+ "slug": "italian-constitutional-court-judgment-no-58-2018-2015-ilva-decree-worker",
+ "name": "Italian Constitutional Court, judgment no. 58/2018 – 2015 Ilva decree (worker)",
+ "year": 2018,
+ "date": "23 March 2018 (filed)",
+ "status": "Decided",
+ "geography": {
+  "country": "Italy",
+  "iso_n3": "380"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Italian Constitutional Court"
+ },
+ "docket": "no. 58/2018",
+ "description": "Question of constitutional legitimacy raised by the Judge for Preliminary Investigations (GIP) of Taranto concerning Article 3 of Decree-Law no. 92/2015, which had allowed the blast furnace AFO2 of Ilva to resume operations immediately after the fatal accident of a worker, while under judicial seizure, on the basis of a mere generic plan. Violation of Articles 2, 3, 4, 32, 35, 41 and 112 of the Constitution was alleged.",
+ "outcome": "Provision declared unconstitutional. Applying the criteria of judgment no. 85/2013, the Court held that, in the case at hand, the legislature had “privileged solely the requirements of economic initiative”, sacrificing the life and health of workers. An important signal: the balancing between rights must always be verified on the merits and cannot compress the essential core of the right to life and health.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "cortecostituzionale.it",
+   "url": "https://www.cortecostituzionale.it/actionSchedaPronuncia.do?anno=2018&numero=58"
+  }
+ ]
+}

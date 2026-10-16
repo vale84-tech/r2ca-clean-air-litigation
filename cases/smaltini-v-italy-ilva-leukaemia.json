@@ -1,0 +1,25 @@
+{
+ "slug": "smaltini-v-italy-ilva-leukaemia",
+ "name": "Smaltini v Italy (ILVA - leukaemia)",
+ "year": 2015,
+ "date": "24 March 2015 (published 16 April 2015), inadmissibility decision",
+ "status": "Inadmissible",
+ "geography": {
+  "country": "Italy",
+  "iso_n3": "380"
+ },
+ "jurisdiction": {
+  "type": "ECtHR",
+  "court": "European Court of Human Rights (ECtHR) - Second Section"
+ },
+ "docket": "",
+ "description": "Application no. 43961/09 by Ms Giovanna Smaltini (who subsequently died of leukaemia in 2012), resident in Taranto near the Ilva plant, who alleged a causal link between the polluting emissions (dioxin, PCBs, benzene) and her illness, and a violation of Articles 2 (life) and 8 ECHR.",
+ "outcome": "Application declared inadmissible: the Court held that the individual causal link between exposure to the Ilva emissions and the applicant's specific illness had not been proved, on the basis of the available expert reports. A controversial decision, but the criterion was subsequently superseded in Cordella (2019), where the Court gave weight to statistical-epidemiological evidence on a collective basis.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "giustizia.it",
+   "url": "https://www.giustizia.it/giustizia/it/mg_1_20_1.wp?facetNode_1=0_8_1_5&facetNode_4=1_2(20150324)&facetNode_3=1_2(201503)&facetNode_2=1_2(2015)&previsiousPage=mg_1_20&contentId=SDU1188269"
+  }
+ ]
+}

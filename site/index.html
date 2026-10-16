@@ -28,13 +28,13 @@
 <section class="intro wrap">
   <p class="kicker">Judicial decisions and pending proceedings on air quality</p>
   <h1>Tracking the right to clean air, case by case</h1>
-  <p class="lead">A curated collection of court decisions and pending proceedings concerning <b>air pollution and the right to clean air</b>, each summarised in an original abstract by the R2CA editorial team and linked to its official sources.</p>
+  <p class="lead">A curated collection of court decisions and pending proceedings concerning <b>air pollution and the right to clean air</b>, each summarised in an original abstract by the R2CA editorial team and linked to its reference sources.</p>
   <div class="stats" role="group" aria-label="Database at a glance">
     <span class="stat"><span class="n"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18"/><path d="m19 8 3 8a5 5 0 0 1-6 0zV7"/><path d="M3 7h1a17 17 0 0 0 8-2 17 17 0 0 0 8 2h1"/><path d="m5 8 3 8a5 5 0 0 1-6 0zV7"/><path d="M7 21h10"/></svg><span id="stat-cases">–</span></span><span class="l">Cases</span></span>
     <span class="stat"><span class="n"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg><span id="stat-countries">–</span></span><span class="l">Countries</span></span>
     <span class="stat"><span class="n"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 18v-7"/><path d="M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z"/><path d="M14 18v-7"/><path d="M18 18v-7"/><path d="M3 22h18"/><path d="M6 18v-7"/></svg><span id="stat-intl">–</span></span><span class="l">Before international courts</span></span>
   </div>
-  <p class="sample-note"><b>Preview dataset.</b> The records currently shown are sample entries prepared for this preview. They will be replaced by the project's editorial dataset (about 60 cases collected to date).</p>
+  <p class="sample-note"><b>Preview.</b> The records come from the project's editorial dataset. The English versions of the abstracts, translated from the editorial team's Italian originals, are currently under review.</p>
 </section>
 
 <section class="map-section wrap" id="database" aria-label="Explore the database">
@@ -56,7 +56,7 @@
   </div>
 
   <div class="filters" role="search" aria-label="Filter cases">
-    <span class="search-wrap"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg><input type="search" id="f-search" placeholder="Search cases, topics, courts…" aria-label="Search cases"></span>
+    <span class="search-wrap"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg><input type="search" id="f-search" placeholder="Search cases, courts, keywords…" aria-label="Search cases"></span>
     <label for="f-status">Status</label>
     <select id="f-status">
       <option value="">All</option>
@@ -70,6 +70,7 @@
       <option value="Domestic">Domestic courts</option>
       <option value="CJEU">Court of Justice of the EU</option>
       <option value="ECtHR">European Court of Human Rights</option>
+      <option value="UN">UN treaty bodies</option>
     </select>
     <button class="active-chip" id="f-country" hidden></button>
     <span class="result-count" id="result-count"></span>
@@ -85,8 +86,8 @@
 <section class="prose-section wrap" id="about">
   <h2>About the project</h2>
   <hr class="rule">
-  <p>The Clean Air Litigation Database is developed within <a href="https://hubtolaw.it/projects/r2ca-the-right-to-clean-air/" target="_blank" rel="noopener">R2CA — The Right to Clean Air</a>, a research project of the University of Turin. The database collects judicial decisions and pending proceedings in which the quality of the air people breathe is at stake — before domestic courts, the Court of Justice of the European Union and the European Court of Human Rights.</p>
-  <p>Each case is presented through an original abstract drafted and validated by the project's editorial team, together with the essential procedural data and links to the official sources of the decisions.</p>
+  <p>The Clean Air Litigation Database is developed within <a href="https://hubtolaw.it/projects/r2ca-the-right-to-clean-air/" target="_blank" rel="noopener">R2CA — The Right to Clean Air</a>, a research project of the University of Turin. The database collects judicial decisions and pending proceedings in which the quality of the air people breathe is at stake — before domestic courts, the Court of Justice of the European Union, the European Court of Human Rights and UN treaty bodies.</p>
+  <p>Each case is presented through an original abstract drafted and validated by the project's editorial team, together with the essential procedural data and links to reference sources.</p>
 </section>
 
 <section class="prose-section wrap" id="methodology">
@@ -94,14 +95,14 @@
   <hr class="rule">
   <ul>
     <li><b>Unit of the database.</b> The unit is the case, understood as a single dispute: a case may span several proceedings and instances (first instance, appeal, preliminary references, enforcement), which are listed within the same record. Pending proceedings are included and identified by their status.</li>
-    <li><b>Geography and forum.</b> Each case is assigned to the country where the facts arose; the deciding authority is recorded separately, so that decisions of international courts remain findable both from the country concerned and from the dedicated international-courts entry point. No sub-national breakdown is applied.</li>
-    <li><b>Abstracts.</b> All abstracts are original texts of the editorial team; they summarise, and do not replace, the decisions they describe.</li>
-    <li><b>Sources.</b> Wherever available, records link to the official text of each decision or to established repositories, including the <a href="https://climatecasechart.com/" target="_blank" rel="noopener">Sabin Center's Climate Change Litigation Databases</a>.</li>
+    <li><b>Geography and forum.</b> Each case is assigned to the country where the facts arose; the deciding authority is recorded separately, so that decisions of international courts remain findable both from the country concerned and from the dedicated international-courts entry point. Proceedings before international courts or bodies brought against more than one State are assigned to the first respondent State named. No sub-national breakdown is applied.</li>
+    <li><b>Abstracts.</b> All abstracts are original texts of the editorial team; they summarise, and do not replace, the decisions they describe. The English versions are translations of the editorial team's Italian originals.</li>
+    <li><b>Sources.</b> Each record links to the reference sources used by the editorial team: the official text of the decision where available, established repositories such as the <a href="https://climatecasechart.com/" target="_blank" rel="noopener">Sabin Center's Climate Change Litigation Databases</a>, and secondary sources.</li>
     <li><b>Boundaries.</b> The map is a navigation aid only: the depiction of borders and territories implies no position on questions of sovereignty.</li>
   </ul>
   <h2 style="margin-top:28px">How to cite</h2>
   <hr class="rule">
-  <p class="cite-box" style="max-width:76ch">R2CA — The Right to Clean Air, <i>Clean Air Litigation Database</i>, University of Turin, entry «[case name]», last updated [date].</p>
+  <p class="cite-box" style="max-width:76ch">R2CA — The Right to Clean Air, <i>Clean Air Litigation Database</i>, University of Turin, entry “[case name]”, last updated [date].</p>
 </section>
 
 <footer class="site">

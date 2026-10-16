@@ -1,0 +1,25 @@
+{
+ "slug": "national-green-tribunal-india-vardhaman-kaushik-v-union-of-india-delhi",
+ "name": "National Green Tribunal (India) - Vardhaman Kaushik v Union of India (Delhi/NCR, air quality)",
+ "year": 2014,
+ "date": "Original Application no. 21 of 2014; orders of 26 November 2014, 19 February 2015, 16 March 2015 and 7 April 2015; upheld by the Supreme Court of India by order of 29 October 2018",
+ "status": "Decided — enforcement ongoing",
+ "geography": {
+  "country": "India",
+  "iso_n3": "356"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "National Green Tribunal (NGT), Principal Bench, New Delhi; upheld by the Supreme Court of India"
+ },
+ "docket": "Original Application no. 21 of 2014",
+ "description": "Petition (Original Application no. 21 of 2014) filed by Vardhaman Kaushik before the National Green Tribunal seeking the adoption of measures against the severe air pollution in the Indian capital and the National Capital Region (NCR), concerning all the main sources of pollution (road traffic, waste burning, construction sites, coal-fired power plants, agricultural fires).",
+ "outcome": "The NGT issued a series of orders (10 November 2016 and earlier) which imposed, among other things, a ban on circulation in the NCT of Delhi for petrol vehicles older than 15 years and diesel vehicles older than 10 years, in addition to measures concerning construction sites, waste burning and traffic management. The ban on diesel vehicles older than ten years was upheld by the Supreme Court of India in the M.C. Mehta case by order of 29 October 2018 and is still in force. The whole of the proceedings on air pollution in Delhi/NCR, originally brought within the case file M.C. Mehta v Union of India of 1985, was formally closed by the Supreme Court on 12 March 2026, with the simultaneous opening of a new suo motu proceeding entitled “Re: Issues of air pollution in National Capital Region” and the assignment of separate petition numbers to the pending applications.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "delhigreens.com",
+   "url": "https://delhigreens.com/2026/06/13/right-to-clean-air-and-pollution-crisis-in-delhi/"
+  }
+ ]
+}

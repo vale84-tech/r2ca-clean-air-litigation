@@ -1,0 +1,25 @@
+{
+ "slug": "held-v-state-of-montana",
+ "name": "Held v State of Montana",
+ "year": 2023,
+ "date": "14 August 2023 (first instance); upheld by the Montana Supreme Court on 18 December 2024",
+ "status": "Decided",
+ "geography": {
+  "country": "United States",
+  "iso_n3": "840"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Montana First Judicial District Court (Judge Kathy Seeley)"
+ },
+ "docket": "",
+ "description": "Petition by 16 young Montana plaintiffs against the State, concerning the provision of the Montana Environmental Policy Act (MEPA) that prevented agencies from considering climate effects in authorising fossil-fuel projects. The petitioners alleged violation of the Montana constitutional right to a “clean and healthful” environment (Article II, Section 3 and Article IX, Section 1 of the State Constitution).",
+ "outcome": "Petition granted. The Court declared unconstitutional the provisions of the MEPA that prohibited consideration of greenhouse gas emissions and climate impacts, recognising a constitutional right to the climate as part of the right to a clean environment. The first case in the world in which a court has held a state law unconstitutional for preventing climate analysis in environmental authorisations. Upheld by the Montana Supreme Court in December 2024.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "climatecasechart.com",
+   "url": "https://climatecasechart.com/case/11091/"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "ministre-de-la-transition-ecologique-v-jp-state-liability-c-61-21",
+ "name": "Ministre de la Transition écologique v JP (State liability) (C-61/21)",
+ "year": 2022,
+ "date": "22 December 2022",
+ "status": "Decided",
+ "geography": {
+  "country": "France",
+  "iso_n3": "250"
+ },
+ "jurisdiction": {
+  "type": "CJEU",
+  "court": "Court of Justice of the European Union (CJEU) – Grand Chamber"
+ },
+ "docket": "C-61/21",
+ "description": "Reference for a preliminary ruling from the French Conseil d'État (Council of State) in the context of a non-contractual liability action brought by a citizen residing in Paris (JP) against the French State for compensation for damage to health allegedly caused by the exceedance of the air quality limit values laid down by the successive European directives (80/779/EEC, 85/203/EEC, 96/62/EC, 1999/30/EC, 2008/50/EC), on the basis of the Francovich doctrine on State liability for infringement of EU law.",
+ "outcome": "The CJEU excluded the State's liability in damages towards individuals: the air quality limit values imposed by the European directives are not intended to confer an individual right on individuals, but aim to protect public health as a whole through systemic instruments (in particular infringement proceedings). The Court therefore excluded that the mere exceedance of the limit values could found a right to compensation for individual damage, maintaining a cautious approach with regard to the possible configuration of an “environmental Francovich”.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "eur-lex.europa.eu",
+   "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:62021CA0061"
+  }
+ ]
+}

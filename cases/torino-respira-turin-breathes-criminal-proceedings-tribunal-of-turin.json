@@ -1,0 +1,25 @@
+{
+ "slug": "torino-respira-turin-breathes-criminal-proceedings-tribunal-of-turin",
+ "name": "“Torino Respira” (“Turin Breathes”) criminal proceedings – Tribunal of Turin (discharge)",
+ "year": 2017,
+ "date": "Complaint (esposto): 2017 (Comitato Torino Respira, lawyer Roberto Mezzalama). Judgment of non luogo a procedere (no grounds to proceed to trial) by the GUP of Turin: 4 July 2024. Withdrawal of the appeal by the Public Prosecutor General’s Office: 9 May 2025.",
+ "status": "Decided",
+ "geography": {
+  "country": "Italy",
+  "iso_n3": "380"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Tribunal of Turin (Tribunale di Torino), Office of the Judge for the Preliminary Hearing (GUP); then Public Prosecutor’s Office of Turin/Public Prosecutor General’s Office for the appeal"
+ },
+ "docket": "",
+ "description": "The first criminal proceedings in Italy against local administrators for the offence of negligent environmental pollution (Articles 452-bis and 452-quinquies of the Criminal Code) in relation to urban air quality. Defendants: the former mayors of Turin Chiara Appendino and Piero Fassino, the former President of the Piedmont Region Sergio Chiamparino, the former member of the municipal executive (assessore comunale) Enzo Lavolta and other administrators, for the failure to adopt, in the period 2015-2019, effective measures to prevent the systematic exceedance of the daily PM10 limits in Turin. Civil parties admitted: Comitato Torino Respira, Greenpeace Italia and ISDE (Italian Association of Doctors for the Environment); individual citizens were excluded.",
+ "outcome": "Judgment of non luogo a procedere (no grounds to proceed to trial) by the GUP of Turin of 4 July 2024: discharge of all defendants from the offence of negligent environmental pollution. The Public Prosecutor’s Office of Turin lodged an appeal, with a technical-legal brief attached by the Comitato Torino Respira. On 9 May 2025 the Public Prosecutor General’s Office (signed by the Public Prosecutor, the Deputy Public Prosecutor and the prosecutor, PM) withdrew the appeal: the proceedings thus ended definitively without a trial. The civil parties publicly challenged the withdrawal.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "Quotidiano Piemontese – Withdrawal of the appeal (9 May 2025) – Open – Discharge (4 July 2024)",
+   "url": "https://altreconomia.it/a-torino-gli-ex-amministratori-a-processo-per-la-qualita-dellaria/"
+  }
+ ]
+}

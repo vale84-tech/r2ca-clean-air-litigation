@@ -1,0 +1,25 @@
+{
+ "slug": "tatar-v-romania-baia-mare-mine",
+ "name": "Tătar v Romania (Baia Mare mine)",
+ "year": 2009,
+ "date": "27 January 2009",
+ "status": "Decided",
+ "geography": {
+  "country": "Romania",
+  "iso_n3": "642"
+ },
+ "jurisdiction": {
+  "type": "ECtHR",
+  "court": "European Court of Human Rights (ECtHR) - Third Section"
+ },
+ "docket": "",
+ "description": "Application no. 67021/01. Father and son Tătar, residents of Baia Mare, complained of the impact on health and the environment of the Aurul/Transgold gold mine, which used sodium cyanide in an open-cast process. In January 2000 the rupture of a settling basin had released approximately 100,000 m³ of water contaminated with cyanide and heavy metals, with effects also on atmospheric emissions of harmful substances.",
+ "outcome": "Violation of Article 8 ECHR. Fundamental judgment for the precautionary principle in ECHR law: the Court stated that the positive obligation to protect private life exists even in the absence of absolute scientific certainty about the risks, where there are reasonable indications of danger. Direct precedent for the subsequent Cordella and Cannavacciuolo cases against Italy.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "hudoc.echr.coe.int",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-90909"
+  }
+ ]
+}

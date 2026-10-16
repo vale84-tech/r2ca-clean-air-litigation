@@ -42,7 +42,7 @@
   });
 
   function counts() {
-    var byCountry = {}, byJuris = { CJEU: 0, ECtHR: 0, Domestic: 0 };
+    var byCountry = {}, byJuris = { CJEU: 0, ECtHR: 0, UN: 0, Domestic: 0 };
     state.cases.forEach(function (c) {
       var k = c.geography.iso_n3;
       byCountry[k] = (byCountry[k] || 0) + 1;
@@ -60,7 +60,7 @@
     var cn = counts();
     document.getElementById("stat-cases").textContent = state.cases.length;
     document.getElementById("stat-countries").textContent = Object.keys(cn.byCountry).length;
-    document.getElementById("stat-intl").textContent = (cn.byJuris.CJEU || 0) + (cn.byJuris.ECtHR || 0);
+    document.getElementById("stat-intl").textContent = (cn.byJuris.CJEU || 0) + (cn.byJuris.ECtHR || 0) + (cn.byJuris.UN || 0);
 
     drawMap(cn.byCountry);
     drawCourts(cn.byJuris);
@@ -82,15 +82,19 @@
     var geo = topojson.feature(state.world, state.world.objects.countries);
     var proj = d3.geoNaturalEarth1().fitExtent([[8, 8], [W - 8, H - 8]], geo);
     var path = d3.geoPath(proj);
-    var max = d3.max(Object.keys(byCountry).map(function (k) { return byCountry[k]; })) || 1;
-    var css = getComputedStyle(document.documentElement);
-    var ramp = ["--map-1", "--map-2", "--map-3", "--map-4"].map(function (v) { return css.getPropertyValue(v).trim(); });
-    var zero = css.getPropertyValue("--map-0").trim();
+    // CSS variables, not computed values, so the map follows a theme change without redrawing
+    var ramp = ["var(--map-1)", "var(--map-2)", "var(--map-3)", "var(--map-4)"];
+    var zero = "var(--map-0)";
+    // fixed thresholds: case counts are heavily skewed, equal-width bands would flatten all but the top country
+    var BREAKS = [1, 2, 4, 10];
+    var LABELS = ["1", "2–3", "4–9", "10+"];
+    function bucket(n) {
+      for (var i = BREAKS.length - 1; i >= 0; i--) { if (n >= BREAKS[i]) return i; }
+      return -1;
+    }
     function fill(n) {
-      if (!n) return zero;
-      if (max <= 1) return ramp[ramp.length - 1];
-      if (max <= ramp.length) return ramp[Math.round(((n - 1) / (max - 1)) * (ramp.length - 1))];
-      return ramp[Math.min(ramp.length - 1, Math.floor(((n - 1) / max) * ramp.length))];
+      var b = bucket(n || 0);
+      return b < 0 ? zero : ramp[b];
     }
     var tip = document.getElementById("map-tip");
 
@@ -99,7 +103,7 @@
       .join("path")
       .attr("class", function (d) { return "country" + (byCountry[d.id] ? " has-cases" : ""); })
       .attr("d", path)
-      .attr("fill", function (d) { return fill(byCountry[d.id]); })
+      .style("fill", function (d) { return fill(byCountry[d.id]); })
       .on("mousemove", function (ev, d) {
         var n = byCountry[d.id] || 0;
         tip.hidden = false;
@@ -113,21 +117,11 @@
         if (byCountry[d.id]) setCountry(state.country === d.id ? "" : d.id);
       });
 
-    // legenda (senza celle duplicate quando i casi sono pochi)
     var lg = document.getElementById("map-legend");
     var html = '<span class="cell"><span class="sw" style="background:' + zero + '"></span>0</span>';
-    if (max <= ramp.length) {
-      for (var v = 1; v <= max; v++) {
-        html += '<span class="cell"><span class="sw" style="background:' + fill(v) + '"></span>' + v + "</span>";
-      }
-    } else {
-      ramp.forEach(function (c, i) {
-        var lo = Math.floor((i / ramp.length) * max) + 1;
-        var hi = Math.floor(((i + 1) / ramp.length) * max);
-        if (hi < lo) hi = lo;
-        html += '<span class="cell"><span class="sw" style="background:' + c + '"></span>' + (lo === hi ? lo : lo + "–" + hi) + "</span>";
-      });
-    }
+    ramp.forEach(function (c, i) {
+      html += '<span class="cell"><span class="sw" style="background:' + c + '"></span>' + LABELS[i] + "</span>";
+    });
     lg.innerHTML = html + '<span style="margin-left:auto">cases per country</span>';
   }
 
@@ -140,8 +134,9 @@
     var box = document.getElementById("court-btns");
     var defs = [
       ["CJEU", "Court of Justice of the EU"],
-      ["ECtHR", "European Court of Human Rights"]
-    ];
+      ["ECtHR", "European Court of Human Rights"],
+      ["UN", "UN treaty bodies"]
+    ].filter(function (d) { return byJuris[d[0]]; });
     box.innerHTML = defs.map(function (d) {
       return '<button type="button" class="court-btn" data-j="' + d[0] + '"><span class="lbl">' + ICON_LANDMARK + "<span>" + esc(d[1]) + '</span></span><span class="count-pill">' + (byJuris[d[0]] || 0) + "</span></button>";
     }).join("");
@@ -197,11 +192,19 @@
       if (state.juris && c.jurisdiction.type !== state.juris) return false;
       if (state.status && statusGroup(c.status) !== state.status) return false;
       if (q) {
-        var hay = (c.name + " " + c.at_issue + " " + c.abstract + " " + c.docket + " " + c.jurisdiction.court + " " + c.geography.country + " " + c.topics.join(" ")).toLowerCase();
+        var hay = (c.name + " " + c.description + " " + c.outcome + " " + c.date + " " + c.docket + " " + c.jurisdiction.court + " " + c.geography.country + " " + c.topics.join(" ")).toLowerCase();
         if (hay.indexOf(q) === -1) return false;
       }
       return true;
-    }).sort(function (a, b) { return b.filing_year - a.filing_year || a.name.localeCompare(b.name); });
+    }).sort(function (a, b) { return b.year - a.year || a.name.localeCompare(b.name); });
+  }
+
+  var FORUM_LABEL = { Domestic: "Domestic courts", CJEU: "CJEU", ECtHR: "ECtHR", UN: "UN treaty body" };
+  function excerpt(s, max) {
+    s = String(s || "");
+    if (s.length <= max) return s;
+    var cut = s.slice(0, max);
+    return cut.slice(0, cut.lastIndexOf(" ")).replace(/[,;:.\s]+$/, "") + "…";
   }
 
   function renderList() {
@@ -212,11 +215,11 @@
     list.innerHTML = rows.map(function (c) {
       return '<li><a class="case-card" href="#case-' + esc(c.slug) + '">' +
         "<h3>" + esc(c.name) + "</h3>" +
-        '<p class="issue">' + esc(c.at_issue) + "</p>" +
+        '<p class="issue">' + esc(excerpt(c.description, 230)) + "</p>" +
         '<div class="meta-row">' +
         '<span class="tag geo">' + flagImg(c.geography.iso_n3) + "<span>" + esc(c.geography.country) + "</span></span>" +
-        '<span class="tag">' + esc(c.jurisdiction.type === "Domestic" ? "Domestic courts" : c.jurisdiction.type) + "</span>" +
-        '<span class="tag year">Filed ' + esc(c.filing_year) + "</span>" +
+        '<span class="tag">' + esc(FORUM_LABEL[c.jurisdiction.type] || c.jurisdiction.type) + "</span>" +
+        '<span class="tag year">' + esc(c.year) + "</span>" +
         '<span class="status ' + statusClass(c.status) + '">' + esc(c.status) + "</span>" +
         "</div></a></li>";
     }).join("");
@@ -243,37 +246,30 @@
   }
 
   function renderDetail(c) {
-    var procs = c.proceedings.map(function (p) {
-      var t = p.link ? '<a href="' + esc(p.link) + '" target="_blank" rel="noopener">' + esc(p.title) + " ↗</a>" : esc(p.title);
-      return "<tr><td class=\"d\">" + esc(p.date) + "</td><td>" + esc(p.body) + "</td><td>" + t + "</td><td>" + esc(p.outcome) + "</td></tr>";
-    }).join("");
     var srcs = c.sources.map(function (s) {
       return "<li>" + (s.url ? '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.label) + " ↗</a>" : esc(s.label)) + "</li>";
     }).join("");
     return '<a class="back-link" href="#database" onclick="location.hash=\'\';return false;">‹ Back to all cases</a>' +
       '<div class="detail-card">' +
       '<div class="detail-head">' +
-      '<span class="sample-chip">Sample record</span>' +
       "<h2>" + esc(c.name) + "</h2>" +
       '<div class="meta-row">' +
       '<span class="tag geo">' + flagImg(c.geography.iso_n3) + "<span>" + esc(c.geography.country) + "</span></span>" +
+      '<span class="tag">' + esc(FORUM_LABEL[c.jurisdiction.type] || c.jurisdiction.type) + "</span>" +
       '<span class="status ' + statusClass(c.status) + '">' + esc(c.status) + "</span>" +
       "</div></div>" +
       '<div class="detail-body">' +
       '<ul class="fact-grid">' +
-      "<li class=\"fact\"><b>Filing year</b><span>" + esc(c.filing_year) + "</span></li>" +
-      "<li class=\"fact\"><b>Status</b><span>" + esc(c.status) + "</span></li>" +
+      "<li class=\"fact\"><b>Court</b><span>" + esc(c.jurisdiction.court) + "</span></li>" +
+      "<li class=\"fact\"><b>Date</b><span>" + esc(c.date) + "</span></li>" +
       "<li class=\"fact\"><b>Geography</b><span>" + flagImg(c.geography.iso_n3) + esc(c.geography.country) + "</span></li>" +
-      "<li class=\"fact\"><b>Deciding bodies</b><span>" + esc(c.jurisdiction.court) + "</span></li>" +
-      "<li class=\"fact\"><b>Docket</b><span>" + esc(c.docket) + "</span></li>" +
+      (c.docket ? "<li class=\"fact\"><b>Docket</b><span>" + esc(c.docket) + "</span></li>" : "") +
       "</ul>" +
-      "<h4>At issue</h4><p class=\"abstract\">" + esc(c.at_issue) + "</p>" +
-      "<h4>Abstract</h4><p class=\"abstract\">" + esc(c.abstract) + "</p>" +
-      "<h4>Topics</h4><div class=\"topics\">" + c.topics.map(function (t) { return '<span class="tag">' + esc(t) + "</span>"; }).join("") + "</div>" +
-      "<h4>Proceedings</h4><div class=\"proc-table-wrap\"><table class=\"proc-table\">" +
-      "<thead><tr><th>Date</th><th>Body</th><th>Act</th><th>Outcome</th></tr></thead><tbody>" + procs + "</tbody></table></div>" +
-      "<h4>Sources</h4><ul class=\"sources-list\">" + srcs + "</ul>" +
-      "<h4>How to cite this entry</h4><p class=\"cite-box\">R2CA — The Right to Clean Air, <i>Clean Air Litigation Database</i>, University of Turin, entry «" + esc(c.name) + "» (sample record, preview build).</p>" +
+      "<h4>Description</h4><p class=\"abstract\">" + esc(c.description) + "</p>" +
+      "<h4>Outcome</h4><p class=\"abstract\">" + esc(c.outcome) + "</p>" +
+      (c.topics.length ? "<h4>Topics</h4><div class=\"topics\">" + c.topics.map(function (t) { return '<span class="tag">' + esc(t) + "</span>"; }).join("") + "</div>" : "") +
+      (srcs ? "<h4>Sources</h4><ul class=\"sources-list\">" + srcs + "</ul>" : "") +
+      "<h4>How to cite this entry</h4><p class=\"cite-box\">R2CA — The Right to Clean Air, <i>Clean Air Litigation Database</i>, University of Turin, entry “" + esc(c.name) + "”.</p>" +
       "</div></div>";
   }
 })();

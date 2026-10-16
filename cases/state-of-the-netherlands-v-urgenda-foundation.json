@@ -1,0 +1,25 @@
+{
+ "slug": "state-of-the-netherlands-v-urgenda-foundation",
+ "name": "State of the Netherlands v Urgenda Foundation",
+ "year": 2019,
+ "date": "20 December 2019",
+ "status": "Decided",
+ "geography": {
+  "country": "Netherlands",
+  "iso_n3": "528"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Hoge Raad (Supreme Court of the Netherlands)"
+ },
+ "docket": "",
+ "description": "The Urgenda Foundation and 886 Dutch citizens sought an order requiring the State to reduce greenhouse gas emissions (with direct effects on air quality and health) by 25-40% by 2020 compared with 1990 levels, in line with the 2007 IPCC report and with human rights protection obligations (Arts 2 and 8 ECHR).",
+ "outcome": "Claim upheld in the final instance. The Hoge Raad upheld the decisions of the lower courts, ordering the State to reduce emissions by at least 25% by the end of 2020 compared with 1990. This was the first judgment in the world in which a government was legally bound to accelerate climate mitigation on the basis of human rights obligations; it created a global precedent for climate/clean air litigation.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "climatecasechart.com",
+   "url": "https://climatecasechart.com/non-us-case/urgenda-foundation-v-kingdom-of-the-netherlands/"
+  }
+ ]
+}

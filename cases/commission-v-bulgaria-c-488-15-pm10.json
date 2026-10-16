@@ -1,0 +1,25 @@
+{
+ "slug": "commission-v-bulgaria-c-488-15-pm10",
+ "name": "Commission v Bulgaria (C-488/15) (PM10)",
+ "year": 2017,
+ "date": "5 April 2017",
+ "status": "Decided",
+ "geography": {
+  "country": "Bulgaria",
+  "iso_n3": "100"
+ },
+ "jurisdiction": {
+  "type": "CJEU",
+  "court": "Court of Justice of the European Union (CJEU) – Third Chamber"
+ },
+ "docket": "C-488/15",
+ "description": "Infringement proceedings against Bulgaria for the systematic and continuous exceedance of the daily and annual limit values for PM10 (Directive 2008/50/EC) in numerous zones and agglomerations, from 2007 to 2014, and for the failure to adopt appropriate measures under Article 23. The CJEU's first major litigation on air quality.",
+ "outcome": "Action upheld. The CJEU ruled against Bulgaria for infringement of Articles 13 and 23 of Directive 2008/50/EC, laying down the principle that the exceedance of the limit values is in itself sufficient to constitute a failure to fulfil obligations and that it is for the State to demonstrate, by means of credible plans, a return to compliance in the shortest possible time. Direct precedent for the subsequent case law against Poland, Italy, France.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "eur-lex.europa.eu",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62015CJ0488"
+  }
+ ]
+}

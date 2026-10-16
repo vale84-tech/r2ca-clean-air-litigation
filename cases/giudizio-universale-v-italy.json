@@ -1,0 +1,25 @@
+{
+ "slug": "giudizio-universale-v-italy",
+ "name": "Giudizio Universale v Italy",
+ "year": 2024,
+ "date": "26 February 2024 (judgment no. 3552/2024)",
+ "status": "Decided — appeal pending",
+ "geography": {
+  "country": "Italy",
+  "iso_n3": "380"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Tribunal of Rome (Tribunale ordinario di Roma)"
+ },
+ "docket": "no. 3552/2024",
+ "description": "The first Italian climate case, brought by over 200 claimants (including 24 associations, among them A Sud, ReCommon and WWF Italia) against the Italian State (Presidency of the Council of Ministers) over the inadequacy of national climate policies and the resulting effects on health, air quality and fundamental rights. Legal basis: Articles 2 and 8 ECHR, Articles 2, 9 and 32 of the Constitution, EU law and the Paris Agreement.",
+ "outcome": "The claim was declared inadmissible for absolute lack of jurisdiction. Judge Katia Canonaco held that the Italian legal order does not offer “a rule of law abstractly capable of protecting the interest asserted in the proceedings”, the matter being one reserved to political discretion. The decision was strongly criticised by legal scholars and has been appealed; it has nonetheless opened the debate on climate/clean air litigation in Italy.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "climatecasechart.com",
+   "url": "https://climatecasechart.com/non-us-case/a-sud-et-al-v-italy/"
+  }
+ ]
+}

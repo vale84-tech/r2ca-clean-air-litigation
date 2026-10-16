@@ -1,0 +1,25 @@
+{
+ "slug": "cannavacciuolo-v-italy-terra-dei-fuochi-land-of-fires",
+ "name": "Cannavacciuolo v Italy (“Terra dei Fuochi” – “Land of Fires”)",
+ "year": 2025,
+ "date": "30 January 2025",
+ "status": "Decided",
+ "geography": {
+  "country": "Italy",
+  "iso_n3": "380"
+ },
+ "jurisdiction": {
+  "type": "ECtHR",
+  "court": "European Court of Human Rights (ECtHR) - First Section (pilot judgment)"
+ },
+ "docket": "",
+ "description": "Applications nos. 51567/14 and 3 others, joined, by residents of the so-called “Terra dei Fuochi” (an area of 2.9 million inhabitants between the provinces of Naples and Caserta) exposed for decades to the illegal dumping, burial and burning of waste by organised crime, with toxic emissions into the air (dioxins, PAHs, PM) and environmental contamination. Alleged violation of Articles 2 and 8 ECHR.",
+ "outcome": "Violation of Article 2 ECHR (first application to a case of widespread, large-scale pollution). The “pilot judgment” procedure under Article 46 was activated for the first time in environmental matters: the State must adopt a comprehensive strategy (with existing and new measures), an independent monitoring mechanism and a public information platform. Precautionary approach: the violation was found even in the absence of scientific certainty as to the individual causal link.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "hudoc.echr.coe.int",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-241395"
+  }
+ ]
+}

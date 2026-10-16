@@ -1,0 +1,25 @@
+{
+ "slug": "guerra-and-others-v-italy-enichem-manfredonia",
+ "name": "Guerra and Others v Italy (Enichem Manfredonia)",
+ "year": 1998,
+ "date": "19 February 1998",
+ "status": "Decided",
+ "geography": {
+  "country": "Italy",
+  "iso_n3": "380"
+ },
+ "jurisdiction": {
+  "type": "ECtHR",
+  "court": "European Court of Human Rights (ECtHR) - Grand Chamber"
+ },
+ "docket": "",
+ "description": "Application no. 14967/89 by 40 residents of Manfredonia (FG) who lived about 1 km from the Enichem agricoltura chemical plant (production of fertilisers and caprolactam), classified as “high risk” under the Seveso Directive. Alleged emissions of flammable and toxic substances, a serious accident in 1976 and the lack of information on the risks and on emergency plans.",
+ "outcome": "Violation of Article 8 ECHR. The Court, sitting as a Grand Chamber, held that the State had a positive obligation to provide residents with essential information on environmental and health risks and on the conduct to adopt in the event of an accident; the failure to do so had prevented them from assessing the risks to themselves and their families. Leading case on the duty of environmental information under the Convention.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "hudoc.echr.coe.int",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-58135"
+  }
+ ]
+}

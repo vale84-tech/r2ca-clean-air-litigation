@@ -1,0 +1,25 @@
+{
+ "slug": "commission-v-poland-c-336-16-pm10",
+ "name": "Commission v Poland (C-336/16) (PM10)",
+ "year": 2018,
+ "date": "22 February 2018",
+ "status": "Decided",
+ "geography": {
+  "country": "Poland",
+  "iso_n3": "616"
+ },
+ "jurisdiction": {
+  "type": "CJEU",
+  "court": "Court of Justice of the European Union (CJEU) – Third Chamber"
+ },
+ "docket": "C-336/16",
+ "description": "Action brought by the European Commission against Poland for the systematic exceedance of the PM10 limit values between 2007 and 2015 in 35 zones of the country, for the failure to adopt suitable air quality plans under Article 23, and for the incorrect transposition of Annex XV of Directive 2008/50/EC.",
+ "outcome": "Action upheld in its entirety. The CJEU declared that Poland had failed to fulfil its obligations under Articles 13(1) and 23(1) and Annex XV. The judgment has been used as the basis for numerous Polish domestic cases (in particular by ClientEarth and Rodzice dla Klimatu) and for the local anti-smog plans of Kraków and other cities.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "eur-lex.europa.eu",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:62016CJ0336"
+  }
+ ]
+}

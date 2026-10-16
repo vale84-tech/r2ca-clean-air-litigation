@@ -1,0 +1,25 @@
+{
+ "slug": "giacomelli-v-italy-brescia",
+ "name": "Giacomelli v Italy (Brescia)",
+ "year": 2006,
+ "date": "2 November 2006",
+ "status": "Decided",
+ "geography": {
+  "country": "Italy",
+  "iso_n3": "380"
+ },
+ "jurisdiction": {
+  "type": "ECtHR",
+  "court": "European Court of Human Rights (ECtHR) - Third Section"
+ },
+ "docket": "",
+ "description": "Application no. 59909/00. The applicant, Piera Giacomelli, resident in Brescia since 1950 in a house 30 metres from the Ecoservizi plant for the storage and treatment of special waste (including “detoxification” with chemical substances), complained of odours, noise and toxic emissions into the air and of the authorities' failure to bring the activity to an end despite negative environmental impact assessments (EIA) and closure orders.",
+ "outcome": "Violation of Article 8 ECHR. The Court held that the State had not struck a fair balance between economic interests and the applicant's rights to respect for her home and private life, having tolerated for years the continuation of the plant's activity in breach of its own decrees. EUR 12,000 in compensation was awarded. Reinforces the López Ostra/Fadeyeva line of case law on industrial emissions.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "hudoc.echr.coe.int",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-77785"
+  }
+ ]
+}

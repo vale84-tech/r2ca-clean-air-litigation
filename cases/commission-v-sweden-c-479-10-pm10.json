@@ -1,0 +1,25 @@
+{
+ "slug": "commission-v-sweden-c-479-10-pm10",
+ "name": "Commission v Sweden (C-479/10) (PM10)",
+ "year": 2011,
+ "date": "10 May 2011",
+ "status": "Decided",
+ "geography": {
+  "country": "Sweden",
+  "iso_n3": "752"
+ },
+ "jurisdiction": {
+  "type": "CJEU",
+  "court": "Court of Justice of the European Union (CJEU) – Fifth Chamber"
+ },
+ "docket": "C-479/10",
+ "description": "Action for failure to fulfil obligations brought by the European Commission against the Kingdom of Sweden for the exceedance of the limit values for PM10 concentrations in ambient air laid down by Directive 1999/30/EC, in the years 2005-2007 in zones SW 2 and SW 4, and in the years 2005-2006 in zone SW 5.",
+ "outcome": "Action upheld. The CJEU declared that Sweden had failed to fulfil its obligations under Article 5(1) of Directive 1999/30/EC. This is one of the Court's first adverse rulings on the exceedance of the PM10 limit values, a direct precedent for the subsequent case law (C-488/15 Bulgaria, C-336/16 Poland, C-635/18 Germany, C-636/18 France, C-638/18 Romania, C-644/18 Italy, C-664/18 United Kingdom).",
+ "topics": [],
+ "sources": [
+  {
+   "label": "eur-lex.europa.eu",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A62010CJ0479"
+  }
+ ]
+}

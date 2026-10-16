@@ -1,0 +1,25 @@
+{
+ "slug": "massachusetts-v-epa",
+ "name": "Massachusetts v EPA",
+ "year": 2007,
+ "date": "2 April 2007",
+ "status": "Decided",
+ "geography": {
+  "country": "United States",
+  "iso_n3": "840"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "United States Supreme Court, 549 U.S. 497"
+ },
+ "docket": "549 U.S. 497",
+ "description": "Petition by 12 States (led by Massachusetts), cities and NGOs against the Environmental Protection Agency (EPA) for its refusal to regulate greenhouse gases emitted by motor vehicles under the Clean Air Act. The EPA’s position was challenged, according to which greenhouse gases (CO2, CH4, N2O, HFC) were not “air pollutants” that could be regulated under Section 202(a)(1) of the Clean Air Act.",
+ "outcome": "5-4 majority judgment in favour of the petitioners. The United States Supreme Court held that (i) the States had standing, (ii) greenhouse gases fall within the definition of “air pollutant” in the Clean Air Act, and (iii) the EPA had to give scientifically grounded reasons for any decision to regulate or not to regulate the emissions. A global leading case for climate regulation: it paves the way for the Endangerment Finding (2009) and the Clean Power Plan.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "supreme.justia.com",
+   "url": "https://supreme.justia.com/cases/federal/us/549/497/"
+  }
+ ]
+}

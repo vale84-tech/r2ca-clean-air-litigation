@@ -1,0 +1,25 @@
+{
+ "slug": "les-amis-de-la-terre-v-prime-minister",
+ "name": "Les Amis de la Terre v Prime Minister",
+ "year": 2017,
+ "date": "12 July 2017; 10 July 2020; 4 August 2021; 17 October 2022; 24 November 2023",
+ "status": "Decided — enforcement ongoing",
+ "geography": {
+  "country": "France",
+  "iso_n3": "250"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Conseil d'État (French Council of State)"
+ },
+ "docket": "",
+ "description": "Series of decisions of the French Conseil d'État, on the application of the association Les Amis de la Terre and other NGOs, concerning the persistent exceedance of EU limits for NO2 and PM10 in numerous French zones (in particular Paris, Lyon, Marseille, Grenoble, Toulouse). The applicants asked that the French State adopt effective plans pursuant to Directive 2008/50/EC and Article L. 222-4 of the Code de l'environnement.",
+ "outcome": "In 2017 the Conseil d'État ordered the State to revise the air quality plans; in 2020, as the decision had not been implemented, it imposed a penalty of EUR 10 million for each six-month period of delay. Actual penalties of EUR 10 million (August 2021) and EUR 20 million (October 2022) were then imposed.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "conseil-etat.fr",
+   "url": "https://www.conseil-etat.fr/Pages-internationales/english/news/air-pollution-the-conseil-d-etat-orders-the-french-state-to-pay-two-fines-of-10-million"
+  }
+ ]
+}

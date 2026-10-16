@@ -47,29 +47,39 @@ collections:
     delete: true
     identifier_field: name
     slug: "{{fields.slug}}"
-    summary: "{{name}} — {{fields.geography.country}} ({{filing_year}})"
-    sortable_fields: [name, filing_year]
+    summary: "{{name}} — {{fields.geography.country}} ({{year}})"
+    sortable_fields: [name, year]
     fields:
       - label: "URL slug"
         name: slug
         widget: string
-        pattern: ["^[a-z0-9-]+$", "Lowercase letters, numbers and hyphens only (e.g. commission-v-italy-pm10)"]
+        pattern: ["^[a-z0-9-]+$", "Lowercase letters, numbers and hyphens only (e.g. commission-v-italy-pm10-c-644-18)"]
         hint: "Unique identifier used in the entry's web address. Choose it once and do not change it after publication: links and citations depend on it."
       - label: "Case name"
         name: name
         widget: string
-        hint: "Full case name as it should appear on the site, e.g. 'European Commission v Italian Republic (PM10)'."
-      - label: "Filing year"
-        name: filing_year
+        hint: "Case name as it should appear on the site, e.g. 'Commission v Italy (PM10) (C-644/18)'."
+      - label: "Year"
+        name: year
         widget: number
         value_type: int
         min: 1950
         max: 2100
-        hint: "Year the first proceeding of the case was brought."
+        hint: "Year of the first decision or procedural step described in the record. Used to sort the list."
+      - label: "Date(s)"
+        name: date
+        widget: string
+        hint: "Date(s) of the decision(s) as they should be shown, e.g. '10 November 2020' or '12 July 2017; 10 July 2020 (enforcement)'."
       - label: "Status"
         name: status
-        widget: string
-        hint: "Shown on the card, e.g. 'Decided', 'Pending', 'Decided — execution pending'. Use the word 'pending' for pending cases and 'enforcement' or 'execution' for enforcement stages: the status filter groups cases by these words."
+        widget: select
+        options:
+          - "Decided"
+          - "Decided — appeal pending"
+          - "Decided — merits pending"
+          - "Decided — enforcement ongoing"
+          - "Pending"
+          - "Inadmissible"
       - label: "Geography (country of the facts)"
         name: geography
         widget: object
@@ -77,7 +87,7 @@ collections:
           - label: "Country"
             name: country
             widget: string
-            hint: "Country name in English, matching the map (e.g. Italy, France, United Kingdom)."
+            hint: "Country name in English (e.g. Italy, France, United Kingdom). For cases against several States before an international court, the first respondent State."
           - label: "Country code (3 digits)"
             name: iso_n3
             widget: string
@@ -94,43 +104,33 @@ collections:
               - { label: "Domestic courts", value: "Domestic" }
               - { label: "Court of Justice of the EU", value: "CJEU" }
               - { label: "European Court of Human Rights", value: "ECtHR" }
-          - label: "Deciding bodies"
+              - { label: "UN treaty bodies", value: "UN" }
+          - label: "Court(s)"
             name: court
             widget: string
-            hint: "Free text, e.g. 'Court of Justice of the European Union (Grand Chamber), on a reference from …'."
-      - label: "Docket number(s)"
+            hint: "Free text, e.g. 'Court of Justice of the European Union (Grand Chamber)'."
+      - label: "Docket number(s) (optional)"
         name: docket
         widget: string
-      - label: "At issue"
-        name: at_issue
+        required: false
+      - label: "Description"
+        name: description
         widget: text
-        hint: "One or two sentences: what the case is about."
-      - label: "Abstract"
-        name: abstract
+        hint: "What the case is about: parties, claims, legal basis."
+      - label: "Outcome"
+        name: outcome
         widget: text
-        hint: "The original abstract of the editorial team."
-      - label: "Topics"
+        hint: "What was decided, and the current state of the proceedings."
+      - label: "Topics (optional)"
         name: topics
         widget: list
+        required: false
         field: { label: Topic, name: topic, widget: string }
         hint: "Thematic keywords, e.g. PM10, Air quality plans, Enforcement."
-      - label: "Proceedings"
-        name: proceedings
-        widget: list
-        summary: "{{fields.date}} — {{fields.title}}"
-        hint: "One row per procedural step, in chronological order."
-        fields:
-          - label: "Date (DD/MM/YYYY)"
-            name: date
-            widget: string
-            pattern: ["^[0-9]{2}/[0-9]{2}/[0-9]{4}$", "Use the format DD/MM/YYYY, e.g. 10/11/2020"]
-          - { label: "Body", name: body, widget: string }
-          - { label: "Act / title", name: title, widget: string }
-          - { label: "Outcome", name: outcome, widget: text }
-          - { label: "Link to the act (optional)", name: link, widget: string, required: false }
       - label: "Sources"
         name: sources
         widget: list
+        required: false
         summary: "{{fields.label}}"
         fields:
           - { label: "Citation / label", name: label, widget: string }

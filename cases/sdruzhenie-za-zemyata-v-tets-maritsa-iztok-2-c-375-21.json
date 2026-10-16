@@ -1,0 +1,25 @@
+{
+ "slug": "sdruzhenie-za-zemyata-v-tets-maritsa-iztok-2-c-375-21",
+ "name": "Sdruzhenie Za Zemyata v TETS Maritsa Iztok 2 (C-375/21)",
+ "year": 2023,
+ "date": "9 March 2023",
+ "status": "Decided",
+ "geography": {
+  "country": "Bulgaria",
+  "iso_n3": "100"
+ },
+ "jurisdiction": {
+  "type": "CJEU",
+  "court": "Court of Justice of the European Union (CJEU) - Second Chamber"
+ },
+ "docket": "C-375/21",
+ "description": "Reference for a preliminary ruling from the Bulgarian Supreme Administrative Court: NGOs (Sdruzhenie Za Zemyata, Green Tank, NS) challenged the update of the IPPC permit for the “TETS Maritsa Iztok 2” thermal power plant, with derogations from the emission limit values (SO2), allowing less stringent values as provided for by Directive 2010/75/EU, in a region where the ambient air quality limit values for SO2 and PM10 were exceeded (infringement of Directive 2008/50/EC).",
+ "outcome": "The CJEU held that, where the air quality limit values under Directive 2008/50/EC are exceeded, the competent authorities may not grant derogations from the emission limit values under Article 15(4) of Directive 2010/75/EU that would further aggravate the situation. Leading case on the coordination between the AQD (ambient air) and the IED (industrial emissions).",
+ "topics": [],
+ "sources": [
+  {
+   "label": "curia.europa.eu",
+   "url": "https://curia.europa.eu/juris/liste.jsf?num=C-375/21"
+  }
+ ]
+}

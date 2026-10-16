@@ -20,20 +20,20 @@ La pubblicazione è immediata: entro circa un minuto il sito si rigenera da solo
 
 | Campo | Che cosa scrivere |
 |---|---|
-| URL slug | L'identificativo dell'indirizzo web della scheda, in minuscolo con trattini (es. `commission-v-italy-pm10`). Si sceglie una volta e **non si cambia più**: link e citazioni dipendono da questo. |
-| Case name | Il nome completo del caso come deve apparire sul sito. |
-| Filing year | L'anno in cui è stato avviato il primo procedimento. |
-| Status | Testo libero mostrato sulla scheda (es. `Decided`, `Pending`, `Decided — execution pending`). Il filtro per stato raggruppa in base alle parole: usare `pending` per i pendenti e `enforcement`/`execution` per le fasi esecutive. |
-| Geography → Country | Il paese dei fatti, in inglese, col nome usato dalla mappa (es. `Italy`, `United Kingdom`). |
+| URL slug | L'identificativo dell'indirizzo web della scheda, in minuscolo con trattini (es. `commission-v-italy-pm10-c-644-18`). Si sceglie una volta e **non si cambia più**: link e citazioni dipendono da questo. |
+| Case name | Il nome del caso come deve apparire sul sito. |
+| Year | L'anno della prima decisione o del primo passaggio processuale descritto nella scheda: serve a ordinare l'elenco. |
+| Date(s) | La data o le date delle decisioni, come devono comparire sulla scheda (es. `10 November 2020`, oppure più date separate da punto e virgola). |
+| Status | Si sceglie da un elenco: `Decided`, `Decided — appeal pending`, `Decided — merits pending`, `Decided — enforcement ongoing`, `Pending`, `Inadmissible`. Il filtro per stato del sito si basa su questa scelta. |
+| Geography → Country | Il paese dei fatti, in inglese (es. `Italy`, `United Kingdom`). Per i ricorsi contro più Stati davanti a una corte o a un organo internazionale: il primo Stato convenuto. |
 | Geography → Country code | Il codice numerico a 3 cifre che aggancia il caso alla mappa: **è l'unico campo delicato**. La tabella completa è in [`codici-paesi.md`](codici-paesi.md). I più frequenti: Italia 380, Francia 250, Germania 276, Regno Unito 826, Belgio 056, Spagna 724, Paesi Bassi 528, Polonia 616, Stati Uniti 840. |
-| Forum → Type | Chi decide: corti nazionali (`Domestic courts`), Corte di giustizia UE o Corte EDU. Per i casi CGUE/CEDU il paese resta quello dei fatti: il caso compare sia sulla mappa sia nel pannello delle corti internazionali. |
-| Forum → Deciding bodies | Descrizione libera dell'autorità o delle autorità (es. «Court of Justice of the European Union (Grand Chamber), on a reference from …»). |
-| Docket number(s) | Numero/i di ruolo o di ricorso. |
-| At issue | Una o due frasi: di che cosa tratta il caso. |
-| Abstract | L'abstract originale della redazione. |
-| Topics | Parole chiave tematiche, una per riga (es. `PM10`, `Air quality plans`). |
-| Proceedings | Una riga per passaggio processuale, in ordine cronologico: data (GG/MM/AAAA), organo, atto, esito, e — se disponibile — il link al testo dell'atto. |
-| Sources | Le fonti del caso: citazione completa e, se disponibile, il link (EUR-Lex, HUDOC, ArianeWeb, climatecasechart, siti delle corti…). |
+| Forum → Type | Chi decide: corti nazionali (`Domestic courts`), Corte di giustizia UE, Corte EDU o organi ONU (`UN treaty bodies`). Per i casi internazionali il paese resta quello dei fatti: il caso compare sia sulla mappa sia nel pannello delle corti internazionali. |
+| Forum → Court(s) | Descrizione libera dell'autorità o delle autorità (es. “Court of Justice of the European Union (Grand Chamber)”). |
+| Docket number(s) | Facoltativo: numero/i di ruolo, di causa o di ricorso. |
+| Description | Di che cosa tratta il caso: parti, domande, basi giuridiche. |
+| Outcome | Che cosa è stato deciso e lo stato attuale del procedimento. |
+| Topics | Facoltativo: parole chiave tematiche, una per riga (es. `PM10`, `Air quality plans`). |
+| Sources | Le fonti del caso: citazione e, se disponibile, il link (EUR-Lex, HUDOC, siti delle corti, climatecasechart, articoli di commento…). |
 
 ## Correggere o eliminare un caso
 

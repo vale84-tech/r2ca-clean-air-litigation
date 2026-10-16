@@ -1,0 +1,25 @@
+{
+ "slug": "cordella-and-others-v-italy-ilva-taranto",
+ "name": "Cordella and Others v Italy (ILVA Taranto)",
+ "year": 2019,
+ "date": "24 January 2019",
+ "status": "Decided",
+ "geography": {
+  "country": "Italy",
+  "iso_n3": "380"
+ },
+ "jurisdiction": {
+  "type": "ECtHR",
+  "court": "European Court of Human Rights (ECtHR) - First Section"
+ },
+ "docket": "",
+ "description": "Applications nos. 54414/13 and 54264/15 by 180 citizens residing in Taranto and neighbouring municipalities, who complained of the effects on health and the environment of the toxic emissions from the Ilva steel plant (dioxin, PCBs, PM10, benzo(a)pyrene, heavy metals). Alleged violation of Articles 2 (right to life), 8 (private and family life) and 13 (effective remedy) of the Convention.",
+ "outcome": "Violation of Articles 8 and 13 ECHR. The Court held that the Italian authorities had not taken all the measures necessary to protect effectively the health and well-being of the applicants, and that the “salva-Ilva” (“Save Ilva”) decrees had deprived those concerned of effective remedies. EUR 5,000 was awarded to each applicant for legal costs and Italy was required to give prompt effect to the environmental plan.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "hudoc.echr.coe.int",
+   "url": "https://hudoc.echr.coe.int/eng?i=001-189421"
+  }
+ ]
+}

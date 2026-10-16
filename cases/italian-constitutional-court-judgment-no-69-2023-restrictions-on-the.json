@@ -1,0 +1,25 @@
+{
+ "slug": "italian-constitutional-court-judgment-no-69-2023-restrictions-on-the",
+ "name": "Italian Constitutional Court, judgment no. 69/2023 – restrictions on the circulation of polluting vehicles (Lombardy)",
+ "year": 2023,
+ "date": "13 April 2023 (filed), judgment no. 69/2023",
+ "status": "Decided",
+ "geography": {
+  "country": "Italy",
+  "iso_n3": "380"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Italian Constitutional Court"
+ },
+ "docket": "no. 69/2023",
+ "description": "Direct constitutional review proceedings (in via principale) brought by the President of the Council of Ministers against certain provisions of Regional Law of Lombardy no. 8/2022 (First Law on the Regulatory Revision of the Legal Order 2022), in particular concerning the introduction of technological tools (approved devices) to detect violations of the regional restrictions on the circulation of polluting vehicles in limited-transit areas. The application was based on the exclusive State competences in the matter of public order and security.",
+ "outcome": "Questions declared unfounded. The Court attributed the regulation not so much to public order as to the protection of the environment and health (matters of concurrent/regional legislation), recognising the Region’s competence to introduce tools for controlling vehicle emissions in limited-traffic zones.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "Italian Constitutional Court, judgment no. 69/2023",
+   "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2023/69"
+  }
+ ]
+}

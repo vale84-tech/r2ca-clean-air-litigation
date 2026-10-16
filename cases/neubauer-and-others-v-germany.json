@@ -1,0 +1,25 @@
+{
+ "slug": "neubauer-and-others-v-germany",
+ "name": "Neubauer and Others v Germany",
+ "year": 2021,
+ "date": "24 March 2021",
+ "status": "Decided",
+ "geography": {
+  "country": "Germany",
+  "iso_n3": "276"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Bundesverfassungsgericht (German Federal Constitutional Court) – First Senate"
+ },
+ "docket": "",
+ "description": "Constitutional complaints brought by young complainants (Luisa Neubauer and others) against the German Federal Climate Protection Act (Bundes-Klimaschutzgesetz – KSG) of 2019, which set emission reduction targets up to 2030 but deferred to future administrations the definition of the subsequent pathways, with an impact also on air quality and on the fundamental rights of future generations.",
+ "outcome": "Complaint partially upheld. The BVerfG declared the provisions of the KSG on the post-2030 targets unconstitutional for violation of freedom (Arts 2(1) and 20a GG), developing the doctrine of the “advance effect of intrusion” (eingriffsähnliche Vorwirkung): the insufficient apportionment of reduction efforts falls disproportionately on future generations. A revision of the law was ordered, and the law was subsequently amended in August 2021.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "climatecasechart.com",
+   "url": "https://climatecasechart.com/non-us-case/neubauer-et-al-v-germany/"
+  }
+ ]
+}

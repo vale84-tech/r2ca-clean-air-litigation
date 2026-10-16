@@ -1,0 +1,25 @@
+{
+ "slug": "conseil-d-etat-24-november-2023-amis-de-la-terre-2023-penalty-payment",
+ "name": "Conseil d'État, 24 November 2023 – Amis de la Terre (2023 penalty payment)",
+ "year": 2023,
+ "date": "24 November 2023 (no. 428409)",
+ "status": "Decided — enforcement ongoing",
+ "geography": {
+  "country": "France",
+  "iso_n3": "250"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Conseil d'État (French Council of State) – air quality litigation, enforcement phase"
+ },
+ "docket": "no. 428409",
+ "description": "Enforcement phase of the “Les Amis de la Terre” litigation: on a fresh application by the environmental associations, the Conseil d'État assessed the state of compliance with the NO2 and PM10 obligations imposed by the judgments of 2017, 2020, 2021 and 2022, reviewing the measures put in place by the French State under the atmosphere protection plans (PPA) of Paris, Lyon and Marseille.",
+ "outcome": "The Conseil d'État imposed a further penalty of EUR 10 million for the six-month period of delay between 12 July 2022 and 1 January 2023, acknowledging partial improvements but the persistence of exceedances in some zones. Overall, since 2020, more than EUR 50 million in penalties have been allocated to associations and monitoring bodies.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "legifrance.gouv.fr",
+   "url": "https://www.legifrance.gouv.fr/ceta/id/CETATEXT000048465173"
+  }
+ ]
+}

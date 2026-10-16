@@ -1,0 +1,33 @@
+{
+ "slug": "commune-de-grande-synthe-v-france",
+ "name": "Commune de Grande-Synthe v France",
+ "year": 2020,
+ "date": "19 November 2020 (admissibility and preliminary inquiry, no. 427301); 1 July 2021 (annulment and injunction, no. 427301); 10 May 2023 (enforcement, no. 467982)",
+ "status": "Decided",
+ "geography": {
+  "country": "France",
+  "iso_n3": "250"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Conseil d'État (French Council of State)"
+ },
+ "docket": "no. 427301; no. 467982",
+ "description": "Application by the Commune of Grande-Synthe and its mayor, supported by the Municipalities of Paris and Grenoble and by environmental associations (Notre Affaire à Tous, Oxfam France, Fondation pour la Nature et l'Homme, Greenpeace France), against the implied refusal of the President of the Republic, the Prime Minister and the Minister for Ecological Transition to adopt all appropriate measures to redirect the trajectory of French greenhouse gas emissions in a manner consistent with national, European and international commitments (including the Paris Agreement), with repercussions also on ambient air quality.",
+ "outcome": "By the decision of 19 November 2020 the Conseil d'État recognised the standing of the Commune of Grande-Synthe in view of its high exposure to climate risks. By the decision of 1 July 2021 it annulled the Government’s implied refusal and ordered the State to adopt, by 31 March 2022, all appropriate measures to achieve a 40% reduction in greenhouse gas emissions by 2030 compared with 1990. By the decision of 10 May 2023 the Conseil d'État held that the additional measures adopted did not yet offer a sufficiently credible guarantee that the objective would be achieved and ordered new measures by 30 June 2024, with an obligation of periodic reporting; the litigation then evolved further with a decision of the Conseil d'État of 24 October 2025, which declared the 2021 and 2023 decisions to have been fully implemented.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "conseil-etat.fr",
+   "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2020-11-19/427301"
+  },
+  {
+   "label": "conseil-etat.fr",
+   "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2021-07-01/427301"
+  },
+  {
+   "label": "conseil-etat.fr",
+   "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2023-05-10/467982"
+  }
+ ]
+}

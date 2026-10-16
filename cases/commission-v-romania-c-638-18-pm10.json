@@ -1,0 +1,25 @@
+{
+ "slug": "commission-v-romania-c-638-18-pm10",
+ "name": "Commission v Romania (C-638/18) (PM10)",
+ "year": 2020,
+ "date": "30 April 2020",
+ "status": "Decided",
+ "geography": {
+  "country": "Romania",
+  "iso_n3": "642"
+ },
+ "jurisdiction": {
+  "type": "CJEU",
+  "court": "Court of Justice of the European Union (CJEU) – Seventh Chamber"
+ },
+ "docket": "C-638/18",
+ "description": "Action brought by the European Commission against Romania for the systematic and persistent failure to comply, since 2007, with the daily limit values, and from 2007 to 2014 (excluding 2013) with the annual limit values, for PM10 concentrations in zone RO32101 (Bucharest), in breach of Article 13(1) and Annex XI of Directive 2008/50/EC, and for the failure to adopt appropriate measures to keep the period of exceedance “as short as possible” under Article 23(1).",
+ "outcome": "Action upheld. The CJEU declared that Romania had failed to fulfil its obligations under Articles 13(1) and 23(1) of Directive 2008/50/EC. The judgment forms part of the line of judgments finding against Member States for PM10/NO2 (Bulgaria, Poland, Italy, France, Germany, United Kingdom) and was subsequently also referred to in judgment C-664/18 (United Kingdom) as regards the criteria for establishing the persistence of the infringement.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "eur-lex.europa.eu",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62018CJ0638"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "commission-v-italy-c-573-19-no2",
+ "name": "Commission v Italy (C-573/19) (NO2)",
+ "year": 2022,
+ "date": "12 May 2022",
+ "status": "Decided",
+ "geography": {
+  "country": "Italy",
+  "iso_n3": "380"
+ },
+ "jurisdiction": {
+  "type": "CJEU",
+  "court": "Court of Justice of the European Union (CJEU) – Seventh Chamber"
+ },
+ "docket": "C-573/19",
+ "description": "Infringement proceedings against Italy for the systematic and persistent exceedance of the annual limit value for nitrogen dioxide (NO2) laid down by Directive 2008/50/EC, in force since 2010, in several Italian zones (including Turin, Milan, Rome, Genoa, Florence, Palermo, Catania and other agglomerations). The failure to adopt suitable measures to make the period of exceedance “as short as possible” was also alleged.",
+ "outcome": "Action upheld. The CJEU ruled against Italy for breach of Articles 13(1) and 23(1) of Directive 2008/50/EC, confirming that the air quality plans adopted were not suitable to ensure a return to compliance in the shortest possible time. The judgment reinforces the precedent in C-644/18, extending the finding to NO2 as well.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "eur-lex.europa.eu",
+   "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:62019CJ0573"
+  }
+ ]
+}

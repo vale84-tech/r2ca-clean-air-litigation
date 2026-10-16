@@ -1,0 +1,25 @@
+{
+ "slug": "ella-adoo-kissi-debrah-inquest",
+ "name": "Ella Adoo-Kissi-Debrah Inquest",
+ "year": 2020,
+ "date": "16 December 2020",
+ "status": "Decided",
+ "geography": {
+  "country": "United Kingdom",
+  "iso_n3": "826"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Inner South London Coroner’s Court"
+ },
+ "docket": "",
+ "description": "Second inquest into the death from an acute asthma attack of Ella Adoo-Kissi-Debrah, a 9-year-old girl living in Lewisham (London) about 25 metres from the South Circular Road, who died in February 2013. The inquest examined exposure to high concentrations of NO2 and particulate matter exceeding the WHO guidelines and EU limits.",
+ "outcome": "The coroner, Philip Barlow, found that air pollution “materially contributed” to Ella’s death and that there was a “recognised failure” to reduce NO2 levels within EU limits. This was the first time in the world that a death certificate recorded air pollution as a cause. The decision led to the “Prevention of Future Deaths Report” (Regulation 28 Report) and to the so-called “Ella’s Law”.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "judiciary.uk",
+   "url": "https://www.judiciary.uk/prevention-of-future-death-reports/ella-kissi-debrah/"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "slug": "commission-v-italy-c-644-18-pm10",
+ "name": "Commission v Italy (C-644/18) (PM10)",
+ "year": 2020,
+ "date": "10 November 2020",
+ "status": "Decided — enforcement ongoing",
+ "geography": {
+  "country": "Italy",
+  "iso_n3": "380"
+ },
+ "jurisdiction": {
+  "type": "CJEU",
+  "court": "Court of Justice of the European Union (CJEU) – Grand Chamber"
+ },
+ "docket": "C-644/18",
+ "description": "Action for failure to fulfil obligations brought by the European Commission against Italy for the systematic and continuous exceedance of the daily and annual limit values for PM10 (fine particulate matter) laid down by Directive 2008/50/EC on ambient air quality, in the period 2008-2017, in numerous zones and agglomerations (in particular the Po basin and the main urban agglomerations). The failure to adopt appropriate measures under Article 23 of the Directive was also alleged.",
+ "outcome": "Action upheld. The CJEU declared that Italy had failed to fulfil its obligations under Articles 13(1) and 23(1) of Directive 2008/50/EC, holding that the mere exceedance of the limit values in itself constitutes a failure to fulfil obligations and that Italy had not adopted appropriate and timely measures to ensure a period of exceedance “as short as possible”. The judgment opened the way to the subsequent letter of formal notice under Article 260 TFEU (March 2024) and to the obligation to update the regional air quality plans.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "curia.europa.eu",
+   "url": "https://curia.europa.eu/juris/liste.jsf?num=C-644/18"
+  }
+ ]
+}

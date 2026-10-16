@@ -1,0 +1,25 @@
+{
+ "slug": "commission-v-portugal-c-220-22-no2",
+ "name": "Commission v Portugal (C-220/22) (NO2)",
+ "year": 2023,
+ "date": "29 June 2023",
+ "status": "Decided",
+ "geography": {
+  "country": "Portugal",
+  "iso_n3": "620"
+ },
+ "jurisdiction": {
+  "type": "CJEU",
+  "court": "Court of Justice of the European Union (CJEU) - Sixth Chamber"
+ },
+ "docket": "C-220/22",
+ "description": "Action brought by the European Commission against Portugal for the systematic and persistent exceedance of the annual limit value for nitrogen dioxide (NO2) in three air quality zones (including the area north of Lisbon and the Porto coastal area), and for failure to adopt appropriate measures to keep the exceedance period “as short as possible” within the meaning of Directive 2008/50/EC.",
+ "outcome": "Action upheld. The CJEU declared that Portugal had failed to fulfil its obligations under Directive 2008/50/EC concerning NO2 limit values, confirming the established approach whereby the mere exceedance of the limit values constitutes in itself a failure to fulfil obligations, irrespective of proof of fault or intent on the part of the national authorities.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "eur-lex.europa.eu",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A62022CJ0220"
+  }
+ ]
+}

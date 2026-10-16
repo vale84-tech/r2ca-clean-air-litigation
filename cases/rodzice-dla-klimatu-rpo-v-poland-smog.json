@@ -1,0 +1,25 @@
+{
+ "slug": "rodzice-dla-klimatu-rpo-v-poland-smog",
+ "name": "Rodzice dla Klimatu / RPO v Poland (smog)",
+ "year": 2021,
+ "date": "Sąd Najwyzszy (Supreme Court), 28 May 2021 (III CZP 27/20)",
+ "status": "Decided",
+ "geography": {
+  "country": "Poland",
+  "iso_n3": "616"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Supreme Court of Poland (Sad Najwyzszy) and administrative courts"
+ },
+ "docket": "III CZP 27/20",
+ "description": "Series of civil actions brought by Polish citizens and bodies (Rzecznik Praw Obywatelskich – Ombudsman, Rodzice dla Klimatu – Parents for Climate, ClientEarth) against the Polish State Treasury for non-pecuniary damage arising from the “right to live in an environment with air that is not harmful to health”, in the face of massive smog pollution (in particular PM2.5, PM10, benzo(a)pyrene) in Silesia and Mazovia.",
+ "outcome": "The Polish Supreme Court recognised that the right to live in an unpolluted environment forms part of the personality right (dobra osobiste, Art. 23 kc), the infringement of which may give rise to compensation for non-pecuniary damage payable by the State. An important precedent for clean air litigation in Eastern Europe.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "clientearth.org",
+   "url": "https://www.clientearth.org/latest/news/asthma-sufferers-take-legal-action-against-polish-government-over-health-impacts-of-air-pollution/"
+  }
+ ]
+}

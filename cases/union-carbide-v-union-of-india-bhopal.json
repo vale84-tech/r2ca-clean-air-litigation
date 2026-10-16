@@ -1,0 +1,25 @@
+{
+ "slug": "union-carbide-v-union-of-india-bhopal",
+ "name": "Union Carbide v Union of India (Bhopal)",
+ "year": 1989,
+ "date": "14 February 1989 (settlement); 3 October 1991 (review); 14 March 2023 (curative petition)",
+ "status": "Decided",
+ "geography": {
+  "country": "India",
+  "iso_n3": "356"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Supreme Court of India"
+ },
+ "docket": "",
+ "description": "Litigation following the Bhopal disaster of the night of 2-3 December 1984, when 42 tonnes of methyl isocyanate escaping from the Union Carbide India Ltd. plant spread into the air of the city of Bhopal (Madhya Pradesh), causing thousands of immediate deaths and over half a million people injured in the long term. A series of civil, criminal and administrative proceedings in India and in the USA.",
+ "outcome": "In 1989 the Indian Supreme Court approved an overall settlement of USD 470 million with Union Carbide, subsequently upheld in part in 1991. In March 2023 the Court rejected the Government’s “curative petition” seeking additional compensation. The worst industrial disaster in history, the basis of many Indian regulatory developments (Environment (Protection) Act 1986, Public Liability Insurance Act 1991).",
+ "topics": [],
+ "sources": [
+  {
+   "label": "scobserver.in",
+   "url": "https://www.scobserver.in/cases/additiona-compensation-for-bhopal-gas-tragedy-victims-union-of-india-v-union-carbide/"
+  }
+ ]
+}
