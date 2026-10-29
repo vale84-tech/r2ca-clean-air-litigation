@@ -141,6 +141,8 @@ button { font-family: var(--font); }
 .masthead { line-height: 1.2; }
 .masthead .t { display: block; color: var(--ink); font-weight: 700; font-size: 18px; }
 .masthead .s { display: block; color: var(--muted); font-size: 12px; }
+/* on phones the header wraps to three rows: let it scroll away instead of covering the page */
+@media (max-width: 640px) { .topbar { position: static; } }
 .topnav { margin-left: auto; display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
 .topnav a {
   padding: 7px 13px; border-radius: 6px; font-size: 13.5px; font-weight: 600; color: var(--grey);
@@ -330,15 +332,21 @@ footer.site {
   font-size: 12.5px; color: var(--muted);
 }
 footer.site p { margin: 4px 0; max-width: 100ch; }
-.funding { margin-bottom: 16px; }
-.funding img { display: block; width: 290px; max-width: 100%; height: auto; }
-.funding-dark { display: none !important; }
+.funding { display: flex; flex-wrap: wrap; align-items: center; gap: 20px 32px; margin-bottom: 18px; }
+.funding-link { display: flex; }
+.logo-r2ca-lg { --logo: url("logos/r2ca-mark.png"); width: 159px; height: 36px; }
+.logo-care-full { --logo: url("logos/care-mark.png"); width: 129px; height: 56px; background-color: var(--ink); }
+/* EU emblem: official colours (white outline version on dark backgrounds), text in a font the EU guidelines allow */
+.eu { display: flex; align-items: center; gap: 10px; }
+.eu img { display: block; height: 44px; width: auto; }
+.eu-text { font-family: Arial, Helvetica, sans-serif; font-weight: 700; font-size: 13px; line-height: 1.25; color: var(--ink); }
+.eu-dark { display: none !important; }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .funding-light { display: none !important; }
-  :root:not([data-theme="light"]) .funding-dark { display: block !important; }
+  :root:not([data-theme="light"]) .eu-light { display: none !important; }
+  :root:not([data-theme="light"]) .eu-dark { display: block !important; }
 }
-:root[data-theme="dark"] .funding-light { display: none !important; }
-:root[data-theme="dark"] .funding-dark { display: block !important; }
+:root[data-theme="dark"] .eu-light { display: none !important; }
+:root[data-theme="dark"] .eu-dark { display: block !important; }
 
 /* ---------- icone e bandiere ---------- */
 .ic { width: 17px; height: 17px; flex: none; }
