@@ -1,45 +1,45 @@
 {
- "slug": "ilva-ambiente-svenduto-environment-sold-out-court-of-assizes-of-taranto",
- "name": "Ilva “Ambiente Svenduto” (“Environment Sold Out”) – Court of Assizes of Taranto, appeal and remand to Potenza",
- "year": 2021,
- "date": "Judgment at first instance: 31 May 2021. Annulment on appeal (Court of Assizes of Appeal of Lecce, detached section of Taranto): 13 September 2024. Reopening of the preliminary hearing in Potenza: 21 March 2025. Committal for trial (GUP Francesco Valente): 6 February 2026. First trial hearing in Potenza: 21 April 2026. Declaration that the statute of limitations has expired for 15 defendants (Court of Assizes of Potenza, presiding judge Marcello Rotondi): 22 May 2026.",
- "status": "Pending",
- "geography": {
-  "country": "Italy",
-  "iso_n3": "380"
- },
- "jurisdiction": {
-  "type": "Domestic",
-  "court": "Court of Assizes of Taranto (Corte d’Assise di Taranto) (first instance); Court of Assizes of Appeal of Lecce, detached section of Taranto (Corte d’Assise d’Appello di Lecce, sezione distaccata di Taranto) (annulment); Tribunal/Court of Assizes of Potenza (Tribunale/Corte d’Assise di Potenza) (remand proceedings)"
- },
- "docket": "",
- "description": "The so-called “Ambiente Svenduto” (“Environment Sold Out”) criminal trial against 47 defendants (natural persons and companies), including Fabio and Nicola Riva, former owners of the Ilva group of Taranto, for environmental disaster, poisoning of foodstuffs, wilful omission of precautions against accidents at work and other offences, in relation to the polluting emissions (dioxin, PCBs, benzo(a)pyrene, PM, heavy metals) produced by the hot area of the steelworks. On 13 September 2024 the Court of Assizes of Appeal of Lecce, detached section of Taranto, annulled the first-instance judgment for lack of territorial competence of the Taranto courts: since honorary magistrates of the Taranto district were among the numerous civil parties, as persons injured by the offences, Article 11 of the Code of Criminal Procedure required the case to be tried by the courts of another district, Potenza, and the files were transmitted to the Public Prosecutor’s Office of Potenza. In execution of the annulment, the trial restarted from the preliminary hearing before the Tribunal of Potenza.",
- "outcome": "First instance (Court of Assizes of Taranto, 31 May 2021): convictions with severe sentences, 26 convictions for a total of about 270 years’ imprisonment, including 22 years for Fabio Riva and 20 years for Nicola Riva; confiscation of the hot-area plants ordered for environmental disaster. Annulment of the first-instance judgment by the Court of Assizes of Appeal of Lecce (detached section of Taranto) on 13 September 2024 and remand to Potenza. Stages of the remand proceedings: (i) 21 March 2025, reopening of the preliminary hearing (GUP Francesco Valente); (ii) 6 February 2026, committal for trial of 21 defendants (including the former President of the Puglia Region Nichi Vendola, accused of concussione (extortion by a public official)); (iii) 21 April 2026, first trial hearing before the Court of Assizes of Potenza; (iv) 22 May 2026, the Court of Assizes of Potenza (presiding judge Marcello Rotondi) declares the statute of limitations to have expired for Vendola and 14 other defendants. The trial continues against the remaining defendants. It represents one of the most imposing criminal trials in Italy concerning industrial pollution.",
- "topics": [],
- "sources": [
-  {
-   "label": "corriere.it",
-   "url": "https://www.corriere.it/economia/aziende/21_maggio_31/sentenza-ilva-taranto-fabio-riva-condannato-22-anni-nicola-riva-20-f355bba8-c1e4-11eb-97d8-c46abd749374.shtml"
+  "jurisdiction": {
+    "type": "Domestic",
+    "court": "Court of Assizes of Taranto (Corte d’Assise di Taranto) (first instance); Court of Assizes of Appeal of Lecce, detached section of Taranto (Corte d’Assise d’Appello di Lecce, sezione distaccata di Taranto) (annulment); Tribunal/Court of Assizes of Potenza (Tribunale/Corte d’Assise di Potenza) (remand proceedings)"
   },
-  {
-   "label": "In Puglia 24 – “Ambiente Svenduto”: the trial restarts (article of 7 February 2026)",
-   "url": "https://inpuglia24.it/07/02/2026/taranto/ambiente-svenduto-rinvio-giudizio-potenza/"
+  "docket": "",
+  "topics": [],
+  "name": "Ilva “Ambiente Svenduto” – Court of Assizes of Taranto, appeal and remand to Potenza",
+  "slug": "ilva-ambiente-svenduto-environment-sold-out-court-of-assizes-of-taranto",
+  "date": "Judgment at first instance: 31 May 2021. Annulment on appeal (Court of Assizes of Appeal of Lecce, detached section of Taranto): 13 September 2024. Reopening of the preliminary hearing in Potenza: 21 March 2025. Committal for trial (GUP Francesco Valente): 6 February 2026. First trial hearing in Potenza: 21 April 2026. Declaration that the statute of limitations has expired for 15 defendants (Court of Assizes of Potenza, presiding judge Marcello Rotondi): 22 May 2026.",
+  "outcome": "First instance (Court of Assizes of Taranto, 31 May 2021): convictions with severe sentences, 26 convictions for a total of about 270 years’ imprisonment, including 22 years for Fabio Riva and 20 years for Nicola Riva; confiscation of the hot-area plants ordered for environmental disaster. Annulment of the first-instance judgment by the Court of Assizes of Appeal of Lecce (detached section of Taranto) on 13 September 2024 and remand to Potenza. Stages of the remand proceedings: (i) 21 March 2025, reopening of the preliminary hearing (GUP Francesco Valente); (ii) 6 February 2026, committal for trial of 21 defendants (including the former President of the Puglia Region Nichi Vendola, accused of concussione (extortion by a public official)); (iii) 21 April 2026, first trial hearing before the Court of Assizes of Potenza; (iv) 22 May 2026, the Court of Assizes of Potenza (presiding judge Marcello Rotondi) declares the statute of limitations to have expired for Vendola and 14 other defendants. The trial continues against the remaining defendants. It represents one of the most imposing criminal trials in Italy concerning industrial pollution.",
+  "status": "Pending",
+  "sources": [
+    {
+      "label": "corriere.it",
+      "url": "https://www.corriere.it/economia/aziende/21_maggio_31/sentenza-ilva-taranto-fabio-riva-condannato-22-anni-nicola-riva-20-f355bba8-c1e4-11eb-97d8-c46abd749374.shtml"
+    },
+    {
+      "label": "In Puglia 24 – “Ambiente Svenduto”: the trial restarts (article of 7 February 2026)",
+      "url": "https://inpuglia24.it/07/02/2026/taranto/ambiente-svenduto-rinvio-giudizio-potenza/"
+    },
+    {
+      "label": "Quotidiano del Sud – statute of limitations for Vendola (article of 23 May 2026)",
+      "url": "https://www.quotidianodelsud.it/basilicata/potenza/cronache/giudiziaria/2026/05/23/ex-ilva-vendola-fuori-dal-processo-ambiente-svenduto"
+    },
+    {
+      "label": "Giurisprudenza Penale – extract of the reasons for the annulment (September 2024)",
+      "url": "https://giurisprudenzapenale.com/wp-content/uploads/2024/09/Ilva-estratto-motivazioni.pdf"
+    },
+    {
+      "label": "Il Fatto Quotidiano – committal for trial of 21 defendants (6 February 2026)",
+      "url": "https://www.ilfattoquotidiano.it/2026/02/06/processo-ambiente-svenduto-bis-21-a-processo-ce-anche-nichi-vendola-il-gup-dispone-sequestro-preventivo-per-675mila-euro/8283110/"
+    },
+    {
+      "label": "Sky TG24 – statute of limitations declared for Vendola and 14 other defendants (22 May 2026)",
+      "url": "https://tg24.sky.it/cronaca/2026/05/22/vendola-esce-dal-processo-ex-ilva-prescrizione"
+    }
+  ],
+  "geography": {
+    "country": "Italy",
+    "iso_n3": "380"
   },
-  {
-   "label": "Quotidiano del Sud – statute of limitations for Vendola (article of 23 May 2026)",
-   "url": "https://www.quotidianodelsud.it/basilicata/potenza/cronache/giudiziaria/2026/05/23/ex-ilva-vendola-fuori-dal-processo-ambiente-svenduto"
-  },
-  {
-   "label": "Giurisprudenza Penale – extract of the reasons for the annulment (September 2024)",
-   "url": "https://giurisprudenzapenale.com/wp-content/uploads/2024/09/Ilva-estratto-motivazioni.pdf"
-  },
-  {
-   "label": "Il Fatto Quotidiano – committal for trial of 21 defendants (6 February 2026)",
-   "url": "https://www.ilfattoquotidiano.it/2026/02/06/processo-ambiente-svenduto-bis-21-a-processo-ce-anche-nichi-vendola-il-gup-dispone-sequestro-preventivo-per-675mila-euro/8283110/"
-  },
-  {
-   "label": "Sky TG24 – statute of limitations declared for Vendola and 14 other defendants (22 May 2026)",
-   "url": "https://tg24.sky.it/cronaca/2026/05/22/vendola-esce-dal-processo-ex-ilva-prescrizione"
-  }
- ]
+  "description": "The so-called “Ambiente Svenduto” (“Environment Sold Out”) criminal trial against 47 defendants (natural persons and companies), including Fabio and Nicola Riva, former owners of the Ilva group of Taranto, for environmental disaster, poisoning of foodstuffs, wilful omission of precautions against accidents at work and other offences, in relation to the polluting emissions (dioxin, PCBs, benzo(a)pyrene, PM, heavy metals) produced by the hot area of the steelworks. On 13 September 2024 the Court of Assizes of Appeal of Lecce, detached section of Taranto, annulled the first-instance judgment for lack of territorial competence of the Taranto courts: since honorary magistrates of the Taranto district were among the numerous civil parties, as persons injured by the offences, Article 11 of the Code of Criminal Procedure required the case to be tried by the courts of another district, Potenza, and the files were transmitted to the Public Prosecutor’s Office of Potenza. In execution of the annulment, the trial restarted from the preliminary hearing before the Tribunal of Potenza.",
+  "year": 2021
 }
