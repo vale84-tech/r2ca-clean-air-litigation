@@ -13,13 +13,13 @@
   "court": "Court of Justice of the European Union (CJEU)"
  },
  "docket": "C-637/18",
- "description": "Action brought by the European Commission against Hungary for the exceedance, since 2005, of the daily PM10 limit values in the Budapest agglomeration and in the Sajo river valley, and, since 2011, in the Pecs zone, in the south of the country, with failure to adopt suitable measures to reduce the period of exceedance in the shortest possible time under Directive 2008/50/EC.",
+ "description": "Action brought by the European Commission against Hungary for the exceedance, since 2005, of the daily PM10 limit values in the Budapest agglomeration and in the Sajó river valley, and, since 2011, in the Pécs zone, in the south of the country, with failure to adopt suitable measures to reduce the period of exceedance in the shortest possible time under Directive 2008/50/EC.",
  "outcome": "Action upheld. The CJEU declared that Hungary had failed to fulfil its obligations on air quality, having failed to ensure that the period of exceedance of the PM10 limits was as short as possible in the three zones concerned; the Hungarian argument that transboundary pollution from neighbouring countries mitigated the State's responsibility was not accepted.",
  "topics": [],
  "sources": [
   {
-   "label": "eur-lex.europa.eu",
-   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62018CJ0637"
+   "label": "eur-lex.europa.eu (judgment available in French and in the language of the case)",
+   "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:62018CJ0637"
   }
  ]
 }

@@ -18,8 +18,8 @@
  "topics": [],
  "sources": [
   {
-   "label": "eur-lex.europa.eu",
-   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62018CJ0638"
+   "label": "eur-lex.europa.eu (judgment available in French and in the language of the case)",
+   "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:62018CJ0638"
   }
  ]
 }
