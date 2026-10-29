@@ -1,0 +1,25 @@
+{
+  "jurisdiction": {
+    "type": "Domestic",
+    "court": "Tribunal of Turin (Tribunale ordinario di Torino), Civil Section"
+  },
+  "docket": "",
+  "topics": [],
+  "name": "Chiara v Piedmont Region (first civil case for clean air)",
+  "slug": "chiara-v-piedmont-region-first-civil-case-for-clean-air",
+  "date": "Writ of summons filed on 17 November 2022; proceedings pending",
+  "outcome": "Proceedings pending (as of September 2026). No rulings on the merits are yet on record. The case is followed closely as a test case for civil clean air litigation in Italy, in the wake of Janecek (CJEU, C-237/07) and ClientEarth (UK).",
+  "status": "Pending",
+  "sources": [
+    {
+      "label": "Valigia Blu – “Chiara’s fight for the right to breathe clean air”",
+      "url": "https://www.valigiablu.it/causa-torino-qualita-aria/"
+    }
+  ],
+  "geography": {
+    "country": "Italy",
+    "iso_n3": "380"
+  },
+  "description": "The first Italian civil case seeking recognition of the individual right to breathe clean air. The claimant “Chiara”, together with her husband and on behalf of their minor son, who has been exposed since conception to unlawful levels of PM10 and NO2, sued the Piedmont Region over the systematic exceedance in Turin of the limit values set by Directive 2008/50/EC and Legislative Decree 155/2010. The claim is structured as follows: a declaration of the right to breathe clean air; a declaration of the Region’s liability for the violation of the limits; an order to perform a facere (compliant air quality plans); compensation for damage (to be devolved to environmental organisations). The family is assisted by the Comitato Torino Respira.",
+  "year": 2022
+}
