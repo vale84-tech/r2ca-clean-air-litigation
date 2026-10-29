@@ -4,12 +4,12 @@
 
 backend:
   name: git-gateway
-  repo: pierpacanero/r2ca-clean-air-litigation
+  repo: vale84-tech/r2ca-clean-air-litigation
   branch: main
   auth_type: pkce
   base_url: https://auth.decapbridge.com
-  auth_endpoint: /sites/41308a5f-af5b-49db-8c0c-bd8297928fc1/pkce
-  auth_token_endpoint: /sites/41308a5f-af5b-49db-8c0c-bd8297928fc1/token
+  auth_endpoint: /sites/07b590f5-9db3-490c-b417-20b3b951a636/pkce
+  auth_token_endpoint: /sites/07b590f5-9db3-490c-b417-20b3b951a636/token
   gateway_url: https://gateway.decapbridge.com
 
   # See who did what
@@ -28,7 +28,7 @@ auth:
   avatar_url_claim: avatar_url
 
 logo_url: https://decapbridge.com/decapcms-with-bridge.svg
-site_url: https://pierpacanero.github.io/r2ca-clean-air-litigation
+site_url: https://vale84-tech.github.io/r2ca-clean-air-litigation
 
 media_folder: "site/assets/uploads"
 public_folder: "assets/uploads"
