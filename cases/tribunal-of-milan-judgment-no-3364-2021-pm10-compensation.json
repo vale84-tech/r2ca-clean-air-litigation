@@ -1,8 +1,8 @@
 {
  "slug": "tribunal-of-milan-judgment-no-3364-2021-pm10-compensation",
- "name": "Tribunal of Milan, judgment no. 3364/2021 – PM10 compensation",
+ "name": "PM10 Milan compensation case – Tribunal of Milan (no. 3364/2021), TAR Lombardia (no. 1208/2022) and Italian Supreme Court of Cassation, Joint Divisions (no. 5668/2023)",
  "year": 2021,
- "date": "21 April 2021, published 22 April 2021 (judgment no. 3364/2021)",
+ "date": "21 April 2021, published 22 April 2021 (Tribunal of Milan, judgment no. 3364/2021); 25 May 2022 (TAR Lombardia, order no. 1208/2022); 23 February 2023 (Court of Cassation, Joint Divisions, order no. 5668/2023)",
  "status": "Decided",
  "geography": {
   "country": "Italy",
@@ -10,16 +10,20 @@
  },
  "jurisdiction": {
   "type": "Domestic",
-  "court": "Tribunal of Milan (Tribunale ordinario di Milano)"
+  "court": "Tribunal of Milan (Tribunale ordinario di Milano); Regional Administrative Court for Lombardy (TAR Lombardia), Section III; Italian Supreme Court of Cassation, Joint Civil Divisions"
  },
- "docket": "no. 3364/2021",
- "description": "Application under Article 702-bis of the Code of Civil Procedure by a Milanese citizen against the Municipality of Milan and the Lombardy Region for compensation for damage to health and to social life resulting from the continuous and systematic exceedances of the PM10 limit values found by the CJEU (C-644/18) and attributable to the failure to adopt adequate measures under Legislative Decree no. 155/2010.",
- "outcome": "The Tribunal declared that it lacked jurisdiction, holding that the dispute was reserved to the administrative court (Article 7 of the Code of Administrative Procedure). Subsequently the Regional Administrative Court for Lombardy (TAR Lombardia) (order 1208/2022) raised a negative conflict of jurisdiction before the Joint Divisions, which, by order no. 5668/2023, affirmed the jurisdiction of the ordinary court. The first true Italian compensation case for air pollution.",
+ "docket": "no. 3364/2021; no. 1208/2022; no. 5668/2023",
+ "description": "Application under Article 702-bis of the Code of Civil Procedure by a Milanese citizen against the Municipality of Milan and the Lombardy Region for compensation for damage to health and to social life resulting from the continuous and systematic exceedances of the PM10 limit values found by the CJEU (C-644/18) and attributable to the failure to adopt adequate measures under Legislative Decree no. 155/2010. After the Tribunal declined jurisdiction, the citizen resumed the proceedings before the TAR Lombardia, which raised a negative conflict of jurisdiction before the Joint Divisions of the Court of Cassation, maintaining that the infringement of the fundamental right to health resulting from the systematic exceedances of PM10 required the case to be heard by the ordinary court.",
+ "outcome": "The Tribunal of Milan declared that it lacked jurisdiction, holding that the dispute was reserved to the administrative court (Article 7 of the Code of Administrative Procedure). The TAR Lombardia (order no. 1208/2022) raised a negative conflict of jurisdiction. The Joint Divisions (order no. 5668/2023) affirmed the jurisdiction of the ordinary court, on the premise that the protection of the right to health has the nature of a subjective right “not degradable” to a legitimate interest, even where the omission of administrative measures is invoked. The first true Italian compensation case for air pollution, and a decision of systemic significance for compensatory clean air litigation in Italy.",
  "topics": [],
  "sources": [
   {
    "label": "primogrado.com",
    "url": "https://primogrado.com/inquinamento-atmosferico-e-danno-alla-salute"
+  },
+  {
+   "label": "lexambiente.it",
+   "url": "https://lexambiente.it/materie/aria/74-giurisprudenza-amministrativa-tar74/16313-aria-danno-alla-salute-per-sforamento-limiti-pm10.html"
   }
  ]
 }

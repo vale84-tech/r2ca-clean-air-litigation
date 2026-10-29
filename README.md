@@ -37,4 +37,4 @@ python3 -m http.server 8766 -d _site
 
 ## Status
 
-Preview build for editorial review — not yet an official publication of the R2CA project or of the University of Turin. The records are the project's editorial dataset (69 cases), translated into English from the editorial team's Italian originals; the translations are under review. Logos will be added upon authorisation.
+Preview build for editorial review — not yet an official publication of the R2CA project or of the University of Turin. The records are the project's editorial dataset (65 cases), translated into English from the editorial team's Italian originals; the translations are under review. Logos will be added upon authorisation.

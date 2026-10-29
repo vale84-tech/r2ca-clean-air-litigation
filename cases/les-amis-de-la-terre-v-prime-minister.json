@@ -13,13 +13,21 @@
   "court": "Conseil d'État (French Council of State)"
  },
  "docket": "",
- "description": "Series of decisions of the French Conseil d'État, on the application of the association Les Amis de la Terre and other NGOs, concerning the persistent exceedance of EU limits for NO2 and PM10 in numerous French zones (in particular Paris, Lyon, Marseille, Grenoble, Toulouse). The applicants asked that the French State adopt effective plans pursuant to Directive 2008/50/EC and Article L. 222-4 of the Code de l'environnement.",
- "outcome": "In 2017 the Conseil d'État ordered the State to revise the air quality plans; in 2020, as the decision had not been implemented, it imposed a penalty of EUR 10 million for each six-month period of delay. Actual penalties of EUR 10 million (August 2021) and EUR 20 million (October 2022) were then imposed.",
+ "description": "Series of decisions of the French Conseil d'État, on the application of the association Les Amis de la Terre and other NGOs, concerning the persistent exceedance of EU limits for NO2 and PM10 in numerous French zones (in particular Paris, Lyon, Marseille, Grenoble, Toulouse). The applicants asked that the French State adopt effective plans pursuant to Directive 2008/50/EC and Article L. 222-4 of the Code de l'environnement. In the enforcement phase, on fresh applications by the environmental associations, the Conseil d'État reviewed the measures put in place by the French State under the atmosphere protection plans (PPA) of Paris, Lyon and Marseille.",
+ "outcome": "In 2017 the Conseil d'État ordered the State to revise the air quality plans; in 2020, as the decision had not been implemented, it imposed a penalty of EUR 10 million for each six-month period of delay. Actual penalties of EUR 10 million (August 2021) and EUR 20 million (October 2022) were then imposed. On 24 November 2023 the Conseil d'État held its 2017 decision executed as regards PM10 and, for NO2, in all zones except Paris and Lyon, and liquidated two reduced penalty payments of EUR 5 million each, EUR 10 million in total, for the two six-month periods from 12 July 2022 to 12 July 2023. The penalty payments liquidated in 2021, 2022 and 2023 amount to EUR 40 million in total (10 + 20 + 10), allocated mostly to public bodies (in 2023: ADEME EUR 3.3 million, CEREMA EUR 2.5 million, ANSES EUR 2 million, INERIS EUR 1 million) and to air quality monitoring associations, with EUR 10,000 to Les Amis de la Terre France.",
  "topics": [],
  "sources": [
   {
    "label": "conseil-etat.fr",
    "url": "https://www.conseil-etat.fr/Pages-internationales/english/news/air-pollution-the-conseil-d-etat-orders-the-french-state-to-pay-two-fines-of-10-million"
+  },
+  {
+   "label": "legifrance.gouv.fr",
+   "url": "https://www.legifrance.gouv.fr/ceta/id/CETATEXT000048465173"
+  },
+  {
+   "label": "Conseil d'État, 24 November 2023, no. 428409 (ArianeWeb)",
+   "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2023-11-24/428409"
   }
  ]
 }
