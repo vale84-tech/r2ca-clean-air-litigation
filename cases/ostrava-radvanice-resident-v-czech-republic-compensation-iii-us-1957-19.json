@@ -1,0 +1,25 @@
+{
+ "slug": "ostrava-radvanice-resident-v-czech-republic-compensation-iii-us-1957-19",
+ "name": "Ostrava-Radvanice resident v Czech Republic – compensation for air pollution (Ústavní soud, III. ÚS 1957/19)",
+ "year": 2016,
+ "date": "12 August 2016 (Obvodní soud pro Prahu 10, 6 C 328/2015); 22 November 2016 (Městský soud v Praze, 51 Co 329/2016); 28 March 2019 (Nejvyšší soud, 30 Cdo 1447/2017); 12 May 2020 (Ústavní soud, III. ÚS 1957/19)",
+ "status": "Decided",
+ "geography": {
+  "country": "Czechia",
+  "iso_n3": "203"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Obvodní soud pro Prahu 10 (Prague 10 District Court); Městský soud v Praze (Prague Municipal Court); Nejvyšší soud (Czech Supreme Court); Ústavní soud (Czech Constitutional Court)"
+ },
+ "docket": "6 C 328/2015; 51 Co 329/2016; 30 Cdo 1447/2017; III. ÚS 1957/19",
+ "description": "Action for non-pecuniary damages of CZK 1 million brought against the Czech State by a resident of Ostrava-Radvanice, where the particulate matter limit values had been exceeded for long periods. She argued that the failure to issue an air quality action plan for Radvanice and Bartovice and a programme for the Ostrava/Karviná/Frýdek-Místek agglomeration was incorrect official conduct (nesprávný úřední postup) of the State, which had caused her stress and fear for her health.",
+ "outcome": "The Obvodní soud pro Prahu 10 dismissed the claim, and the Městský soud v Praze upheld the dismissal: although the State’s official conduct had been incorrect, the claimant had not proven a direct causal link between that conduct and her harm, the State had adopted measures through other instruments, and part of the claim was time-barred. The Nejvyšší soud rejected her appeal on points of law. By resolution of 12 May 2020 the Ústavní soud rejected her constitutional complaint as manifestly unfounded, finding nothing to object to, from a constitutional standpoint, in the lower courts’ legal conclusions.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "Advokátní deník – “The Constitutional Court rejected the complaint of a woman seeking compensation for air pollution” (23 June 2020)",
+   "url": "https://advokatnidenik.cz/2020/06/23/ustavni-soud-odmitl-stiznost-zeny-ktera-zadala-odskodneni-kvuli-ovzdusi/"
+  }
+ ]
+}

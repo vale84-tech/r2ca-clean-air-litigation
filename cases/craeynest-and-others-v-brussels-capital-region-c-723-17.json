@@ -1,0 +1,25 @@
+{
+ "slug": "craeynest-and-others-v-brussels-capital-region-c-723-17",
+ "name": "Craeynest and Others v Brussels Capital Region (C-723/17)",
+ "year": 2019,
+ "date": "26 June 2019",
+ "status": "Decided",
+ "geography": {
+  "country": "Belgium",
+  "iso_n3": "056"
+ },
+ "jurisdiction": {
+  "type": "CJEU",
+  "court": "Court of Justice of the European Union (CJEU) – First Chamber (preliminary ruling)"
+ },
+ "docket": "C-723/17",
+ "description": "Reference for a preliminary ruling from the Nederlandstalige rechtbank van eerste aanleg Brussel (Dutch-language Court of First Instance, Brussels), made by decision of 15 December 2017. Four residents of the Brussels Capital Region and the environmental association ClientEarth brought an action on 21 September 2016 against the Brussels Capital Region (Brussels Hoofdstedelijk Gewest) and Brussels Environment (Brussels Instituut voor Milieubeheer), claiming that the sampling points for nitrogen dioxide had not been sited, as required by Directive 2008/50/EC, in the areas where the highest concentrations occur, and asking the court to order the Region to establish sampling points at appropriate locations. The claimants also maintained that the NO2 limit value had in fact been exceeded since 2010 and that an air quality plan therefore had to be drawn up.",
+ "outcome": "The CJEU held that: (i) it is for the national court, on an application by individuals directly affected by the exceedance of the limit values, to verify whether the sampling points in a zone have been sited in accordance with the criteria laid down in Annex III, Section B, paragraph 1(a) of Directive 2008/50/EC and, if they have not, to take all necessary measures in respect of the competent national authority, such as an order, so that they are sited in accordance with those criteria; (ii) in order to establish whether a limit value with an averaging period of one calendar year has been exceeded, it is sufficient that a pollution level higher than that value be measured at a single sampling point.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "eur-lex.europa.eu – CJEU, First Chamber, 26 June 2019, C-723/17",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62017CJ0723"
+  }
+ ]
+}

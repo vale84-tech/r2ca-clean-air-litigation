@@ -1,8 +1,8 @@
 {
  "slug": "rodzice-dla-klimatu-rpo-v-poland-smog",
- "name": "Rodzice dla Klimatu / RPO v Poland (smog)",
- "year": 2021,
- "date": "Sąd Najwyższy (Supreme Court), 28 May 2021 (III CZP 27/20)",
+ "name": "Rybnik resident v State Treasury (smog) – Sąd Najwyższy, resolution III CZP 27/20",
+ "year": 2015,
+ "date": "Action filed in 2015 (Sąd Rejonowy w Rybniku, II C 1259/15); 28 May 2021 (Sąd Najwyższy, resolution III CZP 27/20); 9 December 2021 (Sąd Okręgowy w Gliwicach, III Ca 1548/18); 21 January 2025 (Sąd Najwyższy, II NSNc 247/23)",
  "status": "Decided",
  "geography": {
   "country": "Poland",
@@ -10,20 +10,24 @@
  },
  "jurisdiction": {
   "type": "Domestic",
-  "court": "Supreme Court of Poland (Sąd Najwyższy) and administrative courts"
+  "court": "Sąd Rejonowy w Rybniku (Rybnik District Court); Sąd Okręgowy w Gliwicach (Gliwice Regional Court); Sąd Najwyższy (Supreme Court of Poland)"
  },
- "docket": "III CZP 27/20",
- "description": "Series of civil actions brought by Polish citizens and bodies (Rzecznik Praw Obywatelskich – Ombudsman, Rodzice dla Klimatu – Parents for Climate, ClientEarth) against the Polish State Treasury for non-pecuniary damage arising from the “right to live in an environment with air that is not harmful to health”, in the face of massive smog pollution (in particular PM2.5, PM10, benzo(a)pyrene) in Silesia and Mazovia.",
- "outcome": "In its resolution of 28 May 2021 (III CZP 27/20), on a question referred by the Regional Court of Gliwice in an action brought by a resident of Rybnik against the State Treasury, the Polish Supreme Court held that the right to live in a clean environment is not in itself a personal right (dobro osobiste); however, health, freedom and privacy, which are protected as personal rights (Arts 23, 24 and 448 kc), may be infringed or threatened by breaches of air quality standards, which may give rise to compensation for non-pecuniary damage. An important precedent for clean air litigation in Eastern Europe.",
+ "docket": "II C 1259/15; III CZP 27/20; III Ca 1548/18; II NSNc 247/23",
+ "description": "Civil action brought in 2015 by a resident of Rybnik (Silesia) against the State Treasury for the infringement of his personal rights (dobra osobiste) caused by smog, seeking PLN 50,000 in compensation for non-pecuniary damage, in the face of massive air pollution (in particular PM2.5, PM10 and benzo(a)pyrene). The Rzecznik Praw Obywatelskich (Ombudsman) joined the proceedings in support of the claimant. The Sąd Rejonowy w Rybniku dismissed the claim; on appeal, the Sąd Okręgowy w Gliwicach referred to the Sąd Najwyższy the question whether the right to live in a clean environment is a personal right.",
+ "outcome": "In its resolution of 28 May 2021 (III CZP 27/20), on a question referred by the Regional Court of Gliwice in an action brought by a resident of Rybnik against the State Treasury, the Polish Supreme Court held that the right to live in a clean environment is not in itself a personal right (dobro osobiste); however, health, freedom and privacy, which are protected as personal rights (Arts 23, 24 and 448 kc), may be infringed or threatened by breaches of air quality standards, which may give rise to compensation for non-pecuniary damage. By judgment of 9 December 2021 the Sąd Okręgowy w Gliwicach upheld the appeal and awarded the claimant PLN 30,000 against the State Treasury, finding that the State’s failure to take effective measures to improve air quality had infringed his personal rights, including privacy and the inviolability of the home. On 21 January 2025 the Sąd Najwyższy dismissed the extraordinary complaint lodged by the Prosecutor General against that judgment. An important precedent for clean air litigation in Eastern Europe.",
  "topics": [],
  "sources": [
   {
-   "label": "ClientEarth – new actions by asthma sufferers against the State Treasury (26 November 2024)",
-   "url": "https://www.clientearth.org/latest/news/asthma-sufferers-take-legal-action-against-polish-government-over-health-impacts-of-air-pollution/"
-  },
-  {
    "label": "Supreme Court resolution of 28 May 2021, III CZP 27/20 (Lege Artis, theses of the resolution)",
    "url": "https://czasopismo.legeartis.org/2021/08/prawo-zycia-czystym-srodowisku-dobrem-osobistym-uchwala-sn/"
+  },
+  {
+   "label": "Rzecznik Praw Obywatelskich – the Supreme Court dismisses the Prosecutor General’s extraordinary complaint (II NSNc 247/23)",
+   "url": "https://bip.brpo.gov.pl/pl/content/rpo-smog-obywatel-wyrok-skarga-nadzwyczajna-pg-sn-oddalenie"
+  },
+  {
+   "label": "Rzecznik Praw Obywatelskich – the citizen wins the smog case against the State Treasury (Gliwice, 9 December 2021)",
+   "url": "https://bip.brpo.gov.pl/pl/content/rpo-proces-obywatel-smog-skarb-panstwa-wygrana"
   }
  ]
 }

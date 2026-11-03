@@ -1,0 +1,29 @@
+{
+ "slug": "ostrava-agglomeration-air-quality-improvement-programme-6-as-288-2016",
+ "name": "Ostrava/Karviná/Frýdek-Místek air quality improvement programme – partial annulment (Nejvyšší správní soud, 6 As 288/2016-146)",
+ "year": 2016,
+ "date": "11 October 2016 (Městský soud v Praze, 11 A 84/2016-109); 20 December 2017 (Nejvyšší správní soud, 6 As 288/2016-146)",
+ "status": "Decided",
+ "geography": {
+  "country": "Czechia",
+  "iso_n3": "203"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Městský soud v Praze (Prague Municipal Court); Nejvyšší správní soud (Czech Supreme Administrative Court)"
+ },
+ "docket": "11 A 84/2016-109; 6 As 288/2016-146",
+ "description": "Application by a resident of the agglomeration, the environmental association Čisté nebe and Frank Bold Society for the annulment of the air quality improvement programme (program zlepšování kvality ovzduší, PZKO) issued by the Ministry of the Environment on 14 April 2016 for the Ostrava/Karviná/Frýdek-Místek agglomeration (zone CZ08A). The Městský soud v Praze dismissed the application as unfounded (11 October 2016); the resident lodged a cassation complaint.",
+ "outcome": "The Nejvyšší správní soud annulled the judgment of the Městský soud and parts II, IV and V of the operative part of the programme, remitting the matter to the Ministry, and dismissed the application for the remainder. It held that the reviewing court must examine whether the authority included, in good faith, all essential measures available and whether their implementation over time is likely to achieve the limit values, reviewing the final deadline only for arbitrariness or manifest unreasonableness; on that basis it accepted the end-2020 target. The programme was nevertheless deficient: its generic timing (“continuously until 2020”) did not allow its implementation to be monitored and it did not quantify the expected effect of each measure, as required by the Directive read together with Czech law; the Ministry had also failed to give a reasoned response to the conditions of the strategic environmental assessment requiring a timetable and the prioritisation of measures. The Court further doubted that the programme, which binds only State authorities, could reliably ensure its implementation. The judgment was published in the Court’s Collection of Decisions (no. 3696/2018).",
+ "topics": [],
+ "sources": [
+  {
+   "label": "Sbírka rozhodnutí NSS 3/2018 – review of air quality improvement programmes (6 As 288/2016)",
+   "url": "https://sbirka.nssoud.cz/cz/ochrana-ovzdusi-prezkum-programu-zlepsovani-kvality-ovzdusi.p3679.html"
+  },
+  {
+   "label": "ELAW – Czech Supreme Administrative Court ruling of 20 December 2017 for Ostrava (English translation)",
+   "url": "https://elaw.org/czech-supreme-court-ruling-20-december-2017-for-ostrava"
+  }
+ ]
+}

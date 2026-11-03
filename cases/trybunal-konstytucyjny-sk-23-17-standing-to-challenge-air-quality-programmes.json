@@ -1,0 +1,33 @@
+{
+ "slug": "trybunal-konstytucyjny-sk-23-17-standing-to-challenge-air-quality-programmes",
+ "name": "Trybunał Konstytucyjny, judgment SK 23/17 – standing to challenge air quality programmes (Poland)",
+ "year": 2016,
+ "date": "6 July 2016 (Wojewódzki Sąd Administracyjny w Krakowie, II SA/Kr 573/16); Naczelny Sąd Administracyjny, II OSK 2671/16; 1 July 2021 (Trybunał Konstytucyjny, SK 23/17)",
+ "status": "Decided",
+ "geography": {
+  "country": "Poland",
+  "iso_n3": "616"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Wojewódzki Sąd Administracyjny w Krakowie (Kraków Regional Administrative Court); Naczelny Sąd Administracyjny (Supreme Administrative Court); Trybunał Konstytucyjny (Polish Constitutional Tribunal)"
+ },
+ "docket": "II SA/Kr 573/16; II OSK 2671/16; SK 23/17",
+ "description": "Constitutional complaint brought, with the support of the Frank Bold foundation, by a resident of Zakopane whose challenge to the air quality programme for the Małopolska voivodeship had been rejected by the administrative courts for lack of standing. Under Article 90(1) of the Voivodeship Self-Government Act, as interpreted by the courts, a person challenging a provision of an air quality programme must show that it directly, objectively and actually infringes his or her legal interest, which in practice prevents residents seeking a more effective programme from challenging it.",
+ "outcome": "The Trybunał Konstytucyjny held that Article 90(1) of the Voivodeship Self-Government Act, so interpreted, is consistent with Articles 45(1) and 77(2) of the Constitution (right to a court). In its reasoning it noted, however, that this interpretation is inconsistent with the case law of the CJEU and that the law should be amended. Frank Bold and ClientEarth then brought the matter before the European Court of Human Rights.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "trybunal.gov.pl – judgment of 1 July 2021, SK 23/17",
+   "url": "https://trybunal.gov.pl/en/hearings/judgments/art/11578-legitymacja-do-zaskarzenia-aktu-prawa-miejscowego-programu-ochrony-powietrza"
+  },
+  {
+   "label": "Dziennik Ustaw 2021, item 1295 – operative part of the judgment",
+   "url": "https://eli.gov.pl/eli/DU/2021/1295/ogl/pol/pdf"
+  },
+  {
+   "label": "OKO.press – “Poles cannot challenge defective anti-smog rules: a complaint to the ECtHR”",
+   "url": "https://oko.press/polacy-nie-moga-zaskarzac-wadliwych-przepisow-antysmogowych-jest-skarga-do-etpcz"
+  }
+ ]
+}

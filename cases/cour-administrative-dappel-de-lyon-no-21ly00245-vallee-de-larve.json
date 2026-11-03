@@ -1,0 +1,29 @@
+{
+ "slug": "cour-administrative-dappel-de-lyon-no-21ly00245-vallee-de-larve",
+ "name": "Vallée de l’Arve – compensation for a child’s respiratory illnesses (Cour administrative d’appel de Lyon, no. 21LY00245)",
+ "year": 2020,
+ "date": "24 November 2020 (Tribunal administratif de Grenoble, no. 1806129); 13 December 2023 (Cour administrative d’appel de Lyon, interim judgment); 19 February 2025 (Cour administrative d’appel de Lyon, no. 21LY00245)",
+ "status": "Decided",
+ "geography": {
+  "country": "France",
+  "iso_n3": "250"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Tribunal administratif de Grenoble (Grenoble Administrative Court); Cour administrative d’appel de Lyon (Lyon Administrative Court of Appeal), 3rd Chamber"
+ },
+ "docket": "no. 1806129; no. 21LY00245",
+ "description": "Action for damages brought by the parents of a child born in 2012 and living in the Arve valley (Haute-Savoie), on their own behalf and on behalf of the child, against the French State, seeking EUR 258,000 for the child’s respiratory illnesses and for their own harm, which they attributed to the air pollution of the valley.",
+ "outcome": "The Tribunal administratif de Grenoble (24 November 2020) recognised the State’s fault but rejected the claim for lack of a proven causal link. By an interim judgment of 13 December 2023 the Cour administrative d’appel de Lyon held that the State had committed a fault because the measures adopted, in particular the atmosphere protection plan (PPA) for the Arve valley of 16 February 2012 and the means provided for its implementation, were insufficient to keep the periods of exceedance of the limit values as short as possible, and ordered an expert report. By judgment of 19 February 2025 it annulled the first-instance judgment: relying on the expert report, which estimated the share attributable to pollution at 10 to 20%, it held that air pollution was in a direct causal link not with the child’s illnesses but with their aggravation, and ordered the State to pay EUR 9,000 (EUR 4,000 for the child’s suffering and EUR 1,000 for the loss of sporting amenity; EUR 2,000 for the parents’ psychological suffering and EUR 2,000 for the disruption of their family and working life), rejecting the other heads of damage.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "legifrance.gouv.fr – CAA Lyon, 3rd Chamber, 19 February 2025, no. 21LY00245",
+   "url": "https://www.legifrance.gouv.fr/ceta/id/CETATEXT000051248785"
+  },
+  {
+   "label": "conseil-etat.fr – CAA Lyon, no. 21LY00245 (text of the judgment)",
+   "url": "https://www.conseil-etat.fr/Media/mediatheque-caa-lyon/documents/20252/21ly00245"
+  }
+ ]
+}

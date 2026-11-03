@@ -1,0 +1,29 @@
+{
+ "slug": "cour-administrative-dappel-de-paris-no-23pa03743-air-pollution-compensation",
+ "name": "Air pollution in Île-de-France – compensation for a child’s respiratory illnesses (Cour administrative d’appel de Paris, no. 23PA03743)",
+ "year": 2022,
+ "date": "7 February 2022 (Tribunal administratif de Paris, interim judgment); 16 June 2023 (Tribunal administratif de Paris, no. 2019925); 9 October 2024 (Cour administrative d’appel de Paris, no. 23PA03743)",
+ "status": "Decided",
+ "geography": {
+  "country": "France",
+  "iso_n3": "250"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Tribunal administratif de Paris (Paris Administrative Court); Cour administrative d’appel de Paris (Paris Administrative Court of Appeal)"
+ },
+ "docket": "no. 2019925; no. 23PA03743",
+ "description": "Action for damages brought by the parents of a young child, on their own behalf and on behalf of the child, against the French State for the child’s respiratory illnesses (repeated bronchiolitis from late 2015 to 2017, infant asthma diagnosed in August 2016, with hospitalisation and emergency visits), which they attributed to air pollution in Île-de-France.",
+ "outcome": "By an interim judgment of 7 February 2022 the Tribunal administratif de Paris found that the State had committed a fault by failing to take sufficient measures to keep the periods of exceedance of the limit values in Île-de-France, in particular for nitrogen dioxide and PM10, as short as possible between 2012 and 2018, and ordered a medical expert report; by judgment of 16 June 2023 it ordered the State to pay EUR 3,000. The judgment was reported as the first in which the French State was ordered to compensate victims of air pollution. The Cour administrative d’appel de Paris dismissed the Minister’s appeal: relying on the expert report, it held that air pollution was in a direct causal link not with all of the child’s respiratory illnesses but with their aggravation during pollution peaks, and increased the compensation to EUR 4,000 (EUR 2,000 for the child’s suffering, EUR 1,000 for the parents’ suffering and EUR 1,000 for the disruption of their living conditions), rejecting the other heads of damage.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "Cour administrative d’appel de Paris, 9 October 2024, no. 23PA03743 (ArianeWeb)",
+   "url": "https://www.conseil-etat.fr/fr/arianeweb/CAA/decision/2024-10-09/23PA03743"
+  },
+  {
+   "label": "Soulier Avocats – “French State ordered to compensate victims of air pollution for the first time” (23 August 2023)",
+   "url": "https://www.soulier-avocats.com/en/french-state-ordered-to-compensate-victims-of-air-pollution-for-the-first-time"
+  }
+ ]
+}

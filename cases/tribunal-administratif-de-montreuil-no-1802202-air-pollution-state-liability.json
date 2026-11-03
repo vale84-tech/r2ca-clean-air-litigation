@@ -1,0 +1,29 @@
+{
+ "slug": "tribunal-administratif-de-montreuil-no-1802202-air-pollution-state-liability",
+ "name": "Air pollution in Île-de-France – State liability (Tribunal administratif de Montreuil, no. 1802202)",
+ "year": 2019,
+ "date": "25 June 2019 (Tribunal administratif de Montreuil, no. 1802202); 23 May 2023 (Cour administrative d’appel de Versailles)",
+ "status": "Decided",
+ "geography": {
+  "country": "France",
+  "iso_n3": "250"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Tribunal administratif de Montreuil (Montreuil Administrative Court); Cour administrative d’appel de Versailles (Versailles Administrative Court of Appeal)"
+ },
+ "docket": "no. 1802202",
+ "description": "Action for damages brought by a mother, on her own behalf and on behalf of her minor daughter, against the French State, seeking EUR 160,000 for harm to their health (bronchitis and asthma) which they attributed to air pollution in Île-de-France. The claimant invoked the State’s failure to act against air pollution between 2012 and 2016 and the handling of the pollution episode at the end of 2016.",
+ "outcome": "The Tribunal held that, while the exceedance of the limit values cannot in itself constitute a culpable failure (carence fautive) of the State, the insufficiency of the measures taken to remedy it does constitute such a failure; it found the State liable only as regards the insufficiency of the air quality plan for Île-de-France (adopted on 7 July 2006 and revised on 24 March 2013) and of the conditions of its implementation, and rejected the other grounds. The claim for damages was nevertheless rejected, since the evidence produced did not establish that the illnesses of the claimant and her daughter were caused or aggravated by that failure. The judgment was widely reported as the first recognising the State’s fault in the fight against air pollution. On appeal, the Cour administrative d’appel de Versailles (23 May 2023) confirmed the State’s fault and again rejected the claim for compensation.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "Tribunal administratif de Montreuil, 25 June 2019, no. 1802202 (full text)",
+   "url": "https://montreuil.tribunal-administratif.fr/Media/mediatheque-ta-montreuil/import/1802202"
+  },
+  {
+   "label": "Concurrences – comment on the judgment of the Cour administrative d’appel de Versailles (2023)",
+   "url": "https://www.concurrences.com/en/review/issues/no-4-2023/chroniques/public-sector/atmospheric-pollution-the-versailles-administrative-court-of-appeal-rules-on"
+  }
+ ]
+}

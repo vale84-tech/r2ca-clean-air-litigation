@@ -1,0 +1,33 @@
+{
+ "slug": "grazyna-wolszczak-v-state-treasury-smog-warsaw",
+ "name": "Grażyna Wolszczak v State Treasury (smog, Warsaw)",
+ "year": 2019,
+ "date": "24 January 2019 (Sąd Rejonowy dla Warszawy-Śródmieścia, VI C 1043/18); 10 September 2021 (Sąd Okręgowy w Warszawie, V Ca 1607/19)",
+ "status": "Decided",
+ "geography": {
+  "country": "Poland",
+  "iso_n3": "616"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Sąd Rejonowy dla Warszawy-Śródmieścia (Warsaw-Śródmieście District Court); Sąd Okręgowy w Warszawie (Warsaw Regional Court)"
+ },
+ "docket": "VI C 1043/18; V Ca 1607/19",
+ "description": "Civil action brought by the actress Grażyna Wolszczak, a resident of Warsaw, against the State Treasury for the infringement of her personal rights caused by air pollution, asking that the sum awarded be paid to a social cause of her choice.",
+ "outcome": "The Sąd Rejonowy found, relying among other things on a report of the Supreme Audit Office (NIK) on air quality protection, that the State’s failures in protecting air quality had infringed the claimant’s personal rights, and ordered the State Treasury to pay PLN 5,000 to the social cause she had indicated. The judgment was upheld on appeal by the Sąd Okręgowy w Warszawie (10 September 2021). The Prosecutor General subsequently challenged the judgment before the Sąd Najwyższy by an extraordinary complaint.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "Gazeta Prawna – “The judgment for the insufficient fight against smog is final”",
+   "url": "https://www.gazetaprawna.pl/biznes/srodowisko/artykuly/10909412,wyrok-za-niewystarczajaca-walke-ze-smogiem-wolszczak.html"
+  },
+  {
+   "label": "OKO.press – “The actress won the smog case against the State”",
+   "url": "https://oko.press/aktorka-wygrala-z-panstwem-proces-o-smog-jak-walczyc-o-prawo-do-czystego-powietrza"
+  },
+  {
+   "label": "PAP – the Wolszczak smog case reaches the Supreme Court",
+   "url": "https://www.pap.pl/aktualnosci/news%2C1117118%2Csprawa-aktorki-grazyny-wolszczak-ws-smogu-trafila-do-sadu-najwyzszego"
+  }
+ ]
+}

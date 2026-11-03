@@ -1,0 +1,33 @@
+{
+ "slug": "ostrava-radvanice-and-bartovice-failure-to-adopt-an-air-quality-action-plan",
+ "name": "Ostrava-Radvanice and Bartovice – failure to adopt an air quality action plan (Nejvyšší správní soud, 2 As 127/2014 and 2 As 48/2015)",
+ "year": 2014,
+ "date": "19 June 2014 (Krajský soud v Ostravě, 22 A 182/2011-61); 29 October 2014 (Nejvyšší správní soud, 2 As 127/2014-32); 12 February 2015 (Krajský soud v Ostravě, 22 A 182/2011-93); 11 June 2015 (Nejvyšší správní soud, 2 As 48/2015-60)",
+ "status": "Decided",
+ "geography": {
+  "country": "Czechia",
+  "iso_n3": "203"
+ },
+ "jurisdiction": {
+  "type": "Domestic",
+  "court": "Krajský soud v Ostravě (Regional Court in Ostrava); Nejvyšší správní soud (Czech Supreme Administrative Court)"
+ },
+ "docket": "22 A 182/2011; 2 As 127/2014; 2 As 48/2015",
+ "description": "Action against unlawful interference (§ 82 of the Code of Administrative Justice) brought by residents of the Ostrava districts of Radvanice and Bartovice, exposed for years to particulate matter concentrations above the limit values, against the failure of the regional authority to draw up and issue a short-term action plan for their area under the Air Protection Act then in force.",
+ "outcome": "The Krajský soud v Ostravě first dismissed the action (19 June 2014). The Nejvyšší správní soud annulled that judgment (29 October 2014): relying on the CJEU judgment in Janecek (C-237/07), it held that an unlawful interference may also consist in inaction and that persons living in an area where the conditions for adopting a plan are met are directly affected, so that they have standing. On remand, the Krajský soud declared (12 February 2015) that the failure to draw up and issue the action plan for Radvanice and Bartovice between 1 January 2007 and 31 August 2012 was an unlawful interference with the applicants’ rights. The Nejvyšší správní soud dismissed the region’s cassation complaint (11 June 2015), holding that Directives 96/62/EC and 2008/50/EC require the action plan to be adopted as a self-standing document with defined content, and rejecting the argument that it could not be issued in the absence of an implementing decree.",
+ "topics": [],
+ "sources": [
+  {
+   "label": "Sbírka rozhodnutí NSS – headnote of 2 As 127/2014 (unlawful interference by failure to adopt an action plan)",
+   "url": "https://sbirka.nssoud.cz/cz/ochrana-ovzdusi-nevydani-akcniho-planu-ochrana-pred-nezakonnym-zasahem.p3282.html"
+  },
+  {
+   "label": "Sbírka rozhodnutí NSS – headnote of 2 As 48/2015 (short-term measures, air quality action plan)",
+   "url": "https://sbirka.nssoud.cz/cz/ochrana-ovzdusi-kratkodoba-opatreni-ochrany-ovzdusi-akcni-plan-ochrany-ovzdusi.p3210.html"
+  },
+  {
+   "label": "ČT24 – “Breakthrough verdict: people have the right to demand measures for better air”",
+   "url": "https://ct24.ceskatelevize.cz/regiony/1507266-prulomovy-verdikt-lide-maji-pravo-zadat-opatreni-pro-lepsi-ovzdusi"
+  }
+ ]
+}
