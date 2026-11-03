@@ -22,7 +22,7 @@ La pubblicazione è immediata: entro circa un minuto il sito si rigenera da solo
 |---|---|
 | URL slug | L'identificativo dell'indirizzo web della scheda, in minuscolo con trattini (es. `commission-v-italy-pm10-c-644-18`). Si sceglie una volta e **non si cambia più**: link e citazioni dipendono da questo. |
 | Case name | Il nome del caso come deve apparire sul sito. |
-| Year | L'anno della prima decisione o del primo passaggio processuale descritto nella scheda: serve a ordinare l'elenco. |
+| Year | L'anno della prima decisione o del primo passaggio processuale descritto nella scheda. Sull'elenco compare insieme all'anno della data più recente (es. `2021–2026`). |
 | Date(s) | La data o le date delle decisioni, come devono comparire sulla scheda (es. `10 November 2020`, oppure più date separate da punto e virgola). |
 | Status | Si sceglie da un elenco: `Decided`, `Decided — appeal pending`, `Decided — merits pending`, `Decided — enforcement ongoing`, `Pending`, `Inadmissible`. Il filtro per stato del sito si basa su questa scelta. |
 | Geography → Country | Il paese dei fatti, in inglese (es. `Italy`, `United Kingdom`). Per i ricorsi contro più Stati davanti a una corte o a un organo internazionale: il primo Stato convenuto. |
@@ -34,6 +34,14 @@ La pubblicazione è immediata: entro circa un minuto il sito si rigenera da solo
 | Outcome | Che cosa è stato deciso e lo stato attuale del procedimento. |
 | Topics | Facoltativo: parole chiave tematiche, una per riga (es. `PM10`, `Air quality plans`). |
 | Sources | Le fonti del caso: citazione e, se disponibile, il link (EUR-Lex, HUDOC, siti delle corti, climatecasechart, articoli di commento…). |
+
+## Ordine dell'elenco
+
+L'elenco dei casi, anche quando si seleziona un paese o una corte, è in ordine cronologico dal più recente: conta la data più recente scritta nel campo **Date(s)**. Per questo, quando si aggiunge una nuova decisione a una scheda, va aggiunta anche la sua data in quel campo.
+
+## Ultimi inserimenti in homepage
+
+Il riquadro **Latest additions** della pagina iniziale si modifica dal pannello, nella voce **Homepage → Latest additions**. Per ogni voce: si sceglie il caso dall'elenco, si indica la data di inserimento e si scrive una riga in inglese su che cosa è stato aggiunto (es. una nuova sentenza). Il sito mostra le cinque voci più recenti.
 
 ## Correggere o eliminare un caso
 

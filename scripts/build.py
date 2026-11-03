@@ -7,8 +7,10 @@ static shell from site/ into _site/. A validation error aborts the build,
 so a broken entry can never replace the live dataset.
 """
 import json
+import re
 import shutil
 import sys
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -22,6 +24,27 @@ REQUIRED = [
 ]
 OPTIONAL_LISTS = ("topics", "sources")
 FORUM_TYPES = ("Domestic", "CJEU", "ECtHR", "UN")
+LATEST = SITE / "data" / "latest-additions.json"
+
+MONTHS = {m: i for i, m in enumerate(
+    ("January February March April May June July August September October November December").split(), 1)}
+FULL_DATE = re.compile(r"\b(\d{1,2}) (" + "|".join(MONTHS) + r") ((?:19|20)\d{2})\b")
+MONTH_YEAR = re.compile(r"\b(" + "|".join(MONTHS) + r") ((?:19|20)\d{2})\b")
+YEAR = re.compile(r"(?<![\d/])((?:19|20)\d{2})(?![\d/])")
+
+
+def latest_date(case: dict) -> str:
+    """Most recent date mentioned in the 'date' field (YYYY-MM-DD), used to sort the list.
+
+    Full dates win over month-year and year-only mentions of the same year; docket
+    numbers such as 3364/2021 are ignored. Falls back to the 'year' field.
+    """
+    text = case["date"]
+    found = [(int(y), MONTHS[m], int(d)) for d, m, y in FULL_DATE.findall(text)]
+    found += [(int(y), MONTHS[m], 0) for m, y in MONTH_YEAR.findall(text)]
+    found += [(int(y), 0, 0) for y in YEAR.findall(text)]
+    y, m, d = max(found) if found else (case["year"], 0, 0)
+    return f"{y:04d}-{m:02d}-{d:02d}"
 
 
 def fail(msg: str) -> None:
@@ -64,13 +87,37 @@ def load_cases() -> list:
             case[key] = case.get(key) or []
         for src in case["sources"]:
             src["url"] = src.get("url") or None
+        case["latest"] = latest_date(case)
         cases.append(case)
-    cases.sort(key=lambda c: (-c["year"], c["name"]))
+    # most recent first; same date in alphabetical order
+    cases.sort(key=lambda c: c["name"])
+    cases.sort(key=lambda c: c["latest"], reverse=True)
     return cases
+
+
+def check_latest(cases: list) -> None:
+    """Validate the homepage 'Latest additions' list edited from /admin."""
+    if not LATEST.exists():
+        return
+    try:
+        items = json.loads(LATEST.read_text(encoding="utf-8")).get("items") or []
+    except (json.JSONDecodeError, AttributeError) as exc:
+        fail(f"{LATEST.name}: invalid JSON ({exc})")
+    slugs = {c["slug"] for c in cases}
+    for i, item in enumerate(items, 1):
+        if item.get("slug") not in slugs:
+            fail(f"{LATEST.name}: entry {i} refers to an unknown case '{item.get('slug')}'")
+        try:
+            date.fromisoformat(str(item.get("added", ""))[:10])
+        except ValueError:
+            fail(f"{LATEST.name}: entry {i} needs a date added in the form YYYY-MM-DD")
+        if not str(item.get("headline", "")).strip():
+            fail(f"{LATEST.name}: entry {i} needs a description of what was added")
 
 
 def main() -> None:
     cases = load_cases()
+    check_latest(cases)
     if OUT.exists():
         shutil.rmtree(OUT)
     shutil.copytree(SITE, OUT)

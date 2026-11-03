@@ -65,7 +65,7 @@ collections:
         value_type: int
         min: 1950
         max: 2100
-        hint: "Year of the first decision or procedural step described in the record. Used to sort the list."
+        hint: "Year of the first decision or procedural step described in the record. The list is sorted by the most recent date written in 'Date(s)'."
       - label: "Date(s)"
         name: date
         widget: string
@@ -135,3 +135,39 @@ collections:
         fields:
           - { label: "Citation / label", name: label, widget: string }
           - { label: "URL (optional)", name: url, widget: string, required: false }
+
+  - name: homepage
+    label: Homepage
+    editor:
+      preview: false
+    files:
+      - label: "Latest additions"
+        name: latest
+        file: site/data/latest-additions.json
+        format: json
+        fields:
+          - label: "Entries"
+            name: items
+            widget: list
+            required: false
+            summary: "{{fields.added}} — {{fields.headline}}"
+            hint: "Shown in the 'Latest additions' box on the homepage, most recent first (at most five)."
+            fields:
+              - label: "Case"
+                name: slug
+                widget: relation
+                collection: cases
+                value_field: slug
+                search_fields: [name]
+                display_fields: [name]
+              - label: "Date added"
+                name: added
+                widget: datetime
+                format: "YYYY-MM-DD"
+                date_format: "DD/MM/YYYY"
+                time_format: false
+                picker_utc: true
+              - label: "What was added"
+                name: headline
+                widget: string
+                hint: "One line in English, e.g. 'Italian Supreme Court of Cassation, judgment no. 28087/2026 of 29 October 2026: ...'. It links to the case."

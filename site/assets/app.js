@@ -30,11 +30,13 @@
   Promise.all([
     fetch("data/cases.json").then(function (r) { return r.json(); }),
     fetch("data/countries-110m.json").then(function (r) { return r.json(); }),
-    fetch("data/iso-a2.json").then(function (r) { return r.json(); }).catch(function () { return {}; })
+    fetch("data/iso-a2.json").then(function (r) { return r.json(); }).catch(function () { return {}; }),
+    fetch("data/latest-additions.json").then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; })
   ]).then(function (res) {
     state.cases = res[0];
     state.world = res[1];
     state.isoA2 = res[2] || {};
+    state.latest = (res[3] && res[3].items) || [];
     init();
   }).catch(function (e) {
     var el = document.getElementById("case-list");
@@ -62,6 +64,7 @@
     document.getElementById("stat-countries").textContent = Object.keys(cn.byCountry).length;
     document.getElementById("stat-intl").textContent = (cn.byJuris.CJEU || 0) + (cn.byJuris.ECtHR || 0) + (cn.byJuris.UN || 0);
 
+    drawLatest();
     drawMap(cn.byCountry);
     drawCourts(cn.byJuris);
     drawCountryList(cn.byCountry);
@@ -73,6 +76,29 @@
 
     window.addEventListener("hashchange", route);
     route();
+  }
+
+  /* ---------- ultimi inserimenti ---------- */
+  var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  function longDate(iso) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso || "");
+    return m ? (+m[3]) + " " + MONTHS[+m[2] - 1] + " " + m[1] : "";
+  }
+  function drawLatest() {
+    var box = document.getElementById("latest");
+    var bySlug = {};
+    state.cases.forEach(function (c) { bySlug[c.slug] = c; });
+    var items = state.latest.filter(function (it) { return bySlug[it.slug]; })
+      .sort(function (a, b) { return String(b.added).localeCompare(String(a.added)); })
+      .slice(0, 5);
+    if (!items.length) return;
+    document.getElementById("latest-list").innerHTML = items.map(function (it) {
+      var c = bySlug[it.slug];
+      return '<li><time datetime="' + esc(String(it.added).slice(0, 10)) + '">' + esc(longDate(it.added)) + "</time>" +
+        '<a href="#case-' + esc(c.slug) + '">' + esc(it.headline) + "</a>" +
+        '<span class="latest-case">' + flagImg(c.geography.iso_n3) + esc(c.name) + "</span></li>";
+    }).join("");
+    box.hidden = false;
   }
 
   /* ---------- map ---------- */
@@ -196,7 +222,7 @@
         if (hay.indexOf(q) === -1) return false;
       }
       return true;
-    }).sort(function (a, b) { return b.year - a.year || a.name.localeCompare(b.name); });
+    }).sort(function (a, b) { return b.latest.localeCompare(a.latest) || a.name.localeCompare(b.name); });
   }
 
   var FORUM_LABEL = { Domestic: "Domestic courts", CJEU: "CJEU", ECtHR: "ECtHR", UN: "UN treaty body" };
@@ -205,6 +231,12 @@
     if (s.length <= max) return s;
     var cut = s.slice(0, max);
     return cut.slice(0, cut.lastIndexOf(" ")).replace(/[,;:.\s]+$/, "") + "…";
+  }
+
+  /* anno di inizio e, se diverso, anno della data più recente (es. 2021–2026) */
+  function yearSpan(c) {
+    var last = parseInt(String(c.latest || "").slice(0, 4), 10);
+    return last && last !== c.year ? c.year + "–" + last : String(c.year);
   }
 
   function renderList() {
@@ -219,7 +251,7 @@
         '<div class="meta-row">' +
         '<span class="tag geo">' + flagImg(c.geography.iso_n3) + "<span>" + esc(c.geography.country) + "</span></span>" +
         '<span class="tag">' + esc(FORUM_LABEL[c.jurisdiction.type] || c.jurisdiction.type) + "</span>" +
-        '<span class="tag year">' + esc(c.year) + "</span>" +
+        '<span class="tag year">' + esc(yearSpan(c)) + "</span>" +
         '<span class="status ' + statusClass(c.status) + '">' + esc(c.status) + "</span>" +
         "</div></a></li>";
     }).join("");

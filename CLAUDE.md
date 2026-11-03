@@ -9,6 +9,7 @@ Sito statico del database del contenzioso sulla qualità dell'aria del progetto 
   - `assets/style.css`, `assets/app.js`: stile e logica (mappa con d3 7.9.0 e topojson 3.0.2 da cdnjs, filtri, elenco, scheda di dettaglio, bandiere circle-flags da jsDelivr);
   - `data/countries-110m.json` (mappa world-atlas 110m) e `data/iso-a2.json` (codici ISO numerici → alpha-2, per le bandiere);
   - `admin/`: pannello redazionale Decap CMS (`index.html` + `config.yml`).
+- `site/data/latest-additions.json` — voci del riquadro “Latest additions” della homepage (`items`: `slug`, `added` AAAA-MM-GG, `headline`), modificabili dal pannello in “Homepage”; la build verifica che ogni `slug` esista.
 - `cases/` — un file JSON per caso. È l'unica cartella che i redattori modificano, dal pannello `/admin`.
 - `scripts/build.py` — valida ogni caso, li unisce in `data/cases.json` e copia `site/` in `_site/`. Se un caso non è valido la build si ferma e online resta l'ultima versione pubblicata.
 - `.github/workflows/deploy.yml` — a ogni push su `main` esegue la build e pubblica `_site/` su GitHub Pages; si può avviare anche a mano (`workflow_dispatch`).
@@ -44,7 +45,7 @@ python3 -m http.server 8766 -d _site
 Regole dei campi:
 
 - `slug`: minuscolo, cifre e trattini; coincide con il nome del file. Non si cambia dopo la pubblicazione, perché è nell'indirizzo della scheda.
-- `year`: anno della prima data riportata nella scheda; serve a ordinare l'elenco.
+- `year`: anno della prima data riportata nella scheda. L'elenco è ordinato dalla data più recente trovata nel campo `date` (la build la calcola nel campo derivato `latest`).
 - `date`: date come vanno mostrate, nella forma “31 May 2021”; più date separate da punto e virgola.
 - `status`: solo uno di questi valori: `Decided`, `Decided — appeal pending`, `Decided — merits pending`, `Decided — enforcement ongoing`, `Pending`, `Inadmissible`. Il filtro per stato del sito si basa sulle parole “pending” ed “enforcement”.
 - `geography`: paese dei fatti. Per i ricorsi contro più Stati davanti a corti od organi internazionali, il primo Stato convenuto (regola dichiarata nella pagina Methodology). `iso_n3` è il codice ISO 3166-1 numerico a tre cifre che aggancia il caso alla mappa (tabella in `docs/codici-paesi.md`).
