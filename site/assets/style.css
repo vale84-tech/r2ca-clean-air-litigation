@@ -131,6 +131,13 @@ button { font-family: var(--font); }
 .topbar-in { display: flex; align-items: center; gap: 16px; min-height: 66px; flex-wrap: wrap; padding-block: 8px; }
 .logos { display: flex; align-items: center; gap: 14px; }
 .logo-link { display: flex; padding-right: 14px; border-right: 1px solid var(--line); }
+/* official university logo: never recoloured; on dark backgrounds it sits on a white tile */
+.logo-unito img { display: block; height: 48px; width: auto; border-radius: 3px; }
+.funding .logo-unito img { height: 80px; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .logo-unito img { background: #fff; padding: 3px; }
+}
+:root[data-theme="dark"] .logo-unito img { background: #fff; padding: 3px; }
 /* single-colour logos used as masks, so they follow the theme colours */
 .logo {
   display: block; background-color: var(--blue-deep);
@@ -138,6 +145,13 @@ button { font-family: var(--font); }
 }
 .logo-r2ca { --logo: url("logos/r2ca-mark.png"); width: 128px; height: 29px; }
 .logo-care { --logo: url("logos/care-letters.png"); width: 116px; height: 26px; background-color: var(--ink); }
+@media (max-width: 420px) {
+  .logos { gap: 10px; }
+  .logo-link { padding-right: 10px; }
+  .logo-unito img { height: 42px; }
+  .logo-r2ca { width: 112px; height: 26px; }
+  .logo-care { width: 100px; height: 22px; }
+}
 .masthead { line-height: 1.2; }
 .masthead .t { display: block; color: var(--ink); font-weight: 700; font-size: 18px; }
 .masthead .s { display: block; color: var(--muted); font-size: 12px; }
