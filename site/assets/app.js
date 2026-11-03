@@ -300,6 +300,7 @@
       "<h4>Description</h4><p class=\"abstract\">" + esc(c.description) + "</p>" +
       "<h4>Outcome</h4><p class=\"abstract\">" + esc(c.outcome) + "</p>" +
       (c.topics.length ? "<h4>Topics</h4><div class=\"topics\">" + c.topics.map(function (t) { return '<span class="tag">' + esc(t) + "</span>"; }).join("") + "</div>" : "") +
+      '<p class="disclaimer"><b>Disclaimer.</b> The abstracts in this database are summaries prepared for research and teaching purposes only. They are not official texts and do not constitute legal advice: for any use, refer exclusively to the official texts of the decisions.</p>' +
       (srcs ? "<h4>Sources</h4><ul class=\"sources-list\">" + srcs + "</ul>" : "") +
       "<h4>How to cite this entry</h4><p class=\"cite-box\">R2CA — The Right to Clean Air, <i>Clean Air Litigation Database</i>, University of Turin, entry “" + esc(c.name) + "”.</p>" +
       "</div></div>";
