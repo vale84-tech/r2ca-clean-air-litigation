@@ -61,6 +61,7 @@ Se si cambia lo schema, vanno allineati insieme `scripts/build.py` (validazione)
 
 - I testi sono della redazione. Si traducono fedelmente dall'italiano, senza aggiunte, omissioni o correzioni nel merito. Una correzione di fatto si fa solo se la redazione la chiede, dopo averla verificata su una fonte primaria, e aggiungendo quella fonte tra le `sources`.
 - Inglese britannico e registro accademico neutro. Virgolette curve “ ” (quelle interne ‘ ’). Forme societarie italiane in minuscolo con i punti (s.p.a., s.r.l.); quelle estere restano invariate.
+- Corti e uffici giudiziari non inglesi (italiani compresi) si indicano con il nome originale, seguito alla prima occorrenza in ogni scheda dalla traduzione inglese tra parentesi: “Corte d’Assise di Taranto (Taranto Assize Court)”, “Tribunale di Milano (Milan District Court)”, “Corte di Cassazione, Sezioni Unite civili (Italian Supreme Court of Cassation, Joint Civil Divisions)”, “Corte costituzionale (Italian Constitutional Court)”, “GIP (giudice per le indagini preliminari, preliminary investigations judge)”, “Conseil d’État (French Council of State)”. Leggi e codici restano in inglese (Code of Civil Procedure, Decree-Law no. …).
 - Nei nomi dei casi si usa “v” senza punto; i nomi delle parti restano in lingua originale; per i casi della Corte di giustizia UE e della Corte EDU si usa la forma inglese consolidata.
 - Gli indirizzi web si riportano esattamente come sono, senza reindirizzamenti (per esempio di Google).
 

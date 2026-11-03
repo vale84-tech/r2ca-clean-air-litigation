@@ -1,7 +1,7 @@
 {
   "jurisdiction": {
     "type": "Domestic",
-    "court": "Tribunal of Turin (Tribunale ordinario di Torino), Civil Section"
+    "court": "Tribunale di Torino (Turin District Court), Civil Section"
   },
   "docket": "",
   "topics": [],
@@ -20,6 +20,6 @@
     "country": "Italy",
     "iso_n3": "380"
   },
-  "description": "The first Italian civil case seeking recognition of the individual right to breathe clean air. The claimant “Chiara”, together with her husband and on behalf of their minor son, who has been exposed since conception to unlawful levels of PM10 and NO2, sued the Piedmont Region over the systematic exceedance in Turin of the limit values set by Directive 2008/50/EC and Legislative Decree 155/2010. The claim is structured as follows: a declaration of the right to breathe clean air; a declaration of the Region’s liability for the violation of the limits; an order to perform a facere (compliant air quality plans); compensation for damage (to be devolved to environmental organisations). The family is assisted by the Comitato Torino Respira.",
+  "description": "The first Italian civil case seeking recognition of the individual right to breathe clean air. The claimant “Chiara”, together with her husband and on behalf of their minor son, who has been exposed since conception to unlawful levels of PM10 and NO2, sued the Piedmont Region over the systematic exceedance in Turin of the limit values set by Directive 2008/50/EC and Legislative Decree 155/2010. The claim is structured as follows: a declaration of the right to breathe clean air; a declaration of the Region’s liability for the violation of the limits; an order requiring the Region to act (to adopt compliant air quality plans); compensation for damage (to be devolved to environmental organisations). The family is assisted by the Comitato Torino Respira.",
   "year": 2022
 }
