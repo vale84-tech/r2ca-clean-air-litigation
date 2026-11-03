@@ -277,7 +277,20 @@
     window.scrollTo({ top: y, behavior: "auto" });
   }
 
+  /* schede collegate: quelle indicate nella scheda e quelle che la indicano */
+  function relatedOf(c) {
+    var seen = {}, out = [];
+    function add(x) { if (x && x.slug !== c.slug && !seen[x.slug]) { seen[x.slug] = true; out.push(x); } }
+    (c.related || []).forEach(function (s) { add(state.cases.filter(function (x) { return x.slug === s; })[0]); });
+    state.cases.forEach(function (x) { if ((x.related || []).indexOf(c.slug) !== -1) add(x); });
+    return out;
+  }
+
   function renderDetail(c) {
+    var rel = relatedOf(c).map(function (x) {
+      return '<li><a href="#case-' + esc(x.slug) + '">' + esc(x.name) + "</a>" +
+        '<span class="related-meta">' + esc(FORUM_LABEL[x.jurisdiction.type] || x.jurisdiction.type) + " · " + esc(x.geography.country) + "</span></li>";
+    }).join("");
     var srcs = c.sources.map(function (s) {
       return "<li>" + (s.url ? '<a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.label) + " ↗</a>" : esc(s.label)) + "</li>";
     }).join("");
@@ -300,6 +313,7 @@
       "<h4>Description</h4><p class=\"abstract\">" + esc(c.description) + "</p>" +
       "<h4>Outcome</h4><p class=\"abstract\">" + esc(c.outcome) + "</p>" +
       (c.topics.length ? "<h4>Topics</h4><div class=\"topics\">" + c.topics.map(function (t) { return '<span class="tag">' + esc(t) + "</span>"; }).join("") + "</div>" : "") +
+      (rel ? '<div class="related-box"><h4>Related entries</h4><ul class="related-list">' + rel + "</ul></div>" : "") +
       '<p class="disclaimer"><b>Disclaimer.</b> The abstracts in this database are summaries prepared for research and teaching purposes only. They are not official texts and do not constitute legal advice: for any use, refer exclusively to the official texts of the decisions.</p>' +
       (srcs ? "<h4>Sources</h4><ul class=\"sources-list\">" + srcs + "</ul>" : "") +
       "<h4>How to cite this entry</h4><p class=\"cite-box\">R2CA — The Right to Clean Air, <i>Clean Air Litigation Database</i>, University of Turin, entry “" + esc(c.name) + "”.</p>" +

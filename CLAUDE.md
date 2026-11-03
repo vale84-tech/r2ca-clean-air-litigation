@@ -54,6 +54,7 @@ Regole dei campi:
 - `description` (di che cosa tratta il caso) e `outcome` (che cosa è stato deciso e stato del procedimento): obbligatori.
 - `topics`: facoltativo, oggi vuoto.
 - `sources`: elenco di `{label, url}`; `url` può mancare se la fonte non è online.
+- `related`: facoltativo; elenco di `slug` di schede collegate (per esempio la pronuncia della Corte di giustizia e il giudizio nazionale). Il sito mostra il riquadro “Related entries” su entrambe le schede; la build verifica che gli slug esistano.
 
 Se si cambia lo schema, vanno allineati insieme `scripts/build.py` (validazione), `site/assets/app.js` (resa) e `site/admin/config.yml` (campi del modulo).
 

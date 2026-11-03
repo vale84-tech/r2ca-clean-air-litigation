@@ -88,7 +88,12 @@ def load_cases() -> list:
         for src in case["sources"]:
             src["url"] = src.get("url") or None
         case["latest"] = latest_date(case)
+        case["related"] = case.get("related") or []
         cases.append(case)
+    for case in cases:
+        unknown = [s for s in case["related"] if s not in slugs]
+        if unknown:
+            fail(f"{case['slug']}.json: related entries not found {unknown}")
     # most recent first; same date in alphabetical order
     cases.sort(key=lambda c: c["name"])
     cases.sort(key=lambda c: c["latest"], reverse=True)

@@ -127,6 +127,16 @@ collections:
         required: false
         field: { label: Topic, name: topic, widget: string }
         hint: "Thematic keywords, e.g. PM10, Air quality plans, Enforcement."
+      - label: "Related entries (optional)"
+        name: related
+        widget: relation
+        collection: cases
+        value_field: slug
+        search_fields: [name]
+        display_fields: [name]
+        multiple: true
+        required: false
+        hint: "Other cards on the same matter (e.g. the CJEU preliminary ruling and the national case). The link is shown on both cards."
       - label: "Sources"
         name: sources
         widget: list

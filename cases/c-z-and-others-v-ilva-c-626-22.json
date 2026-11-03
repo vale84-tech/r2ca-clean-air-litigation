@@ -1,0 +1,28 @@
+{
+ "slug": "c-z-and-others-v-ilva-c-626-22",
+ "name": "C.Z. and Others v Ilva and Others (C-626/22)",
+ "year": 2024,
+ "date": "25 June 2024",
+ "status": "Decided",
+ "geography": {
+  "country": "Italy",
+  "iso_n3": "380"
+ },
+ "jurisdiction": {
+  "type": "CJEU",
+  "court": "Court of Justice of the European Union (CJEU) – Grand Chamber (preliminary ruling)"
+ },
+ "docket": "C-626/22",
+ "description": "Reference for a preliminary ruling from the Tribunale di Milano (Milan District Court), made by decision of 16 September 2022 in the collective action brought by residents of Taranto against Ilva s.p.a. in amministrazione straordinaria, Acciaierie d’Italia Holding s.p.a. and Acciaierie d’Italia s.p.a. (with the Puglia Region and the association Gruppo di Intervento Giuridico intervening), to protect the homogeneous rights of approximately 300,000 inhabitants of Taranto and the neighbouring municipalities to health, to peace and tranquillity in the conduct of their lives and to the climate, impaired by the emissions of the Ilva steelworks. The claimants relied on the health damage assessments of 2017, 2018 and 2021, which established a causal link between the plant’s emissions, in particular PM10 and sulphur dioxide, and the alteration of the health of the inhabitants, and challenged the repeated extension of the deadline for implementing the 2012 integrated environmental authorisation. The referring court asked the CJEU how Directive 2010/75/EU on industrial emissions (IED) is to be interpreted.",
+ "outcome": "The CJEU held that the IED, read in the light of Article 191 TFEU and Articles 35 and 37 of the Charter of Fundamental Rights: (i) requires the Member States to provide that the prior assessment of the effects of the installation’s activity on the environment and on human health is an integral part of the procedures for granting or reconsidering a permit to operate it; (ii) requires the competent authority to take into account, in addition to the polluting substances foreseeable for the type of activity, all substances whose emissions are scientifically recognised as harmful and are liable to be emitted by the installation, including those not assessed in the initial authorisation procedure; (iii) precludes national legislation under which the period granted to the operator to comply with the measures protecting the environment and human health has been repeatedly extended, although serious and significant risks to the integrity of the environment and human health have been identified; where the activity presents such risks, the second subparagraph of Article 8(2) of the IED requires, in any event, that the operation of the installation be suspended. The Italian courts subsequently applied the judgment in the main proceedings, which led to the suspension of the hot area of the plant (see the related entry).",
+ "topics": [],
+ "sources": [
+  {
+   "label": "eur-lex.europa.eu – CJEU, Grand Chamber, 25 June 2024, C-626/22",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62022CJ0626"
+  }
+ ],
+ "related": [
+  "ilva-collective-injunction-tribunal-of-milan-cjeu-c-626-22-cassation"
+ ]
+}

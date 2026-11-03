@@ -41,6 +41,10 @@ Le corti e gli uffici giudiziari italiani (e degli altri paesi non anglofoni) si
 
 I nomi con cui sono noti i casi e i provvedimenti (per esempio “Ambiente Svenduto”, “Terra dei Fuochi”, “decreto salva-Ilva”) restano solo in lingua originale, tra virgolette, senza traduzione inglese.
 
+## Schede collegate
+
+Nel campo **Related entries** si possono scegliere altre schede sulla stessa vicenda (per esempio la sentenza della Corte di giustizia e il processo nazionale da cui nasce il rinvio). Il collegamento compare in un riquadro su entrambe le schede, quindi basta indicarlo in una delle due.
+
 ## Ordine dell'elenco
 
 L'elenco dei casi, anche quando si seleziona un paese o una corte, è in ordine cronologico dal più recente: conta la data più recente scritta nel campo **Date(s)**. Per questo, quando si aggiunge una nuova decisione a una scheda, va aggiunta anche la sua data in quel campo.
